@@ -25,4 +25,4 @@
 
 反馈和建议请点击[这里](https://github.com/chinatimeline/chinatimeline.github.io/issues)。
 
-本项目主页[chinatimeline.github.io](https://chinatimeline.github.io)
+查看图表请至本项目主页[chinatimeline.github.io](https://chinatimeline.github.io)
