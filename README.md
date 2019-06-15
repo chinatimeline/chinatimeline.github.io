@@ -1,12 +1,13 @@
-# chinatimeline.github.io
-大事件时间线
+# 中国大事件时间线
 
-本图是中共意识形态保卫战相关事件的时间线，X轴是事件发生时间，Y轴是事件发生日（不含年月）。晃动鼠标可显示事件标题。
+中国意识形态向左转相关事件的时间线，X轴是事件发生时间，Y轴是事件发生日（不含年月）。
+
 <!-- Start of iframe Code -->
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/0.embed"></iframe>
 <!-- End of iframe Code -->
+**提示**：将鼠标悬停数据点上会出现事件日期和名称。
 
-本项目为开源数据，欢迎前往[数据仓库](https://github.com/chinatimeline/data)提交最新事件以及图中遗漏的重大事件。
+这是一个开源数据项目，如果您想参与记录历史，建议使用匿名邮箱注册的github帐号，向[数据仓库](https://github.com/chinatimeline/data)提交最新发生的和图中遗漏的重大事件。
 
 数据格式如下所示：
 * date表示发生日期，以新闻发生之日为准。
@@ -19,3 +20,5 @@
 <!-- End of iframe Code -->
 
 反馈和建议请点击[这里](https://github.com/chinatimeline/chinatimeline.github.io/issues)。
+
+[chinatimeline.github.io](https://chinatimeline.github.io)
