@@ -1,5 +1,5 @@
 # 中国大事件时间线
-
+<!-- 如果你想看到图表而非本行文字，请至项目首页 https://chinatimeline.github.io -->
 
 <!-- Start of iframe Code -->
 <iframe width="900" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/0.embed"></iframe>
