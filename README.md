@@ -9,7 +9,7 @@
 <!-- 如果你想看到图表而非本行文字，请至项目首页 https://chinatimeline.github.io -->
 
 <!-- Start of iframe Code -->
-<iframe width="900" height="500" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/0.embed"></iframe>
+<iframe width="100%" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/0.embed"></iframe>
 <!-- End of iframe Code -->
 **说明**：中共在意识形态领域向左转的事件时间线，X轴代表事件发生日期，Y轴代表事件发生日是于星期几。
 
