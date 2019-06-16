@@ -1,11 +1,12 @@
+# 中国大事件时间线
 时间线可以帮助我们清晰地勾勒一个纷繁复杂的历史过程，帮助人们理解过去、预测未来。最重要的是帮助整个社会及时有效的影响当下。
 希望通过这个开源项目还原各种重大历史进程，例如：
 - 文化大革命
 - 六四天安门事件
 - 中国的改革开放、加入WTO、一带一路、中美贸易战等等。
-- 以及这里记录的正在发生的文革2.0，中美贸易战
+- 以及这里记录的正在发生的[文革2.0](#ideologicalwar)，[中美贸易战](#tradewar)
 
-# 中国大事件时间线
+## 文革2.0<a name="ideologicalwar"></a>
 <!-- 如果你想看到图表而非本行文字，请至项目首页 https://chinatimeline.github.io -->
 
 <!-- Start of iframe Code -->
@@ -17,13 +18,7 @@
 1. 将鼠标悬停数据点上会出现事件日期和名称。
 2. 双击图例可单独显示该类别事件，单击图例可隐藏该类别事件。
 
-## US China Trade War Timeline
-<!-- Start of iframe Code -->
-<iframe width="100%" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/4.embed"></iframe>
-<!-- End of iframe Code -->
-**说明**：美中贸易战时间线，X轴代表事件发生日期，Y轴代表事件发生日是于星期几。[数据源](https://www.china-briefing.com/news/the-us-china-trade-war-a-timeline/)
-
-# 参与
+#### 参与
 这是一个开源数据项目，如果您想参与记录历史，建议使用匿名邮箱注册的github帐号，向[数据仓库](https://github.com/chinatimeline/data)提交最新发生的和图中遗漏的重大事件。
 
 事件的数据文件
@@ -38,6 +33,13 @@
 <!-- Start of iframe Code -->
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/2.embed"></iframe>
 <!-- End of iframe Code -->
+
+## US China Trade War Timeline<a name="tradewar"></a>
+<!-- Start of iframe Code -->
+<iframe width="100%" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/4.embed"></iframe>
+<!-- End of iframe Code -->
+**说明**：美中贸易战时间线，X轴代表事件发生日期，Y轴代表事件发生日是于星期几。[数据源](https://www.china-briefing.com/news/the-us-china-trade-war-a-timeline/)
+
 
 反馈和建议请点击[这里](https://github.com/chinatimeline/chinatimeline.github.io/issues)。
 
