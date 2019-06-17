@@ -1,5 +1,8 @@
 
 # 如何参与
+最新说明请直接跳转至
+[https://github.com/chinatimeline/data](https://github.com/chinatimeline/data)
+
 作为一个开源数据项目，您的参与能帮助大家更好的记录历史。建议使用匿名邮箱注册的github帐号，向[数据仓库](https://github.com/chinatimeline/data)提交最新发生的和图中遗漏的重大事件。
 
 意识形态保卫战的事件数据文件

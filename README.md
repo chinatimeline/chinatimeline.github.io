@@ -18,7 +18,7 @@
 
 **提示**：单击图例可隐藏该类别事件，双击图例可单独显示该类别事件，再双击显示全部。
 
-**参与**：[点击这里查看如何参与本项目-提交事件数据](./how_to_contribute.md)
+**参与**：[点击这里查看数据源及如何参与贡献数据](https://github.com/chinatimeline/data)
 
 
 ## US China Trade War Timeline<a name="tradewar"></a>
