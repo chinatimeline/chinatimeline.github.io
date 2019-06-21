@@ -28,6 +28,8 @@
 2. 文化文艺娱乐：★☆☆☆☆
 10. 宗教迫害(待添加)：☆☆☆☆☆
 
+推广软文：[时代透镜：用时间线挖掘新闻背后的政治](./IdeologyAnalysis.md)
+
 **参与**：数据详细说明在[这里](https://github.com/chinatimeline/data), 参与贡献数据等可提交PR 或到[www.reddit.com/r/chinatimeline](https://www.reddit.com/r/chinatimeline)提交新闻链接
 
 
