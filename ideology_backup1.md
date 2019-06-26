@@ -1,4 +1,4 @@
-## 文革2.0 备份 1<a name="ideologicalwar"></a>
+## 文革2.0时间线完整版<a name="ideologicalwar"></a>
 <!-- Start of iframe Code -->
 <iframe width="100%" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/0.embed"></iframe>
 
