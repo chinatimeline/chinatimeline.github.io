@@ -10,3 +10,5 @@
 **提示**：单击图例可隐藏该类别事件，双击图例可单独显示该类别事件，再双击显示全部。
 
 **参与**：数据详细说明在[这里](https://github.com/chinatimeline/data), 参与贡献数据等可提交PR 或到[www.reddit.com/r/chinatimeline](https://www.reddit.com/r/chinatimeline)提交新闻链接
+
+<iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/2.embed"></iframe>
