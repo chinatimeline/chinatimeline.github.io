@@ -7,7 +7,7 @@
 
 ## 文革2.0<a name="ideologicalwar"></a>
 <!-- 如果你想看到图表而非本行文字，请至项目首页 https://chinatimeline.github.io -->
-**提示**：若动图显示402请点击[备份1](./ideology_backup1.md)或[备份2](./ideology_backup2.md)，单击图例可隐藏该类别事件，双击图例可单独显示该类别事件。
+**提示**：若动图显示402请点击[备份1](./ideology_backup1.md), [备份2](./ideology_backup2.md), [备份3](./ideology_backup3.md), [备份4](./ideology_backup4.md)，单击图例可隐藏该类别事件，双击图例可单独显示该类别事件。
 
 <!-- Start of iframe Code -->
 <iframe width="100%" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/6.embed"></iframe>
