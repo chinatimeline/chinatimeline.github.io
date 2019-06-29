@@ -28,10 +28,12 @@
 2. 文化文艺娱乐：★☆☆☆☆
 10. [宗教迫害(单列)](./ideology_backup1.md)：★★★★☆
 
-推广软文：[时代透镜：用时间线挖掘新闻背后的政治](./IdeologyAnalysis.md)
-
 **参与**：数据详细说明在[这里](https://github.com/chinatimeline/data), 参与贡献数据等可提交PR 或到[www.reddit.com/r/chinatimeline](https://www.reddit.com/r/chinatimeline)提交新闻链接
 
+推广软文 IPFS：
+1. [时代透镜：用时间线挖掘新闻背后的政治](https://ipfs.io/ipfs/Qme1dxUWXVCbGgPD42g2z6BvfvuGvCZ2doKWHenqWPWd5v/), [本地](./IdeologyAnalysis.md)
+2. [中国大陆迫害宗教自由时间线（数据来源：陆委会）](https://ipfs.io/ipfs/QmS1mgDSBG1MXaAV46HYPB5UMRLg6bjuNknTKY4QmmapHz)
+2. [从402说开去——大事件时间线的广度与深度](https://ipfs.io/ipfs/QmZWDJN8sNdfbbupXV5MGJrpLSafXmqdxp7KgPqv4cB6D6/)
 
 
 ## US China Trade War Timeline<a name="tradewar"></a>
