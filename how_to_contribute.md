@@ -19,3 +19,7 @@
 <!-- Start of iframe Code -->
 <iframe width="900" height="800" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/2.embed"></iframe>
 <!-- End of iframe Code -->
+
+<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101192940);</script>
+<script async src="//static.getclicky.com/js"></script>
+<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101192940ns.gif" /></p></noscript>
