@@ -1,3 +1,8 @@
+---
+layout: default
+title: 文革2.0时间线完整版
+---
+
 ## 文革2.0时间线完整版<a name="ideologicalwar"></a>
 **提示**：若动图显示402请点击[备份1](./ideology_backup1.md), [备份2](./ideology_backup2.md), [备份3](./ideology_backup3.md), [备份4](./ideology_backup4.md)，单击图例可隐藏该类别事件，双击图例可单独显示该类别事件。
 
