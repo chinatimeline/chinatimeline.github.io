@@ -33,7 +33,7 @@ title: 中国政治与社会事件时间线
 2. 文化文艺娱乐：★☆☆☆☆
 10. [宗教迫害(单列)](./ideology_backup1.md)：★★★★☆
 
-**参与**：数据详细说明在[这里](https://github.com/chinatimeline/data), 参与贡献数据等可提交PR 或到[www.reddit.com/r/chinatimeline](https://www.reddit.com/r/chinatimeline)提交新闻链接
+**参与**：数据详细说明在[这里](https://github.com/chinatimeline/data), 参与贡献数据等可提交PR 或到[old.reddit.com/r/chinatimeline](https://old.reddit.com/r/chinatimeline)提交新闻链接
 
 推广软文 IPFS：
 1. [时代透镜：用时间线挖掘新闻背后的政治](https://ipfs.io/ipfs/Qme1dxUWXVCbGgPD42g2z6BvfvuGvCZ2doKWHenqWPWd5v/), [本地](./IdeologyAnalysis.md)
