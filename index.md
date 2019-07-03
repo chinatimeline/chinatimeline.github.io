@@ -47,6 +47,12 @@ title: 中国政治与社会事件时间线
 <!-- End of iframe Code -->
 **说明**：美中贸易战时间线，X轴代表事件发生日期，Y轴代表事件发生日是于星期几。[数据源](https://www.china-briefing.com/news/the-us-china-trade-war-a-timeline/)
 
+## 一带一路时间线<a name="obor"></a>
+<!-- Start of iframe Code -->
+<iframe width="100%" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/22.embed"></iframe>
+<!-- End of iframe Code -->
+**说明**：一带一路时间线，X轴代表事件发生日期，Y轴代表事件发生日是于星期几。[数据源](http://www.xinhuanet.com/world/2019-04/26/c_1124418156.htm)
+
 ---
 
 反馈和建议请点击[这里](https://github.com/chinatimeline/chinatimeline.github.io/issues)。
