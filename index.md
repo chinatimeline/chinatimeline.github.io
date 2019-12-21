@@ -59,7 +59,3 @@ title: 中国政治与社会事件时间线
 反馈和建议请点击[这里](https://github.com/chinatimeline/chinatimeline.github.io/issues)。
 
 _查看图表请至本项目主页[chinatimeline.github.io](https://chinatimeline.github.io)_
-
-<script>var clicky_site_ids = clicky_site_ids || []; clicky_site_ids.push(101192940);</script>
-<script async src="//static.getclicky.com/js"></script>
-<noscript><p><img alt="Clicky" width="1" height="1" src="//in.getclicky.com/101192940ns.gif" /></p></noscript>
