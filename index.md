@@ -4,7 +4,7 @@ title: 中国政治与社会事件时间线
 ---
 
 _查看图表请至本项目主页_
-https://github.com/chinatimeline/data/README.md
+[https://github.com/chinatimeline/data/README.md](https://github.com/chinatimeline/data/README.md)
 
 效果图
 ![效果图-看不到图的话请翻墙](./ideology_example.gif)
