@@ -12,8 +12,8 @@
       <div class="comment-event">
         {{ commentData.event | markdownify }}
       </div>
-      <p class="comment-date">{{ commentData.date | date: "%Y-%m-%d" }},
-        类型：{{ commentData.type }}, 影响：{{ commentData.significance }}星,
+      <p class="comment-date">日期： {{ commentData.date | date: "%Y-%m-%d" }},
+        类型： {{ commentData.type }}, 影响： {{ commentData.significance }}星,
         <a href="{{ commentData.url }}">相关新闻</a>,
         提交时间: {{ commentData.submitTime | date: "%Y-%m-%d"}}
        </p>
