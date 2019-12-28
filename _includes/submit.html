@@ -1,0 +1,25 @@
+<h3>提交新闻事件</h3><hr>
+{% for slug in site.data.types %}
+{% if page.slug == slug[1].name %}
+<form method="POST" action="{{ site.staticman.api }}">
+  <input name="options[redirect]" type="hidden" value="{{ site.url }}">
+  <input name="options[slug]" type="hidden" value="{{ slug[1].slug }}">
+  <input name="fields[topic]" type="hidden" value="{{ slug[1].name }}">
+  <label>发生日期: <input name="fields[date]" type="date"></label><br>
+  <label>事件描述: <br><textarea name="fields[event]" rows="12" cols="48"></textarea></label><br>
+  <label>所属类型: <br>
+    {% for type in slug[1].types %}
+    <input name="fields[type]" type="radio" value="{{ t }}">{{ type }}<br>
+    {% endfor %}
+  </label><br>
+  <label>重要性:
+    {% for i in site.data.ratings %}
+    <input name="fields[significance]" type="radio" value="{{ i }}"> {{ i }}
+    {% endfor %}
+  </label><br>
+  <label>新闻链接: <input name="fields[url]" type="url"></label><br>
+  <input type="submit" value="点此提交(Submit)">
+</form>
+{% include comments.html %}
+{% endif %}
+{% endfor %}
