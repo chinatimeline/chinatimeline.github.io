@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 文革2.0时间线完整版
+title: 中共意识形态“保卫战”时间线
+tags: [意识形态, 人权]
 permalink: /ideology_tl3/
 slug: 文革2
 submit: true

@@ -1,6 +1,7 @@
 ---
 layout: post
-title: 宗教迫害时间线完整版
+title: 中国的宗教迫害事件
+tags: [人权]
 permalink: /religion_tl4/
 slug: 宗教迫害
 submit: true
@@ -14,3 +15,5 @@ comments: true
 
 <!-- End of iframe Code -->
 **说明**：中共在意识形态领域向左转的事件时间线，X轴代表事件发生日期，Y轴代表事件发生日是于星期几，建议手机用户横屏观看并刷新。如互动图显示402代表当日已超过500次观看限制（因为是免费计划）。
+
+数据来源: [台湾陆委会](https://www.mac.gov.tw/np.asp?ctNode=7351&mp=1)
