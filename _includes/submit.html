@@ -9,7 +9,7 @@
   <label>事件描述: <br><textarea name="fields[event]" rows="12" cols="48"></textarea></label><br>
   <label>所属类型: <br>
     {% for type in slug[1].types %}
-    <input name="fields[type]" type="radio" value="{{ t }}">{{ type }}<br>
+    <input name="fields[type]" type="radio" value="{{ type }}">{{ type }}<br>
     {% endfor %}
   </label><br>
   <label>重要性:
