@@ -36,6 +36,8 @@ layout: default
     {{ content }}
   </div>
 
+  {% if page.submit %} {% include submit.html %} {% endif %}
+
   <div class="pagination">
     {% if page.previous.url %}
       <span class="prev" >
@@ -52,7 +54,6 @@ layout: default
       </span>
     {% endif %}
   </div>
-  {% if page.submit %} {% include submit.html %} {% endif %}
 
   {% if page.comments %} {% include disqus.html %} {% endif %}
 </article>

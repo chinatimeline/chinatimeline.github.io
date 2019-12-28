@@ -10,4 +10,6 @@ layout: default
     {{ content }}
   </div>
   {% if page.submit %} {% include submit.html %} {% endif %}
+
+  {% if page.comments %} {% include disqus.html %} {% endif %}
 </article>
