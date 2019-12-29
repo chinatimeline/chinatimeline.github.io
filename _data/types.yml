@@ -25,3 +25,21 @@
         - 佛教
         - 宗教信仰
         - 道教
+贸易战:
+    name: 贸易战
+    slug: tradewar
+    types:
+        - Both
+        - US
+        - China
+        - Industry
+一带一路:
+    name: 一带一路
+    slug: obor
+    types:
+        - 外交
+        - 会议
+        - 金融
+        - 政策
+        - 论坛
+        - 机构
