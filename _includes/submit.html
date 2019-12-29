@@ -6,7 +6,8 @@
   <input name="options[slug]" type="hidden" value="{{ slug[1].slug }}">
   <input name="fields[topic]" type="hidden" value="{{ slug[1].name }}">
   <label>发生日期: <input name="fields[date]" type="date"></label><br>
-  <label>事件描述: <br><textarea name="fields[event]" rows="12" cols="48"></textarea></label><br>
+  <label>标题(2-20字，可选，方便审阅，不出现在正文): <br><input name="options[title]" type="text"></label><br>
+  <label>事件描述(20-100字): <br><textarea name="fields[event]" rows="12" cols="48"></textarea></label><br>
   <label>所属类型: <br>
     {% for type in slug[1].types %}
     <input name="fields[type]" type="radio" value="{{ type }}">{{ type }}<br>

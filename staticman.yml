@@ -23,7 +23,7 @@ comments:
   branch: "master"
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
-  commitMessage: "添加新闻事件"
+  commitMessage: "添加新闻事件-{options.title}"
 
   # (*) REQUIRED
   #
