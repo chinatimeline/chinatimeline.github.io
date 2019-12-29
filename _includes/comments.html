@@ -1,8 +1,7 @@
 {% for slug in site.data.types %}
 {% if page.slug == slug[1].name %}
-{{ slug.slug }}
 <div class="comments">
-  <h4>最近提交事件</h4>
+  <h5>最近获得批准的提交</h5>
   {% assign comments = site.data.comments | sort %}
   {% for comment in comments reversed %}
     {% if comment[1].topic == slug[1].name %}
