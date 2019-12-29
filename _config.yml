@@ -22,11 +22,11 @@ avatar: /images/icon.png
 navigation:
   - name: 首页
     url: /
-  - name: 存档
-    url: /archive
   - name: 关于
     url: /about
   - name: GitHub
+    url: https://github.com/chinatimeline/chinatimeline.github.io
+  - name: 数据仓库
     url: https://github.com/chinatimeline/data
 
 # Pagination
