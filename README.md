@@ -9,3 +9,4 @@
 1. Jekyll代码改编自: [达摩俱乐部](https://github.com/DamoresClub/DamoresClub.github.io)
 2. Logo来源: https://www.flaticon.com/free-icon/timeline_1853230
 3. 新闻提交模块来自 Staticman V3: https://github.com/VincentTam/TestStaticmanLab
+4. 分享按钮: https://sharingbuttons.io/
