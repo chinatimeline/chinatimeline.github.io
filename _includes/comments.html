@@ -2,7 +2,7 @@
 {% if page.slug == slug[1].name %}
 <div class="col-7 col-s-7">
   <h3>最近获得批准的提交</h3>
-  {% assign comments = site.data.comments | sort %}
+  {% assign comments = site.data.comments %}
   {% for comment in comments reversed %}
     {% if comment[1].topic == slug[1].name %}
     {% assign commentData = comment[1] %}
