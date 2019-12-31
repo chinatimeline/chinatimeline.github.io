@@ -1,3 +1,20 @@
+<div class="row"  align="left">
+{% for footer_hash in sita.data.footers | sort_by="name" %}
+  {% assign footer = footer_hash[1] %}
+  <div class="col-3 col-s-6">
+    <ul>
+      {% for item in footer %}
+      <li>
+        <a href="{{ item.link }}">
+          {{ item.name }}
+        </a>
+      </li>
+      {% endfor %}
+   </ul>
+  </div>
+{% endfor %}
+</div>
+
 {% include svg-icons.html %}
 
 <p>欢迎提交新闻事件 <a herf="https://github.com/chinatimeline/data">数据仓库</a></p>
