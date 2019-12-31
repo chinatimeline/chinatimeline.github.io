@@ -15,7 +15,7 @@
         <div style="width:100%; display:table">
           <label style="display:table-cell;width=1px;">标题(可选): </label><input name="options[title]" type="text" cols="48"  placeholder="2-20字 不出现在时间线中 仅为方便审阅"  style="display:table-cell; width:100%"><br>
         </div>
-        <label>事件描述: </label><br><textarea name="fields[event]" rows="6" cols="48"  placeholder="20-100字的简要描述，包括具体的时间地点人物事件等。" class="event-description"></textarea><br>
+        <label>事件描述: </label><br><textarea name="fields[event]" rows="6" placeholder="20-100字的简要描述，包括具体的时间地点人物事件等。" class="event-description"></textarea><br>
         <div style="width:100%; display:table">
           <label style="display:table-cell;width=1px;">所属类型:</label>
           <span stype="display:table-cell;width=100%;">
@@ -37,6 +37,10 @@
         </div>
         <input type="submit" value="点此提交"> 查看<a href="https://github.com/chinatimeline/chinatimeline.github.io/pulls">已提交队列</a>
       </form>
+      </div>
+
+      <div>
+        <p>事件被成功提交后会进入提交队列，获人工审核批准后在本页展示，每隔约1个月新获批的事件会被更新到数据仓库和互动图中。</p>
       </div>
     </div>
     {% include comments.html %}

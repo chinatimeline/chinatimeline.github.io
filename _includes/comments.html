@@ -13,19 +13,19 @@
 
       <div>
         <span class="date">
-          日期： {{ commentData.date | date: "%Y-%m-%d" }},
+          日期：{{ commentData.date | date: "%Y-%m-%d" }},
         </span>
         <span class="tag">
-          类型： {{ commentData.type }},
+          类型：{{ commentData.type }},
         </span>
         <span class="tag">
-          影响： {{ commentData.significance }}星,
+          影响：{{ commentData.significance }}星,
         </span>
         <span class="tag">
           <a href="{{ commentData.url }}">相关新闻</a>,
         </span>
         <span class="date">
-          提交时间: {{ commentData.submitTime | date: "%Y-%m-%d"}}
+          提交时间:{{ commentData.submitTime | date: "%Y-%m-%d"}}
         </span>
       </div>
     </div>
