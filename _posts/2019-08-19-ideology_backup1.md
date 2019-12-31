@@ -3,6 +3,7 @@ layout: post
 title: 中共意识形态“保卫战”时间线
 tags: [意识形态, 人权]
 permalink: /ideology_tl1/
+teaser: /images/redgreatwall.jpg
 slug: 文革2
 submit: true
 comments: true

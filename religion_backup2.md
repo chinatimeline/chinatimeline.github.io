@@ -3,6 +3,7 @@ layout: post
 title: 中国的宗教迫害事件
 tags: [人权, 宗教自由]
 permalink: /religion_tl2/
+teaser: /images/cry.jpg
 slug: 宗教迫害
 submit: true
 comments: true

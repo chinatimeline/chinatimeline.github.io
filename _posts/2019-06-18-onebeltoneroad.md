@@ -3,6 +3,7 @@ layout: post
 title: 一带一路时间线
 tags: [一带一路]
 permalink: /obor/
+teaser: /images/obor.jpeg
 slug: 一带一路
 submit: true
 comments: true

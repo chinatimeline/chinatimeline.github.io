@@ -863,7 +863,48 @@ background-color: #FF6600
 .resp-sharing-button--telegram:hover {
   background-color: #4B97D1;}
 
+/* Container holding the image and the text */
+.container-div {
+ position: relative;
+ text-align: center;
+ color: black;
+}
 
+/* Bottom left text */
+.bottom-left {
+ position: absolute;
+ bottom: 8px;
+ left: 16px;
+}
+
+/* Top left text */
+.top-left {
+ position: absolute;
+ top: 8px;
+ left: 16px;
+}
+
+/* Top right text */
+.top-right {
+ position: absolute;
+ top: 8px;
+ right: 16px;
+}
+
+/* Bottom right text */
+.bottom-right {
+ position: absolute;
+ bottom: 8px;
+ right: 16px;
+}
+
+/* Centered text */
+.centered {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%, -50%);
+}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
