@@ -12,3 +12,4 @@
 2. Logo来源: https://www.flaticon.com/free-icon/timeline_1853230
 3. 新闻提交模块来自 Staticman V3: https://github.com/VincentTam/TestStaticmanLab
 4. 分享按钮: https://sharingbuttons.io/
+5. CSS样式设计: https://www.w3schools.com/css/css_rwd_intro.asp
