@@ -1,0 +1,16 @@
+<div class="row" align="left">
+{% for footer_hash in site.data.footers %}
+  {% assign footer = footer_hash[1] %}
+  <div class="col-3 col-s-6">
+    <ul>
+      {% for item in footer %}
+      <li>
+        <a href="{{ item.link }}">
+          {{ item.name }}
+        </a>
+      </li>
+      {% endfor %}
+   </ul>
+  </div>
+{% endfor %}
+</div>
