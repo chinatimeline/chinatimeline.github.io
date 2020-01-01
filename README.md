@@ -13,3 +13,16 @@
 3. 新闻提交模块来自 Staticman V3: https://github.com/VincentTam/TestStaticmanLab
 4. 分享按钮: https://sharingbuttons.io/
 5. CSS样式设计: https://www.w3schools.com/css/css_rwd_intro.asp
+
+## 贡献者
+- [chinatimeline](https://github.com/chinatimeline) 项目所有者
+- [TerminusBot](https://github.com/terminusbot) 网站代码、安全性复核、推广
+- [ChengXin](https://github.com/ChengXin) 内容提交、内容复核
+- [Vinsep](https://www.reddit.com/u/Vinsep) 内容提交、推广
+- [zhangrunxu](https://github.com/zhangrunxu) 文档
+
+## 参考时间线模板
+- http://timeline.knightlab.com/ Demo https://timeline.knightlab.com/examples/user-interface/index.html
+- https://github.com/molly/wikimedia-timeline 展示 https://www.mollywhite.net/wikimedia-timeline/
+- https://github.com/technotarek/timeliner 
+- https://github.com/cheeaun/life Demo https://cheeaun.life/
