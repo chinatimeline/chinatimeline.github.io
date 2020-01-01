@@ -23,4 +23,3 @@ comments: true
 ### <center>偶尔出没</center>
 [<center>Reddit</center>](https://www.reddit.com/r/chinatimeline)
 [<center>2049bbs.xyz</center>](https://2049bbs.xyz)
-[<center>pincong.rocks</center>](https://pincong.rocks)
