@@ -27,7 +27,7 @@
         </header>
       </div>
       <article class="timeline">
-        {% assign comments = site.data.comments %}
+        {% assign comments = site.data.comments | sort  %}
         {% for comment in comments reversed %}
           {% if comment[1].topic == slug[1].name %}
           {% assign commentData = comment[1] %}
