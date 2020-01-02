@@ -49,7 +49,7 @@ footer-links:
   tumblr: # https://<username>.tumblr.com
   twitter: # jekyllrb
   youtube: # channel/<your_long_string> or user/<user-name>
-  hackmd:
+  hackmd: chinatimeline
 
 # Text under the icons in footer
 footer-text: Powered by <a href="https://plot.ly/">Plotly</a> | <a href="https://github.com/AWEEKJ/kiko-now">Kiko Now</a> | <a href="https://staticman.net/">Staticman</a>
