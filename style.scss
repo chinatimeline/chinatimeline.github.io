@@ -527,7 +527,7 @@ nav {
 
   > .prev {
     float: left;
-    width: 50%;
+    width: 45%;
     a {
       color: $pagination-color;
       &:hover, &:focus {
@@ -539,7 +539,7 @@ nav {
   > .next {
     float: right;
     text-align: right;
-    width: 50%;
+    width: 45%;
     a {
       color: $pagination-color;
       &:hover, &:focus {
@@ -864,6 +864,15 @@ background-color: #FF6600
   background-color: #4B97D1;}
 
 /* Container holding the image and the text */
+.container-post {
+ margin: 0 auto;
+ max-width: 760px;
+ padding: 0 10px;
+ width: 100%;
+ position: relative;
+ text-align: left;
+}
+
 .container-div {
  position: relative;
  text-align: center;
