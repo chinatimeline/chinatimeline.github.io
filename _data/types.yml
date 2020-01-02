@@ -3,6 +3,7 @@
 文革2:
     name: 文革2
     slug: wenge2
+    csv: CCP_Ideology_Events
     types:
         - 重大历史事件
         - 文化文艺娱乐
@@ -16,6 +17,7 @@
 宗教:
     name: 宗教迫害
     slug: religions
+    csv: CCP_Religious_Persecution
     types:
         - 基督教
         - 法轮功
@@ -28,6 +30,7 @@
 贸易战:
     name: 贸易战
     slug: tradewar
+    csv: TradeWar_Events
     types:
         - Both
         - US
@@ -36,6 +39,7 @@
 一带一路:
     name: 一带一路
     slug: obor
+    csv: OBOR_Events
     types:
         - 外交
         - 会议
