@@ -24,6 +24,8 @@ navigation:
     url: /
   - name: 关于
     url: /about
+  - name: 留言
+    url: https://chinatimeline.github.io/submit
   - name: GitHub
     url: https://github.com/chinatimeline/chinatimeline.github.io
   - name: 数据仓库
