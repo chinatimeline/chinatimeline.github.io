@@ -52,7 +52,7 @@ footer-links:
   hackmd:
 
 # Text under the icons in footer
-footer-text: Powered by <a href="https://plot.ly/">Plotly</a> | <a href="https://github.com/AWEEKJ/kiko-now">Kiko Now</a> | <a href="https://disqus.com/">Disqus</a> | <a href="https://staticman.net/">Staticman</a>
+footer-text: Powered by <a href="https://plot.ly/">Plotly</a> | <a href="https://github.com/AWEEKJ/kiko-now">Kiko Now</a> | <a href="https://staticman.net/">Staticman</a>
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
