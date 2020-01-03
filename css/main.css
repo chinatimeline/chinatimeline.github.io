@@ -1,3 +1,4 @@
+/*
 html {
   width: 100%;
   height: 100%;
@@ -20,6 +21,7 @@ footer.page-footer {
 footer.page-footer {
   padding: 10px 0;
 }
+
 
 h1 {
   font-family: 'Roboto Slab', serif;
@@ -48,6 +50,12 @@ footer.page-footer p {
 header.page-header a,
 footer.page-footer a {
   color: #7ACBFF;
+}
+*/
+.timeline-container {
+  width: 100%;
+  height: 100%;
+  background-color: #e0e0e0;  
 }
 
 .timeline {

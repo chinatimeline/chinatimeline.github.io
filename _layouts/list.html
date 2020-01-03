@@ -3,101 +3,85 @@
   {% include head-story.html %}
   <body>
     {% include nav.html %}
-    <div id="main" role="main" class="container">
-    <header class="page-header">
-      <h1>{{ page.title }}</h1>
-      {{ content }}
-    </header>
-    {% if page.submit %} {% include submit.html %} {% endif %}
-    <section>
-      <h2>已纳入互动图的事件</h2>
-      {% for slug in site.data.types %}
-        {% if page.slug == slug[1].name %}
-      <div class="timeline-filter-wrapper">
-        <header class="timeline-filter">
-          <ul>
+    <article class="post">
+      <div align="center">
+        <h1>{{ page.title }}</h1>
+
+        <!-- Look the author details up from the site config. -->
+        {% assign author = site.data.authors[page.author] %}
+
+        <div>
+          <span class="date">
+            {{ page.date | date: "%Y-%m-%d" }}
+          </span>
+
+          <!-- Output author details if some exist. -->
+          {% if author %}
+              <span>
+                  <!-- Personal Info. -->
+                  作者: <a href="{{ author.web }}">{{ author.name }}</a>
+              </span>
+          {% endif %}
+
+          <ul class="tag">
+            {% for tag in page.tags %}
             <li>
-              <input type="checkbox" name="filter-shortcut" id="all" checked /> <label for="all">All</label>
-            </li>
-            {% for type in slug[1].types %}
-            <li>
-              <input type="checkbox" name="filter" id="{{ type }}" checked /> <label for="{{ type }}">{{ type }}</label>
+              <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+                {{ tag }}
+              </a>
             </li>
             {% endfor %}
           </ul>
-        </header>
+
+        </div>
       </div>
-      <article class="timeline">
-        {% for csv in site.data.csv %}
-          {% if slug[1].csv == csv[0] %}
-            {% assign comments = csv[1] | sort: "date" %}
-            {% for comment in comments reversed %}
-              {% assign commentData = comment %}
-              <div class="timeline-entry" data-category="[{{ commentData.group }}]">
-                <div class="timeline-icon green">
-                  <i class="fa fa-plus"></i>
-                </div>
-                <div class="timeline-description">
-                  <span class="timestamp"><time datetime="{{ commentData.date | date: "%Y-%m-%d" }}">{{ commentData.date }}</time></span>
-                  {% if commentData.name %}
-                  <h2><a id="{{ commentData.name }}" href="{{ commentData.description }}"><i class="fa fa-link"></i></a>{{ commentData.name }}</h2>
-                  {% else %}
-                  <h2><a id="{{ commentData.name }}" href="{{ commentData.description }}"><i class="fa fa-link"></i></a></h2>
-                  <div>
-                    {{ commentData.name | markdownify }}
-                  </div>
-                  {% endif %}
 
-                  {% if commentData.image %}
-                  <div class="captioned-image image-right">
-                    <img src="{{ commentData.image }}" alt="{{ commentData.caption }}" />
-                    <span class="caption">{{ commentData.caption }} </span>
-                  </div>
-                  {% endif %}
+      <div class="entry col-12 col-s-12">
+        {{ content }}
+      </div>
 
-                  <div>
-                    <span class="tag">
-                      影响：{{ commentData.impact }}星,
-                    </span>
-                    <span class="tag">
-                      类型：{{ commentData.group }},
-                    </span>
-                    <span class="tag">
-                      <a href="{{ commentData.description }} " target="_blank">相关新闻</a>
-                    </span>
-                  </div>
-                </div>
-              </div>
-            {% endfor %}
-          </article>
-          {% endif %}
-        {% endfor %}
+      <div class="pagination">
+        {% if page.previous.url %}
+          <span class="prev" >
+              <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
+                上一篇：{{ page.previous.title }}
+              </a>
+          </span>
         {% endif %}
-      {% endfor %}
-    </section>
-  </div>
+        {% if page.next.url %}
+          <span class="next" >
+              <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
+                下一篇：{{ page.next.title }}
+              </a>
+          </span>
+        {% endif %}
+      </div>
+            
+      {% if page.submit %} {% include submit.html %} {% endif %}
 
-  <div class="pagination">
-    {% if page.previous.url %}
-      <span class="prev" >
-          <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
-            上一篇：{{ page.previous.title }}
-          </a>
-      </span>
-    {% endif %}
-    {% if page.next.url %}
-      <span class="next" >
-          <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
-            下一篇：{{ page.next.title }}
-          </a>
-      </span>
-    {% endif %}
-  </div>
+      {% include timeline-csv.html %}
+    </article>
 
-  {% include social-share.html %}
+    <div class="pagination">
+      {% if page.previous.url %}
+        <span class="prev" >
+            <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
+              上一篇：{{ page.previous.title }}
+            </a>
+        </span>
+      {% endif %}
+      {% if page.next.url %}
+        <span class="next" >
+            <a href="{{ site.url }}{{ site.baseurl }}{{ page.next.url }}">
+              下一篇：{{ page.next.title }}
+            </a>
+        </span>
+      {% endif %}
+    </div>
 
+    {% include social-share.html %}
 
-  {% if page.comments %} {% include disqus.html %} {% endif %}
+    {% if page.comments %} {% include disqus.html %} {% endif %}
 
     <div class="wrapper-footer">
       <div class="container">

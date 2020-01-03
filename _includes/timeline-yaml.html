@@ -1,0 +1,76 @@
+<section class="timeline-container">
+  {% for slug in site.data.types %}
+    {% if page.slug == slug[1].name %}
+      <div class="timeline-filter-wrapper">
+        <header class="timeline-filter">
+          <ul>
+
+            <li>
+              <input type="checkbox" name="filter-shortcut" id="all" checked /> <label for="all">All</label>
+            </li>
+
+            {% for type in slug[1].types %}
+              <li>
+                <input type="checkbox" name="filter" id="{{ type }}" checked /> <label for="{{ type }}">{{ type }}</label>
+              </li>
+            {% endfor %}
+
+          </ul>
+        </header>
+      </div>
+
+      <article class="timeline">
+        {% assign comments = site.data.comments | sort  %}
+        {% for comment in comments reversed %}
+          {% if comment[1].topic == slug[1].name %}
+            {% assign commentData = comment[1] %}
+            <div class="timeline-entry" data-category="[{{ commentData.type }}]">
+
+              <div class="timeline-icon green">
+                <i class="fa fa-plus"></i>
+              </div>
+
+              <div class="timeline-description">
+
+                <span class="timestamp"><time datetime="{{ commentData.date | date: "%Y-%m-%d" }}">{{ commentData.date | date: "%Y-%m-%d" }}</time></span>
+                {% if commentData.title %}
+                <h2><a id="{{ commentData._id }}" href="{{ commentData.url }}"><i class="fa fa-link"></i></a>{{ commentData.title }}</h2>
+                {% else %}
+                <h2><a id="{{ commentData._id }}" href="{{ commentData.url }}"><i class="fa fa-link"></i></a>事件</h2>
+                {% endif %}
+
+                {% if commentData.image %}
+                  <div class="captioned-image image-right">
+                    <img src="{{ commentData.image }}" alt="{{ commentData.caption }}" />
+                    {% if commentData.caption %}
+                      <span class="caption">{{ commentData.caption }} </span>
+                    {% else %}
+                      <span class="caption">{{ commentData.title }} </span>
+                    {% endif %}
+                  </div>
+                {% endif %}
+
+                <div>
+                  {{ commentData.event | markdownify }}
+                </div>
+
+                <div class="tag">
+                  影响：{{ commentData.significance }}星
+                </div>
+
+                <div class="tag">
+                  类型：{{ commentData.type }}
+                </div>
+
+                <div class="tag">
+                  <a href="{{ commentData.url }} " target="_blank">相关新闻</a>
+                </div>
+
+              </div>
+            </div>
+          {% endif %}
+        {% endfor %}
+      </article>
+    {% endif %}
+  {% endfor %}
+</section>

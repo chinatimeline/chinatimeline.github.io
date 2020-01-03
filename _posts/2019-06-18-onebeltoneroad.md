@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: list
 title: 一带一路时间线
 tags: [一带一路]
 permalink: /obor/

@@ -1,48 +1,50 @@
 <div class="row">
 {% for slug in site.data.types %}
   {% if page.slug == slug[1].name %}
-    <div class="container">
-      <h3>提交新闻事件</h3>
-      <div class="comments">
-      <form method="POST" action="{{ site.staticman.api }}">
-        <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
-        <input name="options[slug]" type="hidden" value="{{ slug[1].slug }}">
-        <input name="fields[topic]" type="hidden" value="{{ slug[1].name }}">
-        <div class="col-6 col-s-6">
-          <div style="width:100%; display:table">
-            <label style="display:table-cell;width=1px;">发生日期:</label> <input name="fields[date]" type="date" style="display:table-cell;"><br>
+    <div class="comments col-12 col-s-12">
+      <div align="center">
+        <h3>提交新闻事件</h3>
+      </div>
+      <div>
+        <form method="POST" action="{{ site.staticman.api }}">
+          <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
+          <input name="options[slug]" type="hidden" value="{{ slug[1].slug }}">
+          <input name="fields[topic]" type="hidden" value="{{ slug[1].name }}">
+          <div class="col-6 col-s-6">
+            <div style="width:100%; display:table">
+              <label style="display:table-cell;width=1px;">发生日期:</label> <input name="fields[date]" type="date" style="display:table-cell;"><br>
+            </div>
+            <div style="width:100%; display:table">
+              <label style="display:table-cell;width=1px;">标题: </label><input name="fields[title]" type="text" cols="48"  placeholder="2-20字 不出现在时间线中"  style="display:table-cell; width:100%"><br>
+            </div>
+            <div style="width:100%; display:table">
+              <label style="display:table-cell;width=1px;">重要性:</label>
+              <span stype="display:table-cell;width=100%;">
+                {% for i in site.data.ratings %}
+                <input name="fields[significance]" type="radio" value="{{ i }}"> {{ i }}
+                {% endfor %}
+              </span>
+            </div>
+            <label>事件描述: </label><br><textarea name="fields[event]" rows="4" placeholder="20-100字的简要描述，包括具体的时间地点人物事件等。" class="event-description"></textarea><br>
+            <div style="width:100%; display:table">
+              <label  style="display:table-cell;width=1px;">新闻链接: </label><input name="fields[url]" type="url"  placeholder="可选 推荐添加以便审核"  style="display:table-cell; width:100%"><br>
+            </div>
           </div>
-          <div style="width:100%; display:table">
-            <label style="display:table-cell;width=1px;">标题: </label><input name="fields[title]" type="text" cols="48"  placeholder="2-20字 不出现在时间线中"  style="display:table-cell; width:100%"><br>
-          </div>
-          <div style="width:100%; display:table">
-            <label style="display:table-cell;width=1px;">重要性:</label>
-            <span stype="display:table-cell;width=100%;">
-              {% for i in site.data.ratings %}
-              <input name="fields[significance]" type="radio" value="{{ i }}"> {{ i }}
+          <div class="col-6 col-s-6">
+            <label style="display:table-cell;width=1px;">所属类型:</label>
+              {% for type in slug[1].types %}
+              <input name="fields[type]" type="radio" value="{{ type }}">{{ type }}
               {% endfor %}
-            </span>
+            <div style="width:100%; display:table">
+              <label  style="display:table-cell;width=1px;">图片链接: </label><input name="fields[image]" type="url" style="display:table-cell; width:100%"  placeholder="可选项"><br>
+            </div>
+            <div style="width:100%; display:table">
+              <label  style="display:table-cell;width=1px;">图片标题: </label><input name="fields[caption]" type="text" style="display:table-cell; width:100%"  placeholder="可选项"><br>
+            </div>
+            <input type="submit" value="点此提交"> 查看<a href="https://github.com/chinatimeline/chinatimeline.github.io/pulls">已提交队列</a>
+            <p>事件被成功提交后会进入提交队列，获人工审核批准后在本页展示，每隔约1个月新获批的事件会被更新到数据仓库和互动图中。</p>
           </div>
-          <label>事件描述: </label><br><textarea name="fields[event]" rows="4" placeholder="20-100字的简要描述，包括具体的时间地点人物事件等。" class="event-description"></textarea><br>
-          <div style="width:100%; display:table">
-            <label  style="display:table-cell;width=1px;">新闻链接: </label><input name="fields[url]" type="url" style="display:table-cell; width:100%"><br>
-          </div>
-        </div>
-        <div class="col-6 col-s-6">
-          <label style="display:table-cell;width=1px;">所属类型:</label>
-            {% for type in slug[1].types %}
-            <input name="fields[type]" type="radio" value="{{ type }}">{{ type }}
-            {% endfor %}
-          <div style="width:100%; display:table">
-            <label  style="display:table-cell;width=1px;">图片链接: </label><input name="fields[image]" type="url" style="display:table-cell; width:100%"  placeholder="可选项"><br>
-          </div>
-          <div style="width:100%; display:table">
-            <label  style="display:table-cell;width=1px;">图片标题: </label><input name="fields[caption]" type="text" style="display:table-cell; width:100%"  placeholder="可选项"><br>
-          </div>
-          <input type="submit" value="点此提交"> 查看<a href="https://github.com/chinatimeline/chinatimeline.github.io/pulls">已提交队列</a>
-          <p>事件被成功提交后会进入提交队列，获人工审核批准后在本页展示，每隔约1个月新获批的事件会被更新到数据仓库和互动图中。</p>
-        </div>
-      </form>
+        </form>
       </div>
 
     </div>

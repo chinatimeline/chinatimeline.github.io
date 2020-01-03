@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: list
 title: 中国的宗教迫害
 tags: [人权, 宗教自由]
 permalink: /religion_tl1/

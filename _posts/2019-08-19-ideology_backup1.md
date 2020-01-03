@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: list
 title: 意识形态“保卫战”
 tags: [意识形态, 社会控制]
 permalink: /ideology_tl1/
