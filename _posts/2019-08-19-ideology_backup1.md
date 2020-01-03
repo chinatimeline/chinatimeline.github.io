@@ -19,7 +19,6 @@ comments: true
 1. X轴代表事件发生日期，Y轴代表事件发生日是于星期几，建议手机用户横屏观看并刷新。
 2. 单击图例可隐藏该类别事件，双击图例可单独显示该类别事件。
 3. 如互动图显示402代表已达每日500次点击限制，请点击[备份1](/ideology_tl1), [备份2](/ideology_tl2), [备份3](/ideology_tl3), [备份4](/ideology_tl4)。
-4. [纯文字版时间线](/ideology_list)
 
 #### 相关
 1. [时代透镜：用时间线挖掘新闻背后的政治](https://matters.news/@chinatimeline/%E6%97%B6%E4%BB%A3%E9%80%8F%E9%95%9C-%E7%94%A8%E6%97%B6%E9%97%B4%E7%BA%BF%E6%8C%96%E6%8E%98%E6%96%B0%E9%97%BB%E8%83%8C%E5%90%8E%E7%9A%84%E6%94%BF%E6%B2%BB-zdpuAofz2CCLBQqoijirnM44gZJQWqVLmHYtQ43HTUS7MKe2c)
