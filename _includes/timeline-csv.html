@@ -21,8 +21,12 @@
       <article class="timeline">
         {% for csv in site.data.csv %}
           {% if slug[1].csv == csv[0] %}
-            {% assign comments = csv[1] | sort: "date" %}
-            {% for comment in comments reversed %}
+            {% if page.order %}
+              {% assign comments = csv[1] | sort: "date" %}
+            {% else %}
+              {% assign comments = csv[1] | sort: "date" | reverse %}
+            {% endif %}
+            {% for comment in comments %}
               {% assign commentData = comment %}
               <div class="timeline-entry" data-category="[{{ commentData.group }}]">
                 <div class="timeline-icon green">
