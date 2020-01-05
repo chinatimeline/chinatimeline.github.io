@@ -10,7 +10,7 @@ comments: false
 ## 1 前提条件
 请首先确保您在安全的环境里工作，即物理安全（不被偷窥、监控）和电脑与网络环境安全。
 - **硬件平台** 请勿在手机或平板操作。
-- **操作系统** 非Windows系统，推荐 [Tails OS](https://tails.boum.org/)或Linux双虚拟机环境，比如 Whonix， (参见[prism-break](https://prism-break.org/zh-CN/subcategories/macos-operating-systems-live/)和[编程随想的博文](https://program-think.blogspot.com/2012/10/system-vm-0.html))。
+- **操作系统** 非Windows系统，推荐 [Tails OS](https://tails.boum.org/)或Linux双虚拟机环境，比如 Whonix， (参见[Prism Break](https://prism-break.org/zh-CN/subcategories/macos-operating-systems-live/)和[编程随想的博文](https://program-think.blogspot.com/2012/10/system-vm-0.html))。
 - **最低要求** 安全网络环境 + 非Windows、Android系统 + [Tor Browser](https://www.torproject.org/download/)
 - **电子邮箱** 非必须品，请勿使用任何国产Email，推荐使用 [Protonmail](https://www.protonmail.com) 等匿名邮箱。
 - **网络链接** 必须全程在Tor环境下操作。
