@@ -30,20 +30,25 @@
                 </div>
                 <div class="timeline-description">
                   <span class="timestamp"><time datetime="{{ commentData.date | date: "%Y-%m-%d" }}">{{ commentData.date }}</time></span>
-                  {% if commentData.name %}
-                  <h2><a id="{{ commentData.name }}" href="{{ commentData.description }}"><i class="fa fa-link"></i></a>{{ commentData.name }}</h2>
+
+                  {% if commentData.title %}
+                    <h2><a id="{{ commentData._id }}" href="{{ commentData.url }}"><i class="fa fa-link"></i></a>{{ commentData.title }}</h2>
+                    <div>
+                      {{ commentData.name | markdownify }}
+                    </div>
                   {% else %}
-                  <h2><a id="{{ commentData.name }}" href="{{ commentData.description }}"><i class="fa fa-link"></i></a></h2>
-                  <div>
-                    {{ commentData.name | markdownify }}
-                  </div>
+                    <h2><a id="{{ commentData.name }}" href="{{ commentData.description }}"><i class="fa fa-link"></i></a>{{ commentData.name }}</h2>
                   {% endif %}
 
                   {% if commentData.image %}
-                  <div class="captioned-image image-right">
-                    <img src="{{ commentData.image }}" alt="{{ commentData.caption }}" />
-                    <span class="caption">{{ commentData.caption }} </span>
-                  </div>
+                    <div class="captioned-image image-right">
+                      <img src="{{ commentData.image }}" alt="{{ commentData.caption }}"/>
+                      {% if commentData.caption %}
+                        <span class="caption">{{ commentData.caption }}</span>
+                      {% else %}
+                        <span class="caption">{{ commentData.title }}</span>
+                      {% endif %}
+                    </div>
                   {% endif %}
 
                   <div>
@@ -57,7 +62,7 @@
                       <a href="{{ commentData.description }} " target="_blank">相关新闻</a>
                     </span>
                   </div>
-                  
+
                 </div>
               </div>
             {% endfor %}

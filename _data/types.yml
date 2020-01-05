@@ -61,6 +61,7 @@
 六四:
     name: 六四
     slug: tiananmen
+    csv: 8964_Timeline
     types:
         - 普通学生
         - 学运领袖

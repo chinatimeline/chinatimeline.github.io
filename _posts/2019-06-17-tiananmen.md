@@ -1,5 +1,5 @@
 ---
-layout: story
+layout: list
 title: 六四学运
 tags: [六四, 天安门, 学生运动]
 permalink: /tiananmen/

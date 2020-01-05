@@ -41,11 +41,11 @@
 
                 {% if commentData.image %}
                   <div class="captioned-image image-right">
-                    <img src="{{ commentData.image }}" alt="{{ commentData.caption }}" />
+                    <img src="{{ commentData.image }}" alt="{{ commentData.caption }}"/>
                     {% if commentData.caption %}
-                      <span class="caption">{{ commentData.caption }} </span>
+                      <span class="caption">{{ commentData.caption }}</span>
                     {% else %}
-                      <span class="caption">{{ commentData.title }} </span>
+                      <span class="caption">{{ commentData.title }}</span>
                     {% endif %}
                   </div>
                 {% endif %}
