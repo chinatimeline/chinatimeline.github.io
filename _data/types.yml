@@ -72,10 +72,12 @@
 文革:
     name: 文革
     slug: wenge
+    csv: Wenge_Timeline
     types:
         - 中共高层
         - 地方政府
         - 民间社会
+	- 官方喉舌
         - 造反派
         - 知识分子
         - 上山下乡
