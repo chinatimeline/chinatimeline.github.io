@@ -10,9 +10,11 @@ submit: true
 comments: true
 ---
 
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pO4VCyXguSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 八九六四学生运动及后续时间线，包括学运领袖逃亡、坐牢、出狱、出国，天安门母亲等后续，内容征集中。
+
+<div align="center">
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/pO4VCyXguSU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 
 #### 参考：
 1. [Tiki-Toki八九六四时间线](https://www.tiki-toki.com/timeline/entry/244455/198964/)
