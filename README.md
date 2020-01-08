@@ -3,6 +3,11 @@
 
 网址 [https://chinatimeline.github.io](https://chinatimeline.github.io)
 
+| 最近更新 | Star |
+--|--|--
+网站 | [![Latest GitHub commit](https://img.shields.io/github/last-commit/chinatimeline/chinatimeline.github.io?logo=github&label)](https://github.com/chinatimeline/chinatimeline.github.io) | [![GitHub stars](https://img.shields.io/github/stars/chinatimeline/chinatimeline.github.io)](https://github.com/chinatimeline/chinatimeline.github.io/stargazers)
+数据 |[![Latest GitHub commit](https://img.shields.io/github/last-commit/chinatimeline/data?logo=github&label)](https://github.com/chinatimeline/data) | [![GitHub stars](https://img.shields.io/github/stars/chinatimeline/data)](https://github.com/chinatimeline/data/stargazers)
+
 ## 具体流程
 
 在某个时间线互动图的展示页面下方提交新闻事件后，系统自动生成一个 Pull Request(PR) 向本仓库提交一个新文件。当该PR获得批准后，会生成一个新的事件文件 `_data/comments/entryXXXXX.yml`。本仓库维护者会定期用程序将这些新提交的事件添加到本项目的[数据仓库](https://github.com/chinatimeline/data/)和对应的互动图中。
@@ -25,5 +30,5 @@
 ## 参考时间线模板
 - http://timeline.knightlab.com/ Demo https://timeline.knightlab.com/examples/user-interface/index.html
 - https://github.com/molly/wikimedia-timeline 展示 https://www.mollywhite.net/wikimedia-timeline/
-- https://github.com/technotarek/timeliner 
+- https://github.com/technotarek/timeliner
 - https://github.com/cheeaun/life Demo https://cheeaun.life/
