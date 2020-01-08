@@ -9,7 +9,7 @@
 
 ## 感谢
 1. Jekyll代码改编自: [达摩俱乐部](https://github.com/DamoresClub/DamoresClub.github.io)
-2. Logo来源: https://www.flaticon.com/free-icon/timeline_1853230
+2. Logo[来源](https://www.flaticon.com/free-icon/timeline_1853230) Icon made by [Freepik](https://www.flaticon.com/authors/freepik) from [www.flaticon.com](https://www.flaticon.com)
 3. 新闻提交模块来自 Staticman V3: https://github.com/VincentTam/TestStaticmanLab
 4. 分享按钮: https://sharingbuttons.io/
 5. CSS样式设计: https://www.w3schools.com/css/css_rwd_intro.asp
