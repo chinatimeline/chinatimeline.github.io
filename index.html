@@ -77,11 +77,12 @@ layout: default
 </div>
 
 <div align="center" class="container-post">
-  <div class="col-4 col-s-4">
-{% capture my_include %}{% include github.md %}{% endcapture %}
-{{ my_include | markdownify }}
+  <div class="entry">
+    {% capture my_include %}{% include github.md %}{% endcapture %}
+    {{ my_include | markdownify }}
   </div>
 </div>
 
+<div>
 {% include social-share.html %}
-
+</div>
