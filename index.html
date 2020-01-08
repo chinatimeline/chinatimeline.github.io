@@ -76,10 +76,9 @@ layout: default
   {% endif %}
 </div>
 
-<div align="center" markdown="1">
-| Site | Data|
-|---|---|
-| Site [![Latest GitHub commit](https://img.shields.io/github/last-commit/chinatimeline/chinatimeline.github.io?logo=github&label)](https://github.com/chinatimeline/chinatimeline.github.io) [![GitHub stars](https://img.shields.io/github/stars/chinatimeline/chinatimeline.github.io)](https://github.com/chinatimeline/chinatimeline.github.io/stargazers) | Data: [![Latest GitHub commit](https://img.shields.io/github/last-commit/chinatimeline/data?logo=github&label)](https://github.com/chinatimeline/data) [![GitHub stars](https://img.shields.io/github/stars/chinatimeline/data)](https://github.com/chinatimeline/data/stargazers) |
+<div align="center">
+{% capture my_include %}{% include github.md %}{% endcapture %}
+{{ my_include | markdownify }}
 </div>
 
 {% include social-share.html %}
