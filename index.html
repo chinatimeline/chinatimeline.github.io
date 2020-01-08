@@ -76,9 +76,11 @@ layout: default
   {% endif %}
 </div>
 
-<div align="center" class="col-4 col-s-4">
+<div align="center">
+  <div class="col-4 col-s-4">
 {% capture my_include %}{% include github.md %}{% endcapture %}
 {{ my_include | markdownify }}
+  </div>
 </div>
 
 {% include social-share.html %}
