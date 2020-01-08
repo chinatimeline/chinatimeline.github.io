@@ -37,11 +37,6 @@
 
                   {% if commentData.title %}
                     <h2><a id="{{ commentData._id }}" href="{{ commentData.url }}"><i class="fa fa-link"></i></a>{{ commentData.title }}</h2>
-                    <div>
-                      {{ commentData.name | markdownify }}
-                    </div>
-                  {% else %}
-                    <h2><a id="{{ commentData.name }}" href="{{ commentData.description }}"><i class="fa fa-link"></i></a>{{ commentData.name }}</h2>
                   {% endif %}
 
                   {% if commentData.image %}
@@ -54,6 +49,10 @@
                       {% endif %}
                     </div>
                   {% endif %}
+
+                  <div>
+                    {{ commentData.name | markdownify }}
+                  </div>
 
                   <div>
                     <span class="tag">
