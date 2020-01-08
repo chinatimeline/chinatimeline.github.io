@@ -76,28 +76,8 @@ layout: default
   {% endif %}
 </div>
 
-<div align="center" class="comments">
-  <span  class="tag">
-    Site 
-      <a href="https://github.com/chinatimeline/chinatimeline.github.io">
-        <img border="0" alt="Latest GitHub commit" src="https://img.shields.io/github/last-commit/chinatimeline/chinatimeline.github.io?logo=github&label">
-      </a>
-
-      <a href="https://github.com/chinatimeline/chinatimeline.github.io/stargazers">
-        <img border="0" alt="GitHub stars" src="https://img.shields.io/github/stars/chinatimeline/chinatimeline.github.io">
-      </a>
-  </span>
-
-  <span  class="tag">
-    Data 
-      <a href="https://github.com/chinatimeline/data">
-        <img border="0" alt="Latest GitHub commit" src="https://img.shields.io/github/last-commit/chinatimeline/data?logo=github&label">
-      </a>
-
-      <a href="https://github.com/chinatimeline/data/stargazers">
-        <img border="0" alt="GitHub stars" src="https://img.shields.io/github/stars/chinatimeline/data">
-      </a>
-  </span>
+<div align="center">
+  {{ include github.md | markdownify }}
 </div>
 
 {% include social-share.html %}
