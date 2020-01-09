@@ -76,13 +76,16 @@ layout: default
   {% endif %}
 </div>
 
+<hr>
 <div align="center" class="container-post">
   <div class="entry">
+    <h1>项目状态</h1>
     {% capture my_include %}{% include github.md %}{% endcapture %}
     {{ my_include | markdownify }}
   </div>
 </div>
 
+<hr>
 <div>
 {% include social-share.html %}
 </div>
