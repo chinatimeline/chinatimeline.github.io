@@ -3,10 +3,10 @@
 
 网址 [https://chinatimeline.github.io](https://chinatimeline.github.io)
 
-项目 | 最近更新 | Star 
+项目 | 最近更新 | Star
 --|--|--
-网站 | [![Latest GitHub commit](https://img.shields.io/github/last-commit/chinatimeline/chinatimeline.github.io?logo=github&label)](https://github.com/chinatimeline/chinatimeline.github.io) | [![GitHub stars](https://img.shields.io/github/stars/chinatimeline/chinatimeline.github.io)](https://github.com/chinatimeline/chinatimeline.github.io/stargazers)
-数据 |[![Latest GitHub commit](https://img.shields.io/github/last-commit/chinatimeline/data?logo=github&label)](https://github.com/chinatimeline/data) | [![GitHub stars](https://img.shields.io/github/stars/chinatimeline/data)](https://github.com/chinatimeline/data/stargazers)
+网站 | [![Latest GitHub commit](https://img.shields.io/github/last-commit/chinatimeline/chinatimeline.github.io)](https://github.com/chinatimeline/chinatimeline.github.io) | [![GitHub stars](https://img.shields.io/github/stars/chinatimeline/chinatimeline.github.io)](https://github.com/chinatimeline/chinatimeline.github.io/stargazers)
+数据 |[![Latest GitHub commit](https://img.shields.io/github/last-commit/chinatimeline/data)](https://github.com/chinatimeline/data) | [![GitHub stars](https://img.shields.io/github/stars/chinatimeline/data)](https://github.com/chinatimeline/data/stargazers)
 
 ## 具体流程
 
