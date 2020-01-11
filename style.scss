@@ -267,6 +267,13 @@ img {
   border-radius: 5px;
 }
 
+.inline{
+  display: inline;
+  max-width: 100%;
+  padding: 2px;
+}
+
+
 // Fixes images in popup boxes from Google Translate
 .gmnoprint img {
   max-width: none;
@@ -563,6 +570,7 @@ nav {
     margin-left: 3px;
   }
 }
+
 
 // Tags
 .tags > .label {
