@@ -24,6 +24,7 @@ comments: false
 如果一次提交5个以上事件推荐用批量提交。下载[批量事件模板](./batch_submit_example.csv)，用电子表格软件编辑csv文件（推荐在线表格应用[EtherCalc](https://ethercalc.org/)，在线[批量事件模板](https://ethercalc.org/t7dhm5f9a1ty)），添加新闻事件及相应来源链接等信息。
 
 将编辑好的文件，利用[离线软件](https://www.privacytools.io/software/productivity/#metadata-removal-tools)或[在线工具](https://www.metawiper.com/)去掉文件的metadata，用[工具](https://www.metadata2go.com/)检查确保无隐私泄漏后，上传至下列文件分享网站中的一个
+- [https://uploadfiles.io/](https://uploadfiles.io/)
 - [https://send.firefox.com](https://send.firefox.com)
 - [https://drop.me](https://drop.me)
 - [https://anonfiles.com](https://anonfiles.com)
