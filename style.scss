@@ -663,6 +663,7 @@ footer {
   }
 }
 
+// Social Share Buttons
 .resp-sharing-button__link,
 .resp-sharing-button__icon {
   display: inline-block
@@ -821,6 +822,17 @@ background-color: #FF6600
   border-color: #2795e9;
 }
 
+.resp-sharing-button--tumblr {
+  background-color: #35465C;
+  border-color: #35465C;
+}
+
+.resp-sharing-button--tumblr:hover,
+.resp-sharing-button--tumblr:active {
+  background-color: #222d3c;
+  border-color: #222d3c;
+}
+
 .resp-sharing-button--email {
   background-color: #777777;
   border-color: #777777;
@@ -871,6 +883,7 @@ background-color: #FF6600
 
 .resp-sharing-button--telegram:hover {
   background-color: #4B97D1;}
+
 
 /* Container holding the image and the text */
 .container-post {
@@ -924,6 +937,12 @@ background-color: #FF6600
  transform: translate(-50%, -50%);
 }
 
+div.sticky {
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  bottom: 0;
+  z-index: 1;
+}
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";
