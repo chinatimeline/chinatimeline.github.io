@@ -1,6 +1,32 @@
+<!--
+
 <script src="{{ site.baseurl }}/js/vanilla-back-to-top.min.js"></script>
 <script>addBackToTop({
   diameter: 40,
   backgroundColor: '#ddd',
   textColor: 'red'
 })</script>
+-->
+
+<script type="text/javascript">
+  $(function(){
+      $("#go-to-top").click(function(){
+          $("html, body").animate({"scrollTop": 0}, 400);
+          return false;
+      });
+      $(window).scroll(function() {
+          var top = $(document).scrollTop();
+          var g = $("#go-to-top");
+          if (top > 300 && g.is(":hidden")) {
+              g.fadeIn();
+          } else if(top < 300 && g.is(":visible")) {
+              g.fadeOut();
+          }
+      });
+  })
+
+</script>
+
+<div>
+  <a style="display: none; z-index: 2;" rel="nofollow" href="#top" id="go-to-top">▲</a>
+</div>
