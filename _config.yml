@@ -28,7 +28,7 @@ navigation:
     url: https://chinatimeline.github.io/submit
   - name: 参与
     url: /how_to_contribute
-  - name: 数据仓库
+  - name: 数据
     url: https://github.com/chinatimeline/data
 
 # Pagination
