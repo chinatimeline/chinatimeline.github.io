@@ -1,9 +1,9 @@
-<!DOCTYPE html>
-<html>
-  {% include head-story.html %}
-  <body>
-    {% include nav.html %}
-    <article class="post">
+---
+layout: default
+---
+
+
+<article class="post">
       <div align="center">
         <h1>{{ page.title }}</h1>
 
@@ -60,9 +60,9 @@
       {% if page.submit %} {% include submit.html %} {% endif %}
 
       {% include timeline-csv.html %}
-    </article>
+</article>
 
-    <div class="pagination">
+<div class="pagination">
       {% if page.previous.url %}
         <span class="prev" >
             <a href="{{ site.url }}{{ site.baseurl }}{{ page.previous.url }}">
@@ -77,22 +77,13 @@
             </a>
         </span>
       {% endif %}
-    </div>
+</div>
 
-    {% include social-share.html %}
+{% include social-share.html %}
 
-    {% if page.comments %} {% include disqus.html %} {% endif %}
+{% if page.comments %} {% include disqus.html %} {% endif %}
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include footer.html %}
-        </footer>
-      </div>
-    </div>
 
-    <script src="{{ site.baseurl }}/js/main.js"></script>
+<script src="{{ site.baseurl }}/js/main.js"></script>
 
-    {% include analytics.html %}
-  </body>
-</html>
+
