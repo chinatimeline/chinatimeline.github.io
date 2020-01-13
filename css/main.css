@@ -55,7 +55,7 @@ footer.page-footer a {
 .timeline-container {
   width: 100%;
   height: 100%;
-  background-color: #e0e0e0;  
+  background-color: #e0e0e0;
 }
 
 .timeline {
@@ -229,12 +229,12 @@ footer.page-footer a {
 }
 
 .timeline-description img {
-  max-width: 150px;
+  max-width: 200px;
   display: block;
 }
 
 .timeline-description .landscape img {
-  max-width: 200px;
+  max-width: 250px;
 }
 
 .image-right {
@@ -254,7 +254,7 @@ footer.page-footer a {
 }
 
 .captioned-image {
-  max-width: 150px;
+  max-width: 200px;
   clear: both;
 }
 
