@@ -1,11 +1,7 @@
 {% for slug in site.data.types %}
 {% if page.slug == slug[1].name %}
-<div class="col-12 col-s-12">
-  {% if site.comments.moderation %}
-    <h3 align="center">最近获得批准的提交</h3>
-  {% else %}
-    <h3 align="center">尚未纳入互动图的事件</h3>
-  {% endif %}
+<div class="col-7 col-s-7">
+  <h3>最近获得批准的提交</h3>
   {% assign comments = site.data.comments | sort %}
   {% for comment in comments reversed %}
     {% if comment[1].topic == slug[1].name %}
