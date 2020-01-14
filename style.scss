@@ -676,10 +676,11 @@ footer {
 }
 
 .resp-sharing-button {
-  border-radius: 10px;
+  border-radius: 7px;
   transition: 25ms ease-out;
-  padding: 0.5em 0.75em;
-  font-family: Helvetica Neue,Helvetica,Arial,sans-serif
+  padding: 10px 12px;
+  font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
+  font-size: 25px;   
 }
 
 .resp-sharing-button__icon svg {
