@@ -2,10 +2,11 @@
 {% for slug in site.data.types %}
   {% if page.slug == slug[1].name %}
     <div class="col-12 col-s-12">
-      <div align="center">
-        <h3>提交新闻事件</h3>
-        {% include boilerplate-submit.html %}
-      </div>
+      
+      <h3 align="center">提交新闻事件</h3>
+      
+      {% include boilerplate-submit.html %}
+      
       <div class="row comments">
         <form method="POST" action="{{ site.staticman.api }}">
           <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
