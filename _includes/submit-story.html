@@ -6,7 +6,7 @@
         <h3>提交新闻事件</h3>
         {% include boilerplate-submit.html %}
       </div>
-      <div>
+      <div class="row comments">
         <form method="POST" action="{{ site.staticman.api }}">
           <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
           <input name="options[slug]" type="hidden" value="{{ slug[1].slug }}">
