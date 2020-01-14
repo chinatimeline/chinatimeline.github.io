@@ -33,6 +33,14 @@ layout: default
             {% endfor %}
           </ul>
 
+          {% if page.hitcounterid %}
+            <span class="tag">
+              点击:
+              {% include hitcounter.html %}
+            </span>
+          {% endif %}
+
+
         </div>
       </div>
 
@@ -87,5 +95,3 @@ layout: default
 
 
     <script src="{{ site.baseurl }}/js/main.js"></script>
-
-

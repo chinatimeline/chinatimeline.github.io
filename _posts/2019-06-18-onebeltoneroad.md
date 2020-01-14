@@ -7,6 +7,7 @@ teaser: /images/obor.jpeg
 slug: 一带一路
 submit: true
 comments: true
+hitcounterid: saf1wg149z6n89nwcxqcpzfy9lptuhdb
 ---
 
 中国“一带一路”项目重要事件时间线，[数据源](http://www.xinhuanet.com/world/2019-04/26/c_1124418156.htm)。

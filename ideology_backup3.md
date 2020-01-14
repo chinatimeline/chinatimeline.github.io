@@ -7,6 +7,7 @@ teaser: https://i.imgur.com/9hRtaky.jpg
 slug: 文革2
 submit: true
 comments: true
+hitcounterid: essasnybp1mxzguq12gn1uhsbcpd4sgq
 ---
 
 近20多年来，中共为操控中国社会的意识形态而进行的全方位社会思想控制，包括数字监控和审查、开动宣传机器、控制媒体文化娱乐和互联网行业、限制学术自由、对自由派的政治迫害、以及对体制内和党团组织的限制等，（宗教迫害另外单独列出）。本时间线的独特发现：中共在18大后的头年里尽管官方喉舌保持低调（见[PCI-China](https://policychangeindex.org/overview-PCI-China.html)）甚至让右派抱有“打左灯，向右转”的希望，但实际上却一直在为全面收紧社会控制而低调布局新的喉舌和政策，19大前后对学术自由和互联网的钳制措施逐渐浮出水面。

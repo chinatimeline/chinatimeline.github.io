@@ -270,6 +270,8 @@ img {
 .inline{
   display: inline;
   max-width: 100%;
+  border-radius: 1px;
+  margin-bottom: -3px;
 }
 
 
@@ -680,7 +682,7 @@ footer {
   transition: 25ms ease-out;
   padding: 5px 12px;
   font-family: Helvetica Neue,Helvetica,Arial,sans-serif;
-  font-size: 25px;   
+  font-size: 25px;
 }
 
 .resp-sharing-button__icon svg {
