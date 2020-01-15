@@ -8,3 +8,5 @@ _site
 node_modules
 package.json
 Gemfile.lock
+*.py
+*.ipynb
