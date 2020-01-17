@@ -947,25 +947,6 @@ div.sticky {
   z-index: 1;
 }
 
-#go-to-top{
-  display:none;
-  position:fixed;
-  right:30px;
-  bottom:30px;
-  padding:10px;
-  color:red;
-  background:#ddd;
-  font:24px/12px Helvetica,Arial,Verdana,sans-serif;
-  opacity:.7;
-  outline:0;
-  text-decoration:none;
-  text-shadow:0 0 1px #ddd;
-  vertical-align:baseline;
-  -moz-border-radius:5px;
-  -khtml-border-radius:5px;
-  -webkit-border-radius:5px;
-  border-radius:5px
-}
 
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start

@@ -115,6 +115,7 @@ algolia:
   application_id: AQ2NWA6FRT
   index_name:     Timeline # You can replace that with whatever name you want
   search_only_api_key: 533d855435d988fee73b330d3df4e41c
+  files_to_exclude: [ideology_backup2.md, ideology_backup3.md, ideology_backup4.md, religion_backup2.md, religion_backup3.md, religion_backup4.md]
 
 staticman:
   api: "https://staticman3.herokuapp.com/v3/entry/github/chinatimeline/chinatimeline.github.io/master/comments"
