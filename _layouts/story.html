@@ -86,6 +86,15 @@ layout: default
             </a>
         </span>
       {% endif %}
+
+      <script>
+      /* post pagination keyboard shortcuts */
+      document.body.onkeyup = function(e){
+        if (e.keyCode == '37') { window.location = '{{ page.previous.url }}'; } // left arrow key
+        if (e.keyCode == '39') { window.location = '{{ page.next.url }}'; } // right arrow key
+      };
+      </script>
+
     </div>
 
     {% include social-share.html %}
