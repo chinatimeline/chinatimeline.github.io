@@ -9,6 +9,7 @@ function makeChart(players) {
     type: 'bar',
     data: {
       labels: playerLabels,
+      label: '确诊',
       datasets: [
         {
           data: weeksData
@@ -18,8 +19,9 @@ function makeChart(players) {
     options: {
       title: {
         display: true,
-        text: 'Chart.js Bar Chart - Stacked'
+        text: '中国国内感染人数 2019-12-08 至今'
       },
+      backgroundColor: 'blue',
       tooltips: {
         mode: 'index',
         intersect: false
@@ -27,7 +29,11 @@ function makeChart(players) {
       responsive: true,
       scales: {
         xAxes: [{
-          stacked: true,
+          //type: 'time',
+          time: {
+                  unit: 'day'
+              },
+          stacked: true
         }],
         yAxes: [{
           stacked: true
