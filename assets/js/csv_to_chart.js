@@ -1,9 +1,13 @@
 d3.csv('https://ethercalc.org/w2gfa2jtho6c.csv')
   .then(makeChart);
 
+var timeFormat = 'YYYY-MM-DD';
+
+
 function makeChart(players) {
   var playerLabels = players.map(function(d) {return d.Date});
   var weeksData = players.map(function(d) {return d.Sum});
+  var totalDeath = players.map(function(d) {return d.TotalDeath});
   var playerColors = players.map(function(d) {return d.New === '' ? '#19A0AA' : '#F15F36' ;});
 
   var chart = new Chart('chart', {
@@ -13,9 +17,14 @@ function makeChart(players) {
       datasets: [
         {
           data: weeksData,
-          backgroundColor: playerColors,
+          backgroundColor: '#19A0AA',
           label: '确诊人数',
-        }
+        },
+        {
+          data: totalDeath,
+          backgroundColor: '#F15F36',
+          label: '死亡人数',
+        },
       ]
     },
     options: {
@@ -33,6 +42,7 @@ function makeChart(players) {
         xAxes: [{
           //type: 'time',
           time: {
+							    // parser: timeFormat,
                   unit: 'day'
               },
           stacked: true
