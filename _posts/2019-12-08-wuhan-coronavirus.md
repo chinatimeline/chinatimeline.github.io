@@ -30,3 +30,4 @@ hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 6. 财新网 [武汉新型冠状病毒肺炎大事记（2019年12月—2020年1月20日）](http://www.caixin.com/2020-01-20/101506242.html)
 7. 163 [肺炎疫情时事动态播报](https://news.163.com/special/epidemic/?spssid=7283291fcdba1d8c2d13ee3da2cfb760&spsw=7&spss=other)
 8. 人民日报客户端 [新型肺炎疫情实时](https://activity.peopleapp.com/broadcast/)
+9. 美国疾病控制与预防中心(CDC) [2019 Novel Coronavirus, Wuhan, China](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
