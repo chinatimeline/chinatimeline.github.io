@@ -34,7 +34,7 @@ navigation:
     url: https://github.com/chinatimeline/data
 
 # Pagination
-paginate: 25
+paginate: 12
 
 # Includes an icon in the footer for each username you enter
 footer-links:
