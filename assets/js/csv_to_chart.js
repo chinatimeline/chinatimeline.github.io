@@ -16,7 +16,7 @@ function makeChart(players) {
   var weeksData = players.map(function(d) {return d.Sum});
   var totalDeath = players.map(function(d) {return d.TotalDeath});
   var playerColors = players.map(function(d) {return d.New === '' ? '#19A0AA' : '#F15F36' ;});
-  var playerDates = players.map(function(d) {return SerialDateToJSDate(d.Date, 8).toLocaleDateString("en-US")});
+  var playerDates = players.map(function(d) {return SerialDateToJSDate(d.Date -1, 8).toLocaleDateString("en-US")});
 
   var chart = new Chart('chart', {
     type: 'line',
@@ -52,7 +52,7 @@ function makeChart(players) {
 							    parser: timeFormat,
                   unit: 'day'
               },
-          stacked: true
+          //stacked: true
         }],
         yAxes: [{
           //stacked: true
