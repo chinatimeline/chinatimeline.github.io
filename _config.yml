@@ -24,6 +24,8 @@ navigation:
     url: /
   - name: 关于
     url: /about
+  - name: FAQ
+    url: /faq
   - name: 留言
     url: https://chinatimeline.github.io/submit
   - name: 参与
