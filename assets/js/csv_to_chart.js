@@ -38,7 +38,7 @@ function makeChart(players) {
     options: {
       title: {
         display: true,
-        text: '中国大陆2019-nCoV肺炎病毒感染统计 2019-12-08 至今'
+        text: '中国2019-nCoV肺炎病毒感染统计 2019-12-08 至今'
       },
       tooltips: {
         mode: 'index',
