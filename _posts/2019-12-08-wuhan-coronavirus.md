@@ -11,7 +11,7 @@ comments: true
 hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 ---
 
-武汉新型肺炎的时间线。确诊和死亡人数请在[这里](https://ethercalc.org/w2gfa2jtho6c)编辑。
+武汉新型肺炎的时间线。确诊和死亡人数请在[这里](https://ethercalc.org/w2gfa2jtho6c)编辑，欢迎本页底补充各种小道大道消息（无需注册）。
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
