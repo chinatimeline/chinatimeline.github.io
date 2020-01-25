@@ -4,15 +4,17 @@ d3.csv('https://ethercalc.org/w2gfa2jtho6c.csv')
 function makeChart(players) {
   var playerLabels = players.map(function(d) {return d.Date});
   var weeksData = players.map(function(d) {return d.Sum});
+  var playerColors = players.map(function(d) {return d.New === '' ? '#19A0AA' : '#F15F36' ;});
 
   var chart = new Chart('chart', {
     type: 'bar',
     data: {
       labels: playerLabels,
-      label: '确诊',
       datasets: [
         {
-          data: weeksData
+          data: weeksData,
+          backgroundColor: playerColors,
+          label: '确诊人数',
         }
       ]
     },
