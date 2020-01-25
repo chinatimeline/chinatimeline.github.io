@@ -31,3 +31,10 @@ comments: true
 - [Vinsep](https://www.reddit.com/u/Vinsep) 内容提交、推广
 - [aforwardboot](https://www.reddit.com/user/aforwardboot/) 内容提交
 - [zhangrunxu](https://github.com/zhangrunxu) 文档
+
+### FAQ
+#### 1. 你的项目某一天凭空消失了怎么办？
+很简单，你去gitlab或github或bitbucket等代码托管平台建立一个镜像仓库，方法请见[gitlab的教程](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html)，本项目任何改动都会时事同步到你的镜像仓库。即便某一天本仓库消失了，你也拥有完整的备份。
+
+#### 2. 如何保证你的网站是安全的？
+本站采用的所有组件一律以是否被uBlockOrigin（默认配置）阻拦请求为准。uBlockOrigin是https://www.privacytools.io推荐的隐私保护插件，安装方法见页脚链接。
