@@ -26,6 +26,7 @@ hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 4. Wikipedia [Timeline of Wuhan Coronavirus Outbreak](https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_Wuhan_coronavirus_outbreak)
 5. 编程随想 [每周转载：“武汉疫情”爆发的时间线——【政府失职】堪比“非典/SARS”时期](https://program-think.blogspot.com/2020/01/weekly-share-141.html)
 6. 财新网 [武汉新型冠状病毒肺炎大事记（2019年12月—2020年1月20日）](http://www.caixin.com/2020-01-20/101506242.html)
+10. 第一财经 [新型冠状病毒感染肺炎疫情地图](https://m.yicai.com/news/100476965.html)
 7. 163 [肺炎疫情时事动态播报](https://news.163.com/special/epidemic/?spssid=7283291fcdba1d8c2d13ee3da2cfb760&spsw=7&spss=other)
 8. 人民日报客户端 [新型肺炎疫情实时](https://activity.peopleapp.com/broadcast/)
 3. [CNN](https://www.cnn.com/asia/live-news/coronavirus-outbreak-hnk-intl-01-25-20/index.html)
