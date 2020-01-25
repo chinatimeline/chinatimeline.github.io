@@ -3,7 +3,7 @@ layout: story
 title: 武汉肺炎
 tags: [武汉肺炎, 新型冠状病毒, 2019-nCoV]
 permalink: /wuhan-coronavirus/
-teaser: https://raw.githubusercontent.com/chinatimeline/chinatimeline.github.io/master/images/wuhan-coronavirus.jpg
+teaser: https://upload.wikimedia.org/wikipedia/commons/a/a4/2019-nCoV_Outbreak_World_Map.svg
 slug: 武汉肺炎
 order: false
 submit: true
@@ -20,6 +20,7 @@ hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/csv_to_chart.js"></script>
 
+![全球爆发情况](https://upload.wikimedia.org/wikipedia/commons/a/a4/2019-nCoV_Outbreak_World_Map.svg)
 
 1. 世界卫生组织 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
 2. 中文维基百科[新型冠状病毒肺炎全球疫情病例](https://zh.wikipedia.org/zh-hans/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B)
