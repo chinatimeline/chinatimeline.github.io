@@ -44,7 +44,7 @@ function makeChart(players) {
     options: {
       title: {
         display: true,
-        text: '中国2019-nCoV肺炎病毒感染统计 2019-12-08 至今'
+        text: '中国2019-nCoV肺炎病毒感染统计 (对数坐标)'
       },
       tooltips: {
         mode: 'index',
@@ -61,6 +61,7 @@ function makeChart(players) {
           //stacked: true
         }],
         yAxes: [{
+          type: 'logarithmic',
           //stacked: true
         }]
       }

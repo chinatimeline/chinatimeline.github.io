@@ -20,7 +20,11 @@ hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 
 <script src="{{ site.url }}{{ site.baseurl }}/assets/js/csv_to_chart.js"></script>
 
+说明：传染病初期应该是按照指数增长，对应到对数坐标应该是直线，如果不是说明数据有控制/篡改。
+
+
 ![全球爆发情况](https://upload.wikimedia.org/wikipedia/commons/a/a4/2019-nCoV_Outbreak_World_Map.svg)
+(Wikipedia: )
 
 1. 中文维基百科[新型冠状病毒肺炎全球疫情病例](https://zh.wikipedia.org/zh-hans/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B)
 4. Wikipedia [Timeline of Wuhan Coronavirus Outbreak](https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_Wuhan_coronavirus_outbreak)
@@ -32,3 +36,5 @@ hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 3. [CNN](https://www.cnn.com/asia/live-news/coronavirus-outbreak-hnk-intl-01-25-20/index.html)
 9. 美国疾病控制与预防中心(CDC) [2019 Novel Coronavirus, Wuhan, China](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
 1. 世界卫生组织 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
+
+信息来源 https://ethercalc.org/4vc3qloe4sm2
