@@ -26,16 +26,19 @@ function makeChart(players) {
       datasets: [
         {
           data: weeksData,
+          lineTension: 0,
           borderColor: '#19A0AA',
           label: '确诊人数',
         },
         {
           data: totalDeath,
+          lineTension: 0,
           borderColor: '#F15F36',
           label: '死亡人数',
         },
         {
           data: totalCure,
+          lineTension: 0,
           borderColor: '#64f30e',
           label: '治愈人数',
         },
