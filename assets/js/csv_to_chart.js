@@ -15,6 +15,7 @@ function makeChart(players) {
   var playerLabels = players.map(function(d) {return d.Date});
   var weeksData = players.map(function(d) {return d.Sum});
   var totalDeath = players.map(function(d) {return d.TotalDeath});
+  var totalCure = players.map(function(d) {return d.TotalCure});
   var playerColors = players.map(function(d) {return d.New === '' ? '#19A0AA' : '#F15F36' ;});
   var playerDates = players.map(function(d) {return SerialDateToJSDate(d.Date -1, 8).toLocaleDateString("en-US")});
 
@@ -32,6 +33,11 @@ function makeChart(players) {
           data: totalDeath,
           borderColor: '#F15F36',
           label: '死亡人数',
+        },
+        {
+          data: totalCure,
+          borderColor: '#64f30e',
+          label: '治愈人数',
         },
       ]
     },
