@@ -21,18 +21,18 @@ chart:
         stacked: false
         xCol: Date
     datasets:
+        疑似病例:
+            borderColor: '#f9bc0a'
+            Col: TotalSuspect
+        确诊人数:
+            borderColor: '#19A0AA'
+            Col: Sum
         死亡人数:
             borderColor: '#F15F36'
             Col: TotalDeath
         治愈人数:
             borderColor: '#64f30e'
             Col: TotalCure
-        确诊人数:
-            borderColor: '#19A0AA'
-            Col: Sum
-        疑似病例:
-            borderColor: '#f9bc0a'
-            Col: TotalSuspect
 ---
 
 武汉新型肺炎的时间线。确诊和死亡人数请在[这里](https://ethercalc.org/w2gfa2jtho6c){:target="_blank"}编辑，欢迎本页底补充各种小道大道消息（无需注册）。
