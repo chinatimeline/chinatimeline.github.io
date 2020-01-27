@@ -7,7 +7,7 @@
     .then(makeChart);
 
   var timeFormat = 'YYYY-MM-DD';
-  var tzoffset = (new Date()).getTimezoneOffset() * 60000;
+  var tzoffset = ((new Date()).getTimezoneOffset() - 8*60) * 60000;
   var today = new Date(Date.now() - tzoffset);
 
   Chart.defaults.line.spanGaps = true;
@@ -19,6 +19,7 @@
   function makeChart(players) {
     var playerDates = players.map(function(d) {return SerialDateToJSDate(d.{{ page.chart.xAxes.xCol }} -1, 8).toISOString().substring(0, 10)});
     var playerMark = today.toISOString().substring(0,10);
+    var playerNow  = today.toISOString().substring(0,19);
 
     {% for dataset in page.chart.datasets %}
     var {{ dataset[1].Col }} = players.map(function(d) {return d.{{ dataset[1].Col }}});
@@ -64,7 +65,7 @@
             stacked: {{ page.chart.xAxes.stacked }},
             scaleLabel: {
                   display: true,
-                  labelString: '日期(End of Day)',
+                  labelString: '日期(UTC+8, End of Day)',
                   fontStyle: 'bold'
                 },
           }],
@@ -80,11 +81,12 @@
                 mode: "vertical",
                 scaleID: "x-axis-0",
                 value: playerMark,
-                borderColor: "red",
+                borderColor: "#900C3F",
+                borderDash: [10,3],
                 label: {
-                  content: "今日(UTC+8)",
+                  content: "今天: ".concat(playerMark),
                   enabled: true,
-                  position: "bottom"
+                  position: "top"
                 }
               }
             ]
