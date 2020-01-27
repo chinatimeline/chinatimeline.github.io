@@ -5,6 +5,11 @@
     {% include nav.html %}
 
     {% if page.chart %}{% include chartjs.html %}{% endif %}
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+          TeX: { equationNumbers: { autoNumber: "AMS" } }
+        });
+    </script>
 
     <div id="main" role="main" class="container">
       {{ content }}

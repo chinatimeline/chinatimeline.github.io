@@ -8,6 +8,8 @@
 
   var timeFormat = 'YYYY-MM-DD';
 
+  Chart.defaults.line.spanGaps = true;
+
   function SerialDateToJSDate(serialDate, offsetUTC) {
     return new Date(Date.UTC(0, 0, serialDate, offsetUTC));
   }
@@ -18,6 +20,7 @@
     {% for dataset in page.chart.datasets %}
     var {{ dataset[1].Col }} = players.map(function(d) {return d.{{ dataset[1].Col }}});
     {% endfor %}
+
 
     var chart = new Chart('chart', {
       type: 'line',
@@ -30,6 +33,10 @@
             lineTension: 0,
             borderColor: '{{ dataset[1].borderColor }}',
             label: '{{dataset[0]}}',
+            {% if dataset[1].fill == false %}fill: {{ dataset[1].fill }},{% endif %}
+            spanGaps: true,
+            borderWidth: {{ dataset[1].borderWidth }},
+            {% if dataset[1].borderDash %}borderDash: {{ dataset[1].borderDash }},{% endif %}
           },
           {% endfor %}
         ]
@@ -41,7 +48,7 @@
         },
         tooltips: {
           mode: 'index',
-          intersect: false
+          intersect: false,
         },
         responsive: true,
         scales: {
