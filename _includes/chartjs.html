@@ -13,7 +13,7 @@
   }
 
   function makeChart(players) {
-    var playerDates = players.map(function(d) {return SerialDateToJSDate(d.{{ page.chart.xAxes.xCol }} -1, 8).toLocaleDateString("en-US")});
+    var playerDates = players.map(function(d) {return SerialDateToJSDate(d.{{ page.chart.xAxes.xCol }} -1, 8).toISOString().substring(0, 10)});
 
     {% for dataset in page.chart.datasets %}
     var {{ dataset[1].Col }} = players.map(function(d) {return d.{{ dataset[1].Col }}});
@@ -54,7 +54,8 @@
             stacked: {{ page.chart.xAxes.stacked }},
             scaleLabel: {
                   display: true,
-                  labelString: '日期(End of Day)'
+                  labelString: '日期(End of Day)',
+                  fontStyle: 'bold'
                 },
           }],
           yAxes: [{
