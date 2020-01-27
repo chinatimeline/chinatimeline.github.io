@@ -1,12 +1,14 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
-
+<script src="https://cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.5/chartjs-plugin-annotation.js"></script>
 <script>
 /* post pagination keyboard shortcuts */
   d3.csv('{{ page.chart.csv }}')
     .then(makeChart);
 
   var timeFormat = 'YYYY-MM-DD';
+  var tzoffset = (new Date()).getTimezoneOffset() * 60000;
+  var today = new Date(Date.now() - tzoffset);
 
   Chart.defaults.line.spanGaps = true;
 
@@ -16,6 +18,7 @@
 
   function makeChart(players) {
     var playerDates = players.map(function(d) {return SerialDateToJSDate(d.{{ page.chart.xAxes.xCol }} -1, 8).toISOString().substring(0, 10)});
+    var playerMark = today.toISOString().substring(0,10);
 
     {% for dataset in page.chart.datasets %}
     var {{ dataset[1].Col }} = players.map(function(d) {return d.{{ dataset[1].Col }}});
@@ -69,7 +72,23 @@
             type: '{{ page.chart.yAxes.type }}',
             stacked: {{ page.chart.yAxes.stacked }}
           }]
-        }
+        },
+          annotation: {
+            annotations: [
+              {
+                type: "line",
+                mode: "vertical",
+                scaleID: "x-axis-0",
+                value: playerMark,
+                borderColor: "red",
+                label: {
+                  content: "今日(UTC+8)",
+                  enabled: true,
+                  position: "bottom"
+                }
+              }
+            ]
+          }
       }
     });
   }
