@@ -47,12 +47,11 @@ chart:
 
 说明：传染病初期应该是按照指数增长，对应到对数坐标应该是直线，如果不是说明数据有控制/篡改。
 
-
-![全球爆发情况](https://upload.wikimedia.org/wikipedia/commons/a/a4/2019-nCoV_Outbreak_World_Map.svg)
-(Wikipedia: )
+<iframe src="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR28KKIC3qBUIuUItThw1MqJW96mAY6qvNc0FJaY_XETI4T_M9FbTkqdcRw#/bda7594740fd40299423467b48e9ecf6" width="100%" height="780px"></iframe>
 
 1. 中文维基百科[新型冠状病毒肺炎全球疫情病例](https://zh.wikipedia.org/zh-hans/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B)
 4. Wikipedia [Timeline of Wuhan Coronavirus Outbreak](https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_Wuhan_coronavirus_outbreak)
+11. [Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE)](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR28KKIC3qBUIuUItThw1MqJW96mAY6qvNc0FJaY_XETI4T_M9FbTkqdcRw#/bda7594740fd40299423467b48e9ecf6)
 5. 编程随想 [每周转载：“武汉疫情”爆发的时间线——【政府失职】堪比“非典/SARS”时期](https://program-think.blogspot.com/2020/01/weekly-share-141.html)
 6. 财新网 [武汉新型冠状病毒肺炎大事记（2019年12月—2020年1月20日）](http://www.caixin.com/2020-01-20/101506242.html)
 10. 第一财经 [新型冠状病毒感染肺炎疫情地图](https://m.yicai.com/news/100476965.html)
