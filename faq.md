@@ -11,6 +11,9 @@ comments: true
 #### 如何保证你的网站是安全的？
 本站采用的所有组件一律以是否被[uBlockOrigin](https://github.com/gorhill/uBlock)（默认配置）阻拦请求为准，如果未来某一天本站使用的某个插件被uBlockOrigin屏蔽，本站会将其移除。uBlockOrigin是[PrivacyTools.io](https://www.privacytools.io)推荐的隐私保护插件，安装方法见页脚链接。强烈推荐用[Tor Browser](https://www.torproject.org/download/)/[Whonix](https://www.whonix.org/)/[Tails OS](https://tails.boum.org)浏览一切政治相关网站，功夫下在自己电脑上才能保证安全。
 
+#### 谁在搜集数据？数据靠谱吗？
+本项目本身的目的是由广大观众通过众筹的模式搜集数据，不过截止2020-01-28日为止绝大部分数据都由站方搜集，不超过2%的数据来自网友提交，未来目标是提高网友提交比例。
+
 #### 中国时间线项目某一天凭空消失了怎么办，我的努力岂不是都白费了？
 很简单，去gitlab/github/bitbucket等代码托管平台建立本项目的镜像仓库，方法请见[gitlab的教程](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html)，本项目任何改动都会实时同步到你的镜像仓库。即便某一天本项目消失了，你也拥有完整的备份。
 
