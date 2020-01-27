@@ -45,10 +45,16 @@ chart:
 
 <canvas id="chart"></canvas>
 
-说明：传染病初期应该是按照指数增长，对应到对数坐标应该是直线，如果不是说明数据有控制/篡改。
+**说明**
+1. 2019-nCov病毒是在2020年1月9日从实验室分离出来，此日期之前的病例都被归类为疑似病例。
+2. 自1月16日起到目前为止，官方公布的确诊和死亡人数都呈指数增长（病毒式传播、指数传播、爆炸式传播），在对数坐标下呈直线。对数坐标下斜率约0.1814/日（每10日涨约65倍）。
+3. 确诊和死亡人数在对数y坐标下基本平行，说明目前并未有效控制传播的手段，也无有效的治疗手段。未来如果这两条线中任意一条斜率减小，说明预防或治疗条件得到改善，疫情控制有所改善。
+4. 疑似病例数量不是每日新增疑似病例数量的累加，因为有被确诊或确诊不是新型冠状病毒，以官方公布数据为准。
+5. 数据来自多处整合，见以下。
 
 <iframe src="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR28KKIC3qBUIuUItThw1MqJW96mAY6qvNc0FJaY_XETI4T_M9FbTkqdcRw#/bda7594740fd40299423467b48e9ecf6" width="100%" height="780px"></iframe>
 
+**参考资料**
 1. 中文维基百科[新型冠状病毒肺炎全球疫情病例](https://zh.wikipedia.org/zh-hans/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B)
 4. Wikipedia [Timeline of Wuhan Coronavirus Outbreak](https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_Wuhan_coronavirus_outbreak)
 11. [Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE)](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR28KKIC3qBUIuUItThw1MqJW96mAY6qvNc0FJaY_XETI4T_M9FbTkqdcRw#/bda7594740fd40299423467b48e9ecf6)
@@ -60,7 +66,3 @@ chart:
 3. [CNN](https://www.cnn.com/asia/live-news/coronavirus-outbreak-hnk-intl-01-25-20/index.html)
 9. 美国疾病控制与预防中心(CDC) [2019 Novel Coronavirus, Wuhan, China](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
 1. 世界卫生组织 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
-
-信息来源 https://ethercalc.org/4vc3qloe4sm2
-
-https://ethercalc.org/jxugaeys3z86
