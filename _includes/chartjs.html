@@ -1,0 +1,65 @@
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+
+<script>
+/* post pagination keyboard shortcuts */
+  d3.csv('{{ page.chart.csv }}')
+    .then(makeChart);
+
+  var timeFormat = 'YYYY-MM-DD';
+
+  function SerialDateToJSDate(serialDate, offsetUTC) {
+    return new Date(Date.UTC(0, 0, serialDate, offsetUTC));
+  }
+
+  function makeChart(players) {
+    var playerDates = players.map(function(d) {return SerialDateToJSDate(d.{{ page.chart.xAxes.xCol }} -1, 8).toLocaleDateString("en-US")});
+
+    {% for dataset in page.chart.datasets %}
+    var {{ dataset[1].Col }} = players.map(function(d) {return d.{{ dataset[1].Col }}});
+    {% endfor %}
+
+    var chart = new Chart('chart', {
+      type: 'line',
+      data: {
+        labels: playerDates,
+        datasets: [
+          {% for dataset in page.chart.datasets %}
+          {
+            data: {{ dataset[1].Col }},
+            lineTension: 0,
+            borderColor: '{{ dataset[1].borderColor }}',
+            label: '{{dataset[0]}}',
+          },
+          {% endfor %}
+        ]
+      },
+      options: {
+        title: {
+          display: true,
+          text: '{{ page.chart.title }}'
+        },
+        tooltips: {
+          mode: 'index',
+          intersect: false
+        },
+        responsive: true,
+        scales: {
+          xAxes: [{
+            //type: 'time',
+            time: {
+                    parser: timeFormat,
+                    unit: 'day'
+                },
+            stacked: {{ page.chart.xAxes.stacked }}
+          }],
+          yAxes: [{
+            type: '{{ page.chart.yAxes.type }}',
+            stacked: {{ page.chart.yAxes.stacked }}
+          }]
+        }
+      }
+    });
+  }
+
+</script>

@@ -4,6 +4,8 @@
   <body>
     {% include nav.html %}
 
+    {% if page.chart %}{% include chartjs.html %}{% endif %}
+
     <div id="main" role="main" class="container">
       {{ content }}
     </div>

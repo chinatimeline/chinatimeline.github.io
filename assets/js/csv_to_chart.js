@@ -3,9 +3,6 @@ d3.csv('https://ethercalc.org/w2gfa2jtho6c.csv')
 
 var timeFormat = 'YYYY-MM-DD';
 
-function ExcelDateToJSDate(date) {
-  return new Date(Math.round((date - 25569)*86400*1000));
-}
 
 function SerialDateToJSDate(serialDate, offsetUTC) {
   return new Date(Date.UTC(0, 0, serialDate, offsetUTC));

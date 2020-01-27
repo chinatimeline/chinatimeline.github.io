@@ -9,16 +9,41 @@ order: false
 submit: true
 comments: true
 hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
+chart:
+    csv: https://ethercalc.org/w2gfa2jtho6c.csv
+    title: 中国2019-nCoV肺炎病毒感染统计 (对数坐标)
+    lineTension: 0
+    type: line
+    yAxes:
+        type: logarithmic
+        stacked: false
+    xAxes:
+        stacked: false
+        xCol: Date
+    datasets:
+        死亡人数:
+            borderColor: '#F15F36'
+            Col: TotalDeath
+        治愈人数:
+            borderColor: '#64f30e'
+            Col: TotalCure
+        确诊人数:
+            borderColor: '#19A0AA'
+            Col: Sum
+        疑似病例:
+            borderColor: '#f9bc0a'
+            Col: TotalSuspect
 ---
 
 武汉新型肺炎的时间线。确诊和死亡人数请在[这里](https://ethercalc.org/w2gfa2jtho6c){:target="_blank"}编辑，欢迎本页底补充各种小道大道消息（无需注册）。
 
+<!--
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
+<script src="{{ site.url }}{{ site.baseurl }}/assets/js/csv_to_chart.js"></script>
+-->
 
 <canvas id="chart"></canvas>
-
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/csv_to_chart.js"></script>
 
 说明：传染病初期应该是按照指数增长，对应到对数坐标应该是直线，如果不是说明数据有控制/篡改。
 
@@ -38,3 +63,5 @@ hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 1. 世界卫生组织 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
 
 信息来源 https://ethercalc.org/4vc3qloe4sm2
+
+https://ethercalc.org/jxugaeys3z86
