@@ -38,13 +38,13 @@ chart:
             Col: TotalRecovered
             borderWidth: 2
             fill: true
-        预测确诊:
+        投射确诊:
             borderColor: '#19A0AA'
             Col: ForecastConfirmed
             borderWidth: 1
             fill: false
             borderDash: '[2,2]'
-        预测死亡:
+        投射死亡:
             borderColor: '#F15F36'
             Col: ForecastDeaths
             borderWidth: 1
@@ -68,7 +68,7 @@ chart:
 3. 确诊和死亡人数在对数y坐标下基本平行，说明目前并未有效控制传播的手段，也无有效的治疗手段。未来如果这两条线中任意一条斜率减小说明预防或治疗条件得到改善，疫情控制有所改善，反之若斜率增大说明传播力度增强或致死率提高（比如更强的变异病毒出现）。
 4. 疑似病例数量不是每日新增疑似病例数量的累加，因为有被确诊或确诊不是新型冠状病毒，以官方公布数据为准。
 5. 数据来自多处整合，见以下。
-6. 预测是基于1月16日至1月27日的数据的线性回归。
+6. 确诊和死亡人数的未来投射是基于1月16日至1月27日的数据的在对数坐标下的线性回归，仅为衡量疫情发展速度是否变化的参考，不含任何医学专业知识。
 7. 点击图例可以开关对应曲线。
 
 <iframe src="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR28KKIC3qBUIuUItThw1MqJW96mAY6qvNc0FJaY_XETI4T_M9FbTkqdcRw#/bda7594740fd40299423467b48e9ecf6" width="100%" height="780px"></iframe>
