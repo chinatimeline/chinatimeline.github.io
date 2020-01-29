@@ -34,6 +34,7 @@ chart:
             borderColor: '#808000'
             Col: HubeiTotalConfirmed
             borderWidth: 1
+            fill: false
         死亡人数:
             borderColor: '#F15F36'
             Col: TotalDeaths
@@ -42,7 +43,7 @@ chart:
             borderColor: '#64f30e'
             Col: TotalRecovered
             borderWidth: 2
-            fill: true
+            fill: false
         投射确诊:
             borderColor: '#19A0AA'
             Col: ForecastConfirmed
