@@ -41,6 +41,7 @@
             spanGaps: true,
             borderWidth: {{ dataset[1].borderWidth }},
             {% if dataset[1].borderDash %}borderDash: {{ dataset[1].borderDash }},{% endif %}
+            {% if dataset[1].hidden == true %}hidden: {{ dataset[1].hidden }},{% endif %}
           },
           {% endfor %}
         ]
@@ -86,7 +87,7 @@
                 label: {
                   content: "今天: ".concat(playerMark),
                   enabled: true,
-                  position: "top"
+                  position: "bottom"
                 }
               }
             ]

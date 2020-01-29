@@ -25,10 +25,15 @@ chart:
             borderColor: '#f9bc0a'
             Col: TotalSuspected
             borderWidth: 2
+            hidden: true
         确诊人数:
             borderColor: '#19A0AA'
             Col: TotalConfirmed
             borderWidth: 2
+        湖北确诊:
+            borderColor: '#808000'
+            Col: HubeiTotalConfirmed
+            borderWidth: 1
         死亡人数:
             borderColor: '#F15F36'
             Col: TotalDeaths
