@@ -3,7 +3,7 @@ layout: story
 title: 武汉肺炎疫情
 tags: [武汉肺炎, 新型冠状病毒, 2019-nCoV]
 permalink: /wuhan-coronavirus/
-teaser: https://upload.wikimedia.org/wikipedia/commons/a/a4/2019-nCoV_Outbreak_World_Map.svg
+teaser: https://i.imgur.com/UEZcTxE.jpg
 slug: 武汉肺炎
 order: false
 submit: true
