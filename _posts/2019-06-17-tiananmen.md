@@ -23,3 +23,5 @@ hitcounterid: bnd1kumqmkk46jsqm6138nbgrs3uzgpr
 3. [维基百科 六四事件](https://zh.wikipedia.org/zh/%E5%85%AD%E5%9B%9B%E4%BA%8B%E4%BB%B6)
 4. [封从德《六四日记：广场上的共和国》](https://www.rfa.org/mandarin/zhuanlan/wenxuejinqu-cite/liusiriji)
 5. 禁书网 [六四屠城图片全览](https://www.bannedbook.org/books/64photo/1.html)
+
+![本页URL二维码](https://i.imgur.com/iPjpHL8.png)

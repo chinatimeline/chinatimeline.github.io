@@ -17,3 +17,5 @@ hitcounterid: saf1wg149z6n89nwcxqcpzfy9lptuhdb
 **说明**：
 1. X轴代表事件发生日期，Y轴代表事件发生日是于星期几。
 2. 单击图例可隐藏该类别事件，双击图例可单独显示该类别事件。
+
+![本页URL二维码](https://i.imgur.com/ZNjwya8.png)

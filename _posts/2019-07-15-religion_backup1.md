@@ -20,3 +20,5 @@ hitcounterid: 6k4jrx2zq5js6teu2zullmrcw1mcr3tk
 1. X轴代表事件发生日期，Y轴代表事件发生日是于星期几，建议手机用户横屏观看并刷新。
 2. 单击图例可隐藏该类别事件，双击图例可单独显示该类别事件。
 3. 如互动图显示402代表已达每日500次点击限制，请点击[备份1](/religion_tl1), [备份2](/religion_tl2), [备份3](/religion_tl3), [备份4](/religion_tl4)。
+
+![本页URL二维码](https://i.imgur.com/MaUPMgu.png)
