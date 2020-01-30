@@ -90,6 +90,7 @@ chart:
 5. 编程随想 [每周转载：“武汉疫情”爆发的时间线——【政府失职】堪比“非典/SARS”时期](https://program-think.blogspot.com/2020/01/weekly-share-141.html)
 6. 财新网 [武汉新型冠状病毒肺炎大事记（2019年12月—2020年1月20日）](http://www.caixin.com/2020-01-20/101506242.html)
 8. 人民日报客户端 [新型肺炎疫情实时](https://activity.peopleapp.com/broadcast/)
+13. 顶级医学期刊《柳叶刀》杂志提供的武汉肺炎新型冠状病毒资源中心[The Lancet 2019-nCoV Resource Centre](https://www.thelancet.com/coronavirus) 
 3. [CNN](https://www.cnn.com/asia/live-news/coronavirus-outbreak-hnk-intl-01-25-20/index.html)
 9. 美国疾病控制与预防中心(CDC) [2019 Novel Coronavirus, Wuhan, China](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
 1. 世界卫生组织 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
