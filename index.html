@@ -2,22 +2,24 @@
 layout: default
 ---
 
+<script src="{{ site.baseurl }}/assets/js/responsive-equal-width.js"></script>
+
 {% if site.posts.size == 0 %}
   <h2>No post found</h2>
 {% endif %}
 
 <div class="posts">
-
+  <section class="main">
   {% for post in paginator.posts %}
     {% if post.layout != "page" %}
-    <div class="col-3 col-s-6">
+    <div class="col-3 col-s-6"><!-- col-3 col-s-6 -->
       <div class="container-div">
        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.teaser }}" alt="{{ post.title }}" style="width:100%;"></a>
       </div>
       <article class="post">
-      <h2>
-        <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-      </h2>
+        <h2>
+          <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+        </h2>
 
       <div>
         <!-- <span class="date">
@@ -56,7 +58,7 @@ layout: default
     </div>
     {% endif %}
   {% endfor %}
-
+  </section>
 </div>
 
 <div class="pagination">
