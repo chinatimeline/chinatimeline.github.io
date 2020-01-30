@@ -12,49 +12,51 @@ layout: default
   <section class="main">
   {% for post in paginator.posts %}
     {% if post.layout != "page" %}
-    <div class="col-3 col-s-6"><!-- col-3 col-s-6 -->
+    <div class="col-3 col-s-6">
       <div class="container-div">
        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.teaser }}" alt="{{ post.title }}" style="width:100%;"></a>
       </div>
+
       <article class="post">
         <h2>
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </h2>
 
-      <div>
-        <!-- <span class="date">
-          {{ post.date | date: "%Y-%m-%d" }}
-        </span> -->
+        <div>
+          <!-- <span class="date">
+            {{ post.date | date: "%Y-%m-%d" }}
+          </span> -->
 
-        <!-- Look the author details up from the site config. -->
-        {% assign author = site.data.authors[post.author] %}
+          <!-- Look the author details up from the site config. -->
+          {% assign author = site.data.authors[post.author] %}
 
-        {% if author %}
-            <span>
-                <!-- Personal Info. -->
-                作者: <a href="{{ author.web }}">{{ author.name }}</a>
-            </span>
-        {% endif %}
+          {% if author %}
+          <span>
+              <!-- Personal Info. -->
+              作者: <a href="{{ author.web }}">{{ author.name }}</a>
+          </span>
+          {% endif %}
 
-        <ul class="tag">
-          {% for tag in post.tags %}
-          <li>
-            <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
-              {{ tag }}
-            </a>
-          </li>
-          {% endfor %}
-        </ul>
+          <ul class="tag">
+            {% for tag in post.tags %}
+            <li>
+              <a href="{{ site.url }}{{ site.baseurl }}/tags#{{ tag }}">
+                {{ tag }}
+              </a>
+            </li>
+            {% endfor %}
+          </ul>
 
-      </div>
+        </div>
 
-      <!--
-      <div class="entry">
-        {{ post.excerpt }}
-      </div>
-      -->
+        <!--
+        <div class="entry">
+          {{ post.excerpt }}
+        </div>
+        -->
 
-    </article>
+      </article>
+
     </div>
     {% endif %}
   {% endfor %}
@@ -69,6 +71,7 @@ layout: default
       </a>
     </span>
   {% endif %}
+
   {% if paginator.next_page %}
     <span class="next">
       <a href="{{ site.baseurl}}{{ paginator.next_page_path }}" class="next">
@@ -80,5 +83,4 @@ layout: default
 
 {% include algolia.html %}
 
-
-    {% include boilerplate.html %}
+{% include boilerplate.html %}

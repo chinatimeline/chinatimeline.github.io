@@ -327,11 +327,6 @@ img {
   display: table;
 }
 
-.col-container {
-  display: flex;
-  width: 100%;
-}
-
 [class*="col-"] {
   float: left;
   padding: 15px;
