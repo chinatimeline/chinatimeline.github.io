@@ -56,6 +56,18 @@ chart:
             borderWidth: 1
             fill: false
             borderDash: '[2,2]'
+        投射确诊2:
+            borderColor: '#19A0AA'
+            Col: F2Confirmed
+            borderWidth: 1
+            fill: false
+            borderDash: '[5,3]'
+        投射死亡2:
+            borderColor: '#F15F36'
+            Col: F2Deaths
+            borderWidth: 1
+            fill: false
+            borderDash: '[5,3]'
 ---
 
 武汉新型肺炎的时间线，包含统计数字和新闻事件。确诊和死亡人数请在[这里](https://ethercalc.org/w2gfa2jtho6c){:target="_blank"}编辑，实时更新请交叉对比以下媒体:[腾讯](https://news.qq.com/zt2020/page/feiyan.htm)、[163](https://news.163.com/special/epidemic/?spssid=7283291fcdba1d8c2d13ee3da2cfb760&spsw=7&spss=other)、[一财](https://m.yicai.com/news/100476965.html)，每日由[国家卫健委](http://www.nhc.gov.cn/)、[新华网](http://www.xinhuanet.com/)发布的官方全国汇总，以及[中文维基](https://zh.wikipedia.org/zh-hans/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B)的历史数据。
@@ -90,7 +102,7 @@ chart:
 5. 编程随想 [每周转载：“武汉疫情”爆发的时间线——【政府失职】堪比“非典/SARS”时期](https://program-think.blogspot.com/2020/01/weekly-share-141.html)
 6. 财新网 [武汉新型冠状病毒肺炎大事记（2019年12月—2020年1月20日）](http://www.caixin.com/2020-01-20/101506242.html)
 8. 人民日报客户端 [新型肺炎疫情实时](https://activity.peopleapp.com/broadcast/)
-13. 顶级医学期刊《柳叶刀》杂志提供的武汉肺炎新型冠状病毒资源中心[The Lancet 2019-nCoV Resource Centre](https://www.thelancet.com/coronavirus) 
+13. 顶级医学期刊《柳叶刀》杂志提供的武汉肺炎新型冠状病毒资源中心[The Lancet 2019-nCoV Resource Centre](https://www.thelancet.com/coronavirus)
 3. [CNN](https://www.cnn.com/asia/live-news/coronavirus-outbreak-hnk-intl-01-25-20/index.html)
 9. 美国疾病控制与预防中心(CDC) [2019 Novel Coronavirus, Wuhan, China](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
 1. 世界卫生组织 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
