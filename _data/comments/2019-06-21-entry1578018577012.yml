@@ -1,12 +1,11 @@
 _id: e29c4100-2dd0-11ea-82fc-d77819851038
-topic: 反送中
+caption: null
 date: 2019-06-21
-title: 包圍警察總部
-significance: '5'
-event: >-
-   數以千計香港示威者先後圍堵數座特區政府主要大樓，包括警察總部，要求特首林鄭月娥正式撒回《逃犯條例》的修訂，並追究警民衝突期間警員涉嫌濫用暴力與職權行為。他們向大樓投擲雞蛋，又在外牆上寫上不滿警察的字句。
-url: 'https://www.bbc.com/zhongwen/trad/chinese-news-48717368'
-type: 香港社会
+event: 數以千計香港示威者先後圍堵數座特區政府主要大樓，包括警察總部，要求特首林鄭月娥正式撒回《逃犯條例》的修訂，並追究警民衝突期間警員涉嫌濫用暴力與職權行為。他們向大樓投擲雞蛋，又在外牆上寫上不滿警察的字句。
 image: https://1.bp.blogspot.com/-qvmZLWrBiwY/XWYYvA3BUVI/AAAAAAABdC0/mrCmRr972p85FGnKZudImHb9PLTC8HOUQCLcBGAs/s320/21-jun.jpg
-caption:
+significance: '5'
 submitTime: 1578018576
+title: 包圍警察總部
+topic: 反送中
+type: 香港社会
+url: https://www.bbc.com/zhongwen/trad/chinese-news-48717368

@@ -1,13 +1,11 @@
 _id: e29c4100-2dd0-11ea-82fc-d77819851038
-topic: 反送中
+caption: null
 date: 2019-05-24
-title: 歐盟發出外交照會
+event: 歐盟駐香港辦公室向香港政府發出外交照會，重申對修例的關注。中國外交部發言人回應，透露中方已經向相關國家提出交涉，要求他們不得干預香港內部事務。 同一天，香港立法會內務委員會接納政府建議，取消「鬧雙胞」的法案委員會，訂於6月12日恢復二讀辯論。
+image: null
 significance: '5'
-event: >-
-  歐盟駐香港辦公室向香港政府發出外交照會，重申對修例的關注。中國外交部發言人回應，透露中方已經向相關國家提出交涉，要求他們不得干預香港內部事務。
-  同一天，香港立法會內務委員會接納政府建議，取消「鬧雙胞」的法案委員會，訂於6月12日恢復二讀辯論。
-url: 'https://www.bbc.com/zhongwen/simp/chinese-news-48619305'
-type:  国际社会
-image: 
-caption:
 submitTime: 1578018576
+title: 歐盟發出外交照會
+topic: 反送中
+type: 国际社会
+url: https://www.bbc.com/zhongwen/simp/chinese-news-48619305

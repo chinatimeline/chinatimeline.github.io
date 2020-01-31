@@ -1,12 +1,14 @@
 _id: fbb2ba90-43fe-11ea-baf4-519b7acd2736
-topic: 武汉肺炎
-date: '2020-01-29'
-title: 中疾控论文复盘发现新冠去年12月或已人传人 早于武汉通报
-significance: '4'
-event: "1月29日，中国疾控中心副主任冯子健等45名医学专家在国际权威医学期刊《新英格兰医学杂志》联合发表《新型冠状病毒感染肺炎在中国武汉的初期传播动态》(Early Transmission Dynamics in Wuhan， China， of Novel Coronavirus–Infected Pneumonia)一文。\r\n\r\n![](https://i.imgur.com/NTW1LAW.jpg)\r\n\r\n最早两例发病于12月9日左右，均与华南海鲜批发市场不相关，即没有华南海鲜批发市场暴露史。论文中的一张图表是推论的关键：大多数早期病例均报告了华南海鲜批发市场暴露史，但从12月底开始，与华南海鲜市场不相关的病例便呈指数增长。研究还显示，在95%的置信区间内，新冠病毒的平均潜伏期为5.2天，2019年12月10日至2020年1月4日期间，病例倍增时间为7.4天。由一人传至另一人的平均间隔时间（serial interval）为7.5天，基本传染数估计为2.2，也就是说在自由传播环境中每例患者平均将感染传给另外2.2人。"
-url: >-
-  https://web.archive.org/web/20200131061931/http://www.caixin.com/2020-01-30/101509638.html
-type: 医学进展
-image: 'https://i.imgur.com/15TyNNO.jpg'
 caption: ''
+date: '2020-01-29'
+event: "1月29日，中国疾控中心副主任冯子健等45名医学专家在国际权威医学期刊《新英格兰医学杂志》联合发表《新型冠状病毒感染肺炎在中国武汉的初期传播动态》(Early\
+  \ Transmission Dynamics in Wuhan， China， of Novel Coronavirus–Infected Pneumonia)一文。\r\
+  \n\r\n![](https://i.imgur.com/NTW1LAW.jpg)\r\n\r\n最早两例发病于12月9日左右，均与华南海鲜批发市场不相关，即没有华南海鲜批发市场暴露史。论文中的一张图表是推论的关键：大多数早期病例均报告了华南海鲜批发市场暴露史，但从12月底开始，与华南海鲜市场不相关的病例便呈指数增长。研究还显示，在95%的置信区间内，新冠病毒的平均潜伏期为5.2天，2019年12月10日至2020年1月4日期间，病例倍增时间为7.4天。由一人传至另一人的平均间隔时间（serial\
+  \ interval）为7.5天，基本传染数估计为2.2，也就是说在自由传播环境中每例患者平均将感染传给另外2.2人。"
+image: https://i.imgur.com/15TyNNO.jpg
+significance: '4'
 submitTime: 1580457301
+title: 中疾控论文复盘发现新冠去年12月或已人传人 早于武汉通报
+topic: 武汉肺炎
+type: 医学进展
+url: https://web.archive.org/web/20200131061931/http://www.caixin.com/2020-01-30/101509638.html

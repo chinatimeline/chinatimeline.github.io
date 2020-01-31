@@ -1,14 +1,11 @@
 _id: fb804780-430f-11ea-acad-8382a9ed9283
-topic: 武汉肺炎
-date: '2020-01-03'
-title: 武汉卫计委发布通告病例增至44例
-significance: '5'
-event: >-
-  1月3日：武汉卫计委发布通告，符合条件病例增加至44 例，追踪121
-  名接触者。未发现明显人传人现象，未发现医务人员感染。已排除流感、禽流感、腺病毒感染等常见呼吸道疾病。
-url: >-
-  https://web.archive.org/web/20200103124833/http://wjw.wuhan.gov.cn/front/web/showDetail/2020010309017
-type: 官方消息
-image: ''
 caption: ''
+date: '2020-01-03'
+event: 1月3日：武汉卫计委发布通告，符合条件病例增加至44 例，追踪121 名接触者。未发现明显人传人现象，未发现医务人员感染。已排除流感、禽流感、腺病毒感染等常见呼吸道疾病。
+image: ''
+significance: '5'
 submitTime: 1580354651
+title: 武汉卫计委发布通告病例增至44例
+topic: 武汉肺炎
+type: 官方消息
+url: https://web.archive.org/web/20200103124833/http://wjw.wuhan.gov.cn/front/web/showDetail/2020010309017

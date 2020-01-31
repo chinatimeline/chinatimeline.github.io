@@ -1,12 +1,11 @@
 _id: e29c4100-2dd0-11ea-82fc-d77819851038
-topic: 反送中
+caption: null
 date: 2019-10-05
-title: 禁蒙面法
-significance: '5'
-event: >-
-  港府援引「緊急法」實施「禁止蒙面規例」，禁止示威者在公眾活動中蒙面，違者最高可監禁1年或罰款，引發民眾反彈，接連兩日有人蒙面上街遊行。一名便衣警員在元朗遭示威者圍毆，過程中開槍射中一名14歲少年大腿。
-url: 'https://www.bbc.com/zhongwen/trad/chinese-news-49931927'
-type: 香港政府
+event: 港府援引「緊急法」實施「禁止蒙面規例」，禁止示威者在公眾活動中蒙面，違者最高可監禁1年或罰款，引發民眾反彈，接連兩日有人蒙面上街遊行。一名便衣警員在元朗遭示威者圍毆，過程中開槍射中一名14歲少年大腿。
 image: https://web.archive.org/web/20191120142650/https://img5.cna.com.tw/www/WebPhotos/1024/20191006/900x600_578045217176.jpg
-caption:
+significance: '5'
 submitTime: 1578018576
+title: 禁蒙面法
+topic: 反送中
+type: 香港政府
+url: https://www.bbc.com/zhongwen/trad/chinese-news-49931927

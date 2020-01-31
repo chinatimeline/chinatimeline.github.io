@@ -1,12 +1,11 @@
 _id: e29c4100-2dd0-11ea-82fc-d77819851038
-topic: 反送中
+caption: null
 date: 2019-08-17
-title: 建制派第四次集會
-significance: '5'
-event: >-
-   建制派這次集會在添馬公園舉行，提出「七大訴求」，包括停暴力、勿擾民、止破壞等。集會原定一個半小時，但不足一個小時就結束。添馬公園面積相等約兩個多標準足球場，大會聲稱有47.6萬人出席，警方就指集會人數約10.8萬。
-url: 'https://www.bbc.com/zhongwen/trad/chinese-news-49382222'
-type:  香港社会
+event: 建制派這次集會在添馬公園舉行，提出「七大訴求」，包括停暴力、勿擾民、止破壞等。集會原定一個半小時，但不足一個小時就結束。添馬公園面積相等約兩個多標準足球場，大會聲稱有47.6萬人出席，警方就指集會人數約10.8萬。
 image: https://1.bp.blogspot.com/-ymhN284VTpg/XWYc1eVCA1I/AAAAAAABdE0/LZDppD-JxSgMOkmUwiHT8BlnTL51IGpLwCLcBGAs/s320/17-august.jpg
-caption:
+significance: '5'
 submitTime: 1578018576
+title: 建制派第四次集會
+topic: 反送中
+type: 香港社会
+url: https://www.bbc.com/zhongwen/trad/chinese-news-49382222

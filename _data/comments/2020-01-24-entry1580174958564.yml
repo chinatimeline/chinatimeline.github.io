@@ -1,14 +1,12 @@
 _id: 9a344920-416d-11ea-a28c-05b60d2563f6
-topic: 武汉肺炎
-date: '2020-01-24'
-title: 学者柳叶刀发文分析第一批41名确诊病例死亡率15%
-significance: '4'
-event: >-
-  As of Jan 22, 2020, 28 (68%) of 41 patients have been discharged and six (15%)
-  patients have died.
-url: >-
-  https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext
-type: 医学进展
-image: ''
 caption: ''
+date: '2020-01-24'
+event: As of Jan 22, 2020, 28 (68%) of 41 patients have been discharged and six (15%)
+  patients have died.
+image: ''
+significance: '4'
 submitTime: 1580174958
+title: 学者柳叶刀发文分析第一批41名确诊病例死亡率15%
+topic: 武汉肺炎
+type: 医学进展
+url: https://www.thelancet.com/journals/lancet/article/PIIS0140-6736(20)30183-5/fulltext
