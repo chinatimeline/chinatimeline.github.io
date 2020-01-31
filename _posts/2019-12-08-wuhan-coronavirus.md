@@ -21,12 +21,12 @@ chart:
         stacked: false
         xCol: Date
     datasets:
-        疑似病例:
+        疑似:
             borderColor: '#f9bc0a'
             Col: TotalSuspected
             borderWidth: 2
             hidden: true
-        确诊人数:
+        确诊:
             borderColor: '#19A0AA'
             Col: TotalConfirmed
             borderWidth: 2
@@ -35,11 +35,11 @@ chart:
             Col: HubeiTotalConfirmed
             borderWidth: 1
             fill: false
-        死亡人数:
+        死亡:
             borderColor: '#F15F36'
             Col: TotalDeaths
             borderWidth: 2
-        治愈人数:
+        治愈:
             borderColor: '#64f30e'
             Col: TotalRecovered
             borderWidth: 2
