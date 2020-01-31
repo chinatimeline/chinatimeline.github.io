@@ -44,13 +44,13 @@ chart:
             Col: TotalRecovered
             borderWidth: 2
             fill: false
-        投射确诊:
+        投射确诊1:
             borderColor: '#19A0AA'
             Col: ForecastConfirmed
             borderWidth: 1
             fill: false
             borderDash: '[2,2]'
-        投射死亡:
+        投射死亡1:
             borderColor: '#F15F36'
             Col: ForecastDeaths
             borderWidth: 1
