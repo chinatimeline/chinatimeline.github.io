@@ -34,14 +34,15 @@
           {% for dataset in page.chart.datasets %}
           {
             data: {{ dataset[1].Col }},
-            lineTension: 0,
-            borderColor: '{{ dataset[1].borderColor }}',
-            label: '{{dataset[0]}}',
-            {% if dataset[1].fill == false %}fill: {{ dataset[1].fill }},{% endif %}
             spanGaps: true,
-            borderWidth: {{ dataset[1].borderWidth }},
+            lineTension: 0,
+            label: '{{dataset[0]}}',
+            borderColor: '{{ dataset[1].borderColor }}',
+            {% if dataset[1].fill == false %}fill: {{ dataset[1].fill }},{% endif %}
+            {% if dataset[1].borderWidth %}borderWidth: {{ dataset[1].borderWidth }},{% endif %}
             {% if dataset[1].borderDash %}borderDash: {{ dataset[1].borderDash }},{% endif %}
-            {% if dataset[1].hidden == true %}hidden: {{ dataset[1].hidden }},{% endif %}
+            {% if dataset[1].hidden %}hidden: {{ dataset[1].hidden }},{% endif %}
+            {% if dataset[1].pointStyle %}pointStyle: '{{ dataset[1].pointStyle }}',{% endif %}
           },
           {% endfor %}
         ]
