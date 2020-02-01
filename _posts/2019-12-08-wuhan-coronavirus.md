@@ -11,7 +11,7 @@ comments: true
 hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 chart:
     csv: https://ethercalc.org/w2gfa2jtho6c.csv
-    title: 中国2019-nCoV肺炎病毒感染统计 (对数坐标)
+    title: 中国2019-nCoV肺炎病毒感染统计 (累计值+对数坐标)
     lineTension: 0
     type: line
     yAxes:
@@ -35,6 +35,11 @@ chart:
             Col: HubeiTotalConfirmed
             borderWidth: 1
             fill: false
+        国际确诊:
+            borderColor: '#800080'
+            Col: IntlTotalConfirmed
+            borderWidth: 2
+            fill: false
         死亡:
             borderColor: '#F15F36'
             Col: TotalDeaths
@@ -44,25 +49,25 @@ chart:
             Col: TotalRecovered
             borderWidth: 2
             fill: false
-        投射确诊1:
+        确诊R1:
             borderColor: '#19A0AA'
             Col: ForecastConfirmed
             borderWidth: 1
             fill: false
             borderDash: '[2,2]'
-        投射死亡1:
+        死亡R1:
             borderColor: '#F15F36'
             Col: ForecastDeaths
             borderWidth: 1
             fill: false
             borderDash: '[2,2]'
-        投射确诊2:
+        确诊R2:
             borderColor: '#19A0AA'
             Col: F2Confirmed
             borderWidth: 1
             fill: false
             borderDash: '[5,3]'
-        投射死亡2:
+        死亡R2:
             borderColor: '#F15F36'
             Col: F2Deaths
             borderWidth: 1
