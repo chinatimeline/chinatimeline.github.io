@@ -25,6 +25,7 @@ chart:
             borderColor: '#f9bc0a'
             Col: TotalSuspected
             borderWidth: 2
+            fill: false
             hidden: true
             pointStyle: 'star'
         确诊:
