@@ -1,12 +1,19 @@
 _id: e29c4100-2dd0-11ea-82fc-d77819851038
-topic: 反送中
+caption: null
 date: 2019-08-13
-title:  示威者癱瘓機場
+event: "\u793A\u5A01\u8005\u767C\u8D77\u5728\u9999\u6E2F\u570B\u969B\u6A5F\u5834\u7684\
+  \u5BA2\u904B\u5927\u6A13\u5167\u975C\u5750\uFF0C\u90E8\u4EFD\u4EBA\u963B\u6B62\u65C5\
+  \u5BA2\u4E58\u5750\u98DB\u6A5F\u96E2\u958B\uFF0C\u4EE4\u5927\u91CF\u822A\u73ED\u53D6\
+  \u6D88\u6216\u5EF6\u8AA4\u3002\u4E00\u540D\u4E2D\u570B\u5B98\u65B9\u300A\u74B0\u7403\
+  \u6642\u5831\u300B\u8A18\u8005\u4ED8\u570B\u8C6A\u96D9\u624B\u88AB\u793A\u5A01\u8005\
+  \u7D81\u5230\u884C\u674E\u8ECA\uFF0C\u4E2D\u570B\u5927\u9678\u5A92\u9AD4\u5927\u91CF\
+  \u5831\u9053\u76F8\u95DC\u8A0A\u606F\uFF0C\u5F15\u8D77\u8F3F\u8AD6\u6FC0\u70C8\u53CD\
+  \u61C9\uFF0C\u6279\u8A55\u9999\u6E2F\u793A\u5A01\u8005\u7684\u884C\u70BA\uFF0C\u53C8\
+  \u5F62\u5BB9\u4ED8\u570B\u8C6A\u662F\u300C\u82F1\u96C4\u300D\u3002"
+image: https://i.imgur.com/RNYKwk5.jpg
 significance: '5'
-event: >-
-   示威者發起在香港國際機場的客運大樓內靜坐，部份人阻止旅客乘坐飛機離開，令大量航班取消或延誤。一名中國官方《環球時報》記者付國豪雙手被示威者綁到行李車，中國大陸媒體大量報道相關訊息，引起輿論激烈反應，批評香港示威者的行為，又形容付國豪是「英雄」。
-url: 'https://www.bbc.com/zhongwen/trad/chinese-news-49341062'
-type:   香港社会
-image: https://1.bp.blogspot.com/-S9nHoRoLmac/XWYcXPGrqII/AAAAAAABdEo/mAb-G2p8RL0Yd-ZANaHXtDYgVKRO-lbCgCLcBGAs/s320/13-august.jpg
-caption:
 submitTime: 1578018576
+title: "\u793A\u5A01\u8005\u7671\u7613\u6A5F\u5834"
+topic: "\u53CD\u9001\u4E2D"
+type: "\u9999\u6E2F\u793E\u4F1A"
+url: https://www.bbc.com/zhongwen/trad/chinese-news-49341062

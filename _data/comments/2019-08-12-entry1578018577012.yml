@@ -1,12 +1,16 @@
 _id: e29c4100-2dd0-11ea-82fc-d77819851038
-topic: 反送中
+caption: null
 date: 2019-08-12
-title:  港澳辦稱示威「出現恐怖主義苗頭」
+event: "\u767C\u8A00\u4EBA\u694A\u5149\u91DD\u5C0D\u5728\u524D\u4E00\u5929\u7684\u793A\
+  \u5A01\u4E2D\u6709\u9999\u6E2F\u54E1\u8B66\u64DA\u7A31\u906D\u71D2\u50B7\u505A\u51FA\
+  \u8A55\u8AD6\uFF0C\u7A31\u793A\u5A01\u8005\u300C\u55AA\u5FC3\u75C5\u72C2\u300D\uFF0C\
+  \u6E2F\u6FB3\u8FA6\u300C\u6975\u5EA6\u61A4\u6168\u300D\uFF0C\u4E88\u4EE5\u300C\u5F37\
+  \u70C8\u8B74\u8CAC\u300D\u3002"
+image: https://i.imgur.com/xSsIr8P.jpg
 significance: '5'
-event: >-
-    發言人楊光針對在前一天的示威中有香港員警據稱遭燒傷做出評論，稱示威者「喪心病狂」，港澳辦「極度憤慨」，予以「強烈譴責」。
-url: 'https://www.bbc.com/zhongwen/trad/chinese-news-49316195'
-type:  中国政府
-image: https://scontent-lht6-1.xx.fbcdn.net/v/t1.0-0/p526x296/67874696_2539885479432734_4269855176271069184_o.jpg?_nc_cat=106&_nc_oc=AQlbM6vK15EtfCkyCZkoPdT3vwprJys4hDZvF7-txInjcXSrl4LJzSimmEIE7jafQuGb9BrtL2ME00wvtCmMLdbc&_nc_ht=scontent-lht6-1.xx&oh=4e2dd365eba1d77cd1497dd2920b6f11&oe=5E67706C
-caption:
 submitTime: 1578018576
+title: "\u6E2F\u6FB3\u8FA6\u7A31\u793A\u5A01\u300C\u51FA\u73FE\u6050\u6016\u4E3B\u7FA9\
+  \u82D7\u982D\u300D"
+topic: "\u53CD\u9001\u4E2D"
+type: "\u4E2D\u56FD\u653F\u5E9C"
+url: https://www.bbc.com/zhongwen/trad/chinese-news-49316195

@@ -1,13 +1,18 @@
 _id: e29c4100-2dd0-11ea-82fc-d77819851038
-topic: 反送中
+caption: null
 date: 2019-06-12
-title: 爆發衝突
+event: "\u793A\u5A01\u8005\u4F54\u9818\u4E86\u9999\u6E2F\u5546\u696D\u5340\u591A\u689D\
+  \u4E3B\u8981\u5E79\u9053\uFF0C\u8207\u8B66\u65B9\u7206\u767C\u885D\u7A81\uFF0C\u60C5\
+  \u6CC1\u82072014\u5E74\u300C\u4F54\u9818\u4E2D\u74B0\u300D\u7684\u60C5\u6CC1\u5DEE\
+  \u4E0D\u591A\u3002\u8B66\u5BDF\u591A\u6B21\u65BD\u653E\u50AC\u6DDA\u5F48\u3001\u6A61\
+  \u81A0\u5B50\u5F48\u7B49\u5617\u8A66\u9A45\u6563\u793A\u5A01\u8005\u3002 \u9999\u6E2F\
+  \u7279\u9996\u6797\u912D\u6708\u5A25\u508D\u665A\u767C\u8072\uFF0C\u5F62\u5BB9\u885D\
+  \u7A81\u662F\u300C\u7834\u58DE\u793E\u6703\u5B89\u5BE7\u3001\u5984\u9858\u6CD5\u7D00\
+  \u7684\u66B4\u52D5\u884C\u70BA\u300D\u3002"
+image: https://i.imgur.com/Q6X8yre.jpg
 significance: '5'
-event: >-
-  示威者佔領了香港商業區多條主要幹道，與警方爆發衝突，情況與2014年「佔領中環」的情況差不多。警察多次施放催淚彈、橡膠子彈等嘗試驅散示威者。
-  香港特首林鄭月娥傍晚發聲，形容衝突是「破壞社會安寧、妄願法紀的暴動行為」。
-url: 'https://www.bbc.com/zhongwen/simp/chinese-news-48619305'
-type:  香港社会
-image: https://news.files.bbci.co.uk/include/vjeastasia/185-timeline-generator/assets/hongkong_protest-project-assets/img/12-june-2.jpg?v=1.4.2
-caption:
 submitTime: 1578018576
+title: "\u7206\u767C\u885D\u7A81"
+topic: "\u53CD\u9001\u4E2D"
+type: "\u9999\u6E2F\u793E\u4F1A"
+url: https://www.bbc.com/zhongwen/simp/chinese-news-48619305

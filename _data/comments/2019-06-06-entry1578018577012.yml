@@ -1,12 +1,14 @@
 _id: e29c4100-2dd0-11ea-82fc-d77819851038
-topic: 反送中
+caption: null
 date: 2019-06-06
-title: 香港法律界黑衣遊行
+event: "\u9999\u6E2F\u6CD5\u5F8B\u5DE5\u4F5C\u8005\u767C\u8D77\u904A\u884C\uFF0C\u8981\
+  \u6C42\u9999\u6E2F\u653F\u5E9C\u6492\u56DE\u4FEE\u4F8B\u3002\u4E3B\u8FA6\u65B9\u8868\
+  \u793A\u7D043000\u4EBA\u53C3\u52A0\uFF0C\u662F\u9999\u6E2F\u4E3B\u6B0A\u79FB\u4EA4\
+  \u4EE5\u4F86\u6700\u5927\u578B\u7684\u985E\u4F3C\u904A\u884C\u3002"
+image: https://i.imgur.com/GuXpwDM.jpg
 significance: '5'
-event: >-
-  香港法律工作者發起遊行，要求香港政府撒回修例。主辦方表示約3000人參加，是香港主權移交以來最大型的類似遊行。
-url: 'https://www.bbc.com/zhongwen/simp/chinese-news-48619305'
-type:  香港社会
-image: https://news.files.bbci.co.uk/include/vjeastasia/185-timeline-generator/assets/hongkong_protest-project-assets/img/6-june.jpg?v=1.4.2
-caption:
 submitTime: 1578018576
+title: "\u9999\u6E2F\u6CD5\u5F8B\u754C\u9ED1\u8863\u904A\u884C"
+topic: "\u53CD\u9001\u4E2D"
+type: "\u9999\u6E2F\u793E\u4F1A"
+url: https://www.bbc.com/zhongwen/simp/chinese-news-48619305
