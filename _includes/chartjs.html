@@ -41,8 +41,8 @@
             {% if dataset[1].fill == false %}fill: {{ dataset[1].fill }},{% endif %}
             {% if dataset[1].borderWidth %}borderWidth: {{ dataset[1].borderWidth }},{% endif %}
             {% if dataset[1].borderDash %}borderDash: {{ dataset[1].borderDash }},{% endif %}
-            {% if dataset[1].hidden %}hidden: {{ dataset[1].hidden }},{% endif %}
             {% if dataset[1].pointStyle %}pointStyle: '{{ dataset[1].pointStyle }}',{% endif %}
+            {% if dataset[1].hidden %}hidden: {{ dataset[1].hidden }},{% endif %}
           },
           {% endfor %}
         ]
