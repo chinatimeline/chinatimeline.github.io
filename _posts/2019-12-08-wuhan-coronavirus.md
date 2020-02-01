@@ -11,7 +11,7 @@ comments: true
 hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 chart:
     csv: https://ethercalc.org/w2gfa2jtho6c.csv
-    title: 中国2019-nCoV肺炎病毒感染统计 (累计值+对数坐标)
+    title: 中国大陆2019-nCoV肺炎病毒感染统计 (累计值+对数坐标)
     lineTension: 0
     type: line
     yAxes:
@@ -72,14 +72,13 @@ chart:
             borderWidth: 1
             fill: false
             borderDash: '[5,3]'
-            pointStyle: 'cross'
         死亡R2:
             borderColor: '#F15F36'
             Col: F2Deaths
             borderWidth: 1
             fill: false
             borderDash: '[5,3]'
-            pointStyle: 'cross'
+            pointStyle: 'rect'
 ---
 
 武汉新型肺炎的时间线，包含统计数字和新闻事件。确诊和死亡人数请在[这里](https://ethercalc.org/w2gfa2jtho6c){:target="_blank"}编辑，实时更新请交叉对比以下媒体:[腾讯](https://news.qq.com/zt2020/page/feiyan.htm)、[163](https://news.163.com/special/epidemic/?spssid=7283291fcdba1d8c2d13ee3da2cfb760&spsw=7&spss=other)、[一财](https://m.yicai.com/news/100476965.html)，每日由[国家卫健委](http://www.nhc.gov.cn/)、[新华网](http://www.xinhuanet.com/)发布的官方全国汇总，以及[中文维基](https://zh.wikipedia.org/zh-hans/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B)的历史数据。
