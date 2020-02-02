@@ -47,6 +47,11 @@ chart:
             Col: TotalDeaths
             borderWidth: 2
             pointStyle: 'rect'
+        国际死亡:
+            borderColor: '#C71585'
+            Col: IntlTotalDeaths
+            borderWidth: 2
+            pointStyle: 'rect'
         治愈:
             borderColor: '#64f30e'
             Col: TotalRecovered
@@ -108,6 +113,7 @@ chart:
 **参考资料**
 1. 中文维基百科[新型冠状病毒肺炎全球疫情病例](https://zh.wikipedia.org/zh-hans/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B), [新型冠狀病毒肺炎中國大陸疫情病例](https://zh.wikipedia.org/wiki/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%B8%AD%E5%9C%8B%E5%A4%A7%E9%99%B8%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B).
 4. Wikipedia [Timeline of Wuhan Coronavirus Outbreak](https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_Wuhan_coronavirus_outbreak)
+13. Worldometers [WUHAN CORONAVIRUS OUTBREAK](https://www.worldometers.info/coronavirus/)
 11. [Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE)](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR28KKIC3qBUIuUItThw1MqJW96mAY6qvNc0FJaY_XETI4T_M9FbTkqdcRw#/bda7594740fd40299423467b48e9ecf6)
 12. 腾讯网 [实时更新：新型肺炎疫情最新动态](https://news.qq.com/zt2020/page/feiyan.htm)
 10. 第一财经 [新型冠状病毒感染肺炎疫情地图](https://m.yicai.com/news/100476965.html)
