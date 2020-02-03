@@ -124,5 +124,5 @@ algolia:
   files_to_exclude: [ideology_backup2.md, ideology_backup3.md, ideology_backup4.md, religion_backup2.md, religion_backup3.md, religion_backup4.md]
 
 staticman:
-  api: "https://staticman3.herokuapp.com/v3/entry/github/chinatimeline/chinatimeline.github.io/master/comments"
+  api: "https://staticman-chinatimeline.herokuapp.com/v3/entry/github/chinatimeline/chinatimeline.github.io/master/comments"
   path: "_data/comments"
