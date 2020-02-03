@@ -950,6 +950,26 @@ div.sticky {
   z-index: 1;
 }
 
+div#banner {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: #DDEEEE;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+div#banner-content {
+   width: 100%;
+   margin: 0 auto;
+   padding: 0px;
+   //color: #4B0082;
+   color: #8B0000;
+   font-size: 12px;
+ }
+
 // Settled on moving the import of syntax highlighting to the bottom of the CSS
 // ... Otherwise it really bloats up the top of the CSS file and makes it difficult to find the start
 @import "highlights";

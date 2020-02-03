@@ -4,6 +4,8 @@
   <body>
     {% include nav.html %}
 
+    {% include boilerplate-privacy.html %}
+
     {% if page.chart %}{% include chartjs.html %}{% endif %}
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
