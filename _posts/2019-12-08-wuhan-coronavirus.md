@@ -47,6 +47,11 @@ chart:
             Col: TotalDeaths
             borderWidth: 2
             pointStyle: 'rect'
+        国际死亡:
+            borderColor: '#C71585'
+            Col: IntlTotalDeaths
+            borderWidth: 2
+            pointStyle: 'rect'
         治愈:
             borderColor: '#64f30e'
             Col: TotalRecovered
@@ -82,7 +87,7 @@ chart:
             pointStyle: 'rect'
 ---
 
-武汉新型肺炎的时间线，包含统计数字和新闻事件。确诊和死亡人数请在[这里](https://ethercalc.org/w2gfa2jtho6c){:target="_blank"}编辑，实时更新请交叉对比以下媒体:[腾讯](https://news.qq.com/zt2020/page/feiyan.htm)、[163](https://news.163.com/special/epidemic/?spssid=7283291fcdba1d8c2d13ee3da2cfb760&spsw=7&spss=other)、[一财](https://m.yicai.com/news/100476965.html)，每日由[国家卫健委](http://www.nhc.gov.cn/)、[新华网](http://www.xinhuanet.com/)发布的官方全国汇总，以及[中文维基](https://zh.wikipedia.org/zh-hans/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B)的历史数据。
+武汉新型肺炎的时间线，包含统计数字和新闻事件。确诊和死亡人数请在[这里](https://ethercalc.org/w2gfa2jtho6c){:target="_blank"}编辑，全球确诊数据[计算表格](https://ethercalc.org/m3zb12aaoyo4)，实时更新请交叉对比以下媒体:[腾讯](https://news.qq.com/zt2020/page/feiyan.htm)、[163](https://news.163.com/special/epidemic/?spssid=7283291fcdba1d8c2d13ee3da2cfb760&spsw=7&spss=other)、[一财](https://m.yicai.com/news/100476965.html)，每日由[国家卫健委](http://www.nhc.gov.cn/)、[新华网](http://www.xinhuanet.com/)发布的官方全国汇总，以及[中文维基](https://zh.wikipedia.org/wiki/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%B8%AD%E5%9C%8B%E5%A4%A7%E9%99%B8%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B)的历史数据。
 欢迎本页底补充各种小道大道消息（无需注册）。
 
 <!--
@@ -106,8 +111,9 @@ chart:
 <iframe src="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR28KKIC3qBUIuUItThw1MqJW96mAY6qvNc0FJaY_XETI4T_M9FbTkqdcRw#/bda7594740fd40299423467b48e9ecf6" width="100%" height="780px"></iframe>
 
 **参考资料**
-1. 中文维基百科[新型冠状病毒肺炎全球疫情病例](https://zh.wikipedia.org/zh-hans/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B)
+1. 中文维基百科[新型冠状病毒肺炎全球疫情病例](https://zh.wikipedia.org/zh-hans/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E5%85%A8%E7%90%83%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B), [新型冠狀病毒肺炎中國大陸疫情病例](https://zh.wikipedia.org/wiki/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%B8%AD%E5%9C%8B%E5%A4%A7%E9%99%B8%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B).
 4. Wikipedia [Timeline of Wuhan Coronavirus Outbreak](https://en.wikipedia.org/wiki/Timeline_of_the_2019%E2%80%9320_Wuhan_coronavirus_outbreak)
+13. Worldometers [WUHAN CORONAVIRUS OUTBREAK](https://www.worldometers.info/coronavirus/)
 11. [Wuhan Coronavirus (2019-nCoV) Global Cases (by JHU CSSE)](https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html?fbclid=IwAR28KKIC3qBUIuUItThw1MqJW96mAY6qvNc0FJaY_XETI4T_M9FbTkqdcRw#/bda7594740fd40299423467b48e9ecf6)
 12. 腾讯网 [实时更新：新型肺炎疫情最新动态](https://news.qq.com/zt2020/page/feiyan.htm)
 10. 第一财经 [新型冠状病毒感染肺炎疫情地图](https://m.yicai.com/news/100476965.html)
