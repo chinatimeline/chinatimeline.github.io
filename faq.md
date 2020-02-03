@@ -12,7 +12,7 @@ comments: true
 数据从本站的服务器传递到你的浏览器需要经过很多环节，这些在你我控制之外的环节都可能被监听，具体见[这篇针对非专业人士的简介](https://diymysite.github.io/analytics/#!pages/analytics.md)。因此，强烈推荐用[Tor Browser](https://www.torproject.org/download/)/[Whonix](https://www.whonix.org/)/[Tails OS](https://tails.boum.org)浏览一切政治相关网站，因为只有在你自己电脑端确保安全上才是真正的安全。
 
 本站采用的所有组件一律以是否被默认配置下的[uBlockOrigin](https://github.com/gorhill/uBlock)(简称uBO)阻拦为准， uBO是[PrivacyTools.io](https://www.privacytools.io)推荐的用于保护隐私的浏览器插件，安装方法见页脚链接。本站无任何用户跟踪脚本。但本站网页元素中包含用于绘图和渲染时间线的第三方 javascripts 、第三方图床(如[imgur](https://imgur.com)和一些新闻网站)，同时本站托管于[github](https://www.github.com) pages。因此，当你访问本站时，第三方图床和Github都知道你的IP地址。另外，本站不使用Cookies，因而没有相应的隐私风险。 _如果你是一个只读用户，即只浏览网页，本站无法获得你的IP地址等任何隐私。_
- （政府能根据你的真实IP地址查找到你的真实身份或方位等）
+ （政府能根据你的真实IP地址查找到你的真实身份或方位等敏感信息）
 
 但是如果你在本站留言或提交事件，本站采用的表单提交应用 [staticman](https://staticman.net) 会记录你的IP地址。本站已于2020年2月4日起从staticman官方提供的公用接口切换到本站部署的私有接口。切换的原因是staticman的官方公用接口被数以万计的博客使用，每次提交都要折腾多次才能成功，体验极差。在使用公用接口期间，用户每次提交内容时的IP都被staticman官方记录，而切换到私有接口后则会被本站部署的应用记录。本站承诺不会将这些记录泄露给任何人。
 
