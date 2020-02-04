@@ -58,7 +58,6 @@ footer-links:
 # Text under the icons in footer
 footer-text: >
   Powered by Jekyll <a href="https://github.com/AWEEKJ/kiko-now" target="_blank">Kiko Now</a> | <a href="https://plot.ly/" target="_blank">Plotly</a> | <a href="https://staticman.net/" target="_blank">Staticman</a> | <a href="https://www.chartjs.org/" target="_blank">Chartjs</a>
-  <br><font color="blue">本站功能组件的选取一律以是否被<a href="https://github.com/gorhill/uBlock" target="_blank">uBlockOrigin</a>（默认设置）阻拦为准<font>
 
 # Enter your Disqus shortname (not your username) to enable commenting on posts
 # You can find your shortname on the Settings page of your Disqus account
