@@ -30,12 +30,17 @@ layout: default
       {% endfor %}
     </ul>
 
-    {% if page.hitcounterid %}
-      <span class="tag">
-        点击:
-        {% include hitcounter.html %}
-      </span>
-    {% endif %}
+    <span class="tag">
+      页内传送:
+    </span>
+
+    <span class="tag">
+      <a href="#submit">#提交内容</a>,
+    </span>
+
+    <span class="tag">
+      <a href="#story">#图文故事线</a>
+    </span>
 
   </div>
 
