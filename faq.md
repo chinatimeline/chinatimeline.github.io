@@ -8,7 +8,7 @@ comments: true
 1. FAQ list
 {:toc}
 
-#### 如何保证这个网站是安全的？<a href="#privacy"></a>
+#### 如何保证这个网站是安全的？<a name="privacy"></a>
 数据从本站的服务器传递到你的浏览器需要经过很多环节，这些在你我控制之外的环节都可能被监听，具体见[这篇针对非专业人士的简介](https://diymysite.github.io/analytics/#!pages/analytics.md)。因此，<ins>强烈推荐用[Tor Browser](https://www.torproject.org/download/)/[Whonix](https://www.whonix.org/)/[Tails OS](https://tails.boum.org)浏览一切政治相关网站</ins>，因为只有在你自己电脑端确保安全上才是真正的安全。
 
 本站采用的所有组件一律以是否被默认配置下的[uBlockOrigin](https://github.com/gorhill/uBlock)(简称uBO)阻拦为准， uBO是[PrivacyTools.io](https://www.privacytools.io)推荐的用于保护隐私的浏览器插件，安装方法见页脚链接。本站无任何用户跟踪脚本。但本站网页元素中包含用于绘图和渲染时间线的第三方 javascripts 、第三方图床(如[imgur](https://imgur.com)和一些新闻网站)，同时本站托管于[github](https://www.github.com) pages。因此，当你访问本站时，第三方图床和Github都知道你的IP地址。另外，本站不使用Cookies，因而没有相应的隐私风险。 <ins>如果你只浏览本站网页，本站无法获得你的IP地址等任何隐私。</ins>
