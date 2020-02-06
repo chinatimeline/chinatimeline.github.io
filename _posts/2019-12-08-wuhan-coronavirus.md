@@ -118,6 +118,7 @@ chart:
 12. 腾讯网 [实时更新：新型肺炎疫情最新动态](https://news.qq.com/zt2020/page/feiyan.htm)
 10. 第一财经 [新型冠状病毒感染肺炎疫情地图](https://m.yicai.com/news/100476965.html)
 7. 163 [肺炎疫情时事动态播报](https://news.163.com/special/epidemic/?spssid=7283291fcdba1d8c2d13ee3da2cfb760&spsw=7&spss=other)
+14. BBC中文 [武汉肺炎：疫情爆发至今大事记](https://www.bbc.com/zhongwen/simp/chinese-news-51382117)
 5. 编程随想 [每周转载：“武汉疫情”爆发的时间线——【政府失职】堪比“非典/SARS”时期](https://program-think.blogspot.com/2020/01/weekly-share-141.html)
 6. 财新网 [武汉新型冠状病毒肺炎大事记（2019年12月—2020年1月20日）](http://www.caixin.com/2020-01-20/101506242.html)
 8. 人民日报客户端 [新型肺炎疫情实时](https://activity.peopleapp.com/broadcast/)
