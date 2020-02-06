@@ -90,12 +90,6 @@ chart:
 武汉新型肺炎的时间线，包含统计数字和新闻事件。确诊和死亡人数请在[这里](https://ethercalc.org/w2gfa2jtho6c){:target="_blank"}编辑，全球确诊数据[计算表格](https://ethercalc.org/m3zb12aaoyo4){:target="_blank"}，实时更新请交叉对比以下媒体:[Telegram](https://t.me/s/nCoV2019), [腾讯](https://news.qq.com/zt2020/page/feiyan.htm)、[163](https://news.163.com/special/epidemic/?spssid=7283291fcdba1d8c2d13ee3da2cfb760&spsw=7&spss=other)、[一财](https://m.yicai.com/news/100476965.html)，每日由[国家卫健委](http://www.nhc.gov.cn/)、[新华网](http://www.xinhuanet.com/)发布的官方全国汇总，以及[中文维基](https://zh.wikipedia.org/wiki/%E6%96%B0%E5%9E%8B%E5%86%A0%E7%8B%80%E7%97%85%E6%AF%92%E8%82%BA%E7%82%8E%E4%B8%AD%E5%9C%8B%E5%A4%A7%E9%99%B8%E7%96%AB%E6%83%85%E7%97%85%E4%BE%8B)的历史数据。
 欢迎本页底补充各种小道大道消息（无需注册）。
 
-<!--
-<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.7.0/d3.min.js"></script>
-<script src="{{ site.url }}{{ site.baseurl }}/assets/js/csv_to_chart.js"></script>
--->
-
 <canvas id="chart"></canvas>
 
 **说明**
