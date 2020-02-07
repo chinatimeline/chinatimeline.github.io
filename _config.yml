@@ -32,6 +32,8 @@ navigation:
     url: /how_to_contribute
   - name: 数据
     url: https://github.com/chinatimeline/data
+  - name: 机器人
+    url: https://t.me/chinatimeline_bot
 
 # Pagination
 paginate: 12
