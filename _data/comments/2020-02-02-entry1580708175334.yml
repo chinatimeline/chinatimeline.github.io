@@ -1,14 +1,12 @@
 _id: 183043a0-4647-11ea-b14f-efaa61cfe8af
-topic: 武汉肺炎
-date: '2020-02-02'
-title: 在美国使用吉利德实验性药物治疗的冠状病毒病例可能会刺激更广泛的测试
-significance: '4'
-event: >-
-  静脉注射药物后，患者的肺炎在一天之内似乎有所改善，没有明显的副作用.吉利德的remdesivir应用于美国的第一例病例，一名35岁的男子在他的2019-nCoV病毒检测呈阳性后出现肺炎，并被送往华盛顿州埃弗里特普罗维登斯地区医学中心的空气隔离病房住院以进行观察
-  。吉利德（Gilead）正在与中国卫生部门合作建立一项随机对照试验，以确定雷姆昔韦是否可以安全有效地用于治疗2019-nCoV。 (南華早報)
-url: >-
-  https://www.scmp.com/tech/science-research/article/3048579/coronavirus-case-us-treated-experimental-gilead-drug-may-spur
-type: 医学进展
-image: ''
 caption: ''
+date: '2020-02-02'
+event: 静脉注射药物后，患者的肺炎在一天之内似乎有所改善，没有明显的副作用.吉利德的remdesivir应用于美国的第一例病例，一名35岁的男子在他的2019-nCoV病毒检测呈阳性后出现肺炎，并被送往华盛顿州埃弗里特普罗维登斯地区医学中心的空气隔离病房住院以进行观察
+  。吉利德（Gilead）正在与中国卫生部门合作建立一项随机对照试验，以确定雷姆昔韦是否可以安全有效地用于治疗2019-nCoV。 (南華早報)
+image: ''
+significance: '4'
 submitTime: 1580708175
+title: 在美国使用吉利德实验性药物治疗的冠状病毒病例可能会刺激更广泛的测试
+topic: 武汉肺炎
+type: 医学进展
+url: https://www.scmp.com/tech/science-research/article/3048579/coronavirus-case-us-treated-experimental-gilead-drug-may-spur
