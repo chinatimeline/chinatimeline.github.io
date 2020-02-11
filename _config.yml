@@ -32,7 +32,9 @@ navigation:
     url: /how_to_contribute
   - name: 数据
     url: https://github.com/chinatimeline/data
-  - name: 机器人
+  - name: 论坛
+    url: https://be4.herokuapp.com/category/10/
+  - name: Bot
     url: https://t.me/chinatimeline_bot
 
 # Pagination
