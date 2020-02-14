@@ -18,7 +18,7 @@ comments: false
 
 ## 2 提交新闻事件
 ### 2.1 单个新闻事件
-可在时间线页面表格提交，如果是媒体报道的新闻，可以直接向[Telegram机器人](https://t.me/chinatimeline_bot)发送链接。
+可在时间线页面表格提交，如果是媒体报道的新闻，可以直接向[Telegram机器人](https://t.me/chinatimeline_bot)发送链接。端点星的网页存档工具 [http://206.189.252.32:12345/](http://206.189.252.32:12345/).
 
 ### 2.2 批量提交（推荐）
 如果一次提交5个以上事件推荐用批量提交。下载[批量事件模板](./batch_submit_example.csv)，用电子表格软件编辑csv文件（推荐在线表格应用[EtherCalc](https://ethercalc.org/)，在线[批量事件模板](https://ethercalc.org/t7dhm5f9a1ty)），添加新闻事件及相应来源链接等信息。
