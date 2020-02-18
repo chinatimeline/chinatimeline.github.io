@@ -1,13 +1,11 @@
 _id: 3e2d2870-5128-11ea-bc44-391668512c50
-topic: 武汉肺炎
-date: '2020-02-14'
-title: 中国有1700多名医护感染新冠病毒 湖北省占8成
-significance: '5'
-event: >-
-  中国国家卫健委周五公布，截至11日，全中国医护人员确诊感染“新冠病毒肺炎”已有1716例，光是湖北省的医护人员就占8成，其中已有6名医护人员不幸身亡。按照国家卫健委的数据，中国医护的染病占比，达所有确诊患者的2%；光是湖北省的医护人员确诊数就达1502例，其中，武汉市有1102例，占湖北省医务人员确诊病例逾7成。
-url: 'https://www.rfa.org/mandarin/yataibaodao/huanjing/rc-02142020103634.html/'
-type: 官方消息
-image: >-
-  https://www.rfa.org/mandarin/yataibaodao/huanjing/rc-02142020103634.html/0214a.jpg
 caption: ''
+date: '2020-02-14'
+event: 中国国家卫健委周五公布，截至11日，全中国医护人员确诊感染“新冠病毒肺炎”已有1716例，光是湖北省的医护人员就占8成，其中已有6名医护人员不幸身亡。按照国家卫健委的数据，中国医护的染病占比，达所有确诊患者的2%；光是湖北省的医护人员确诊数就达1502例，其中，武汉市有1102例，占湖北省医务人员确诊病例逾7成。
+image: https://i.imgur.com/3Qj0IdE.jpg
+significance: '5'
 submitTime: 1581904387
+title: 中国有1700多名医护感染新冠病毒 湖北省占8成
+topic: 武汉肺炎
+type: 官方消息
+url: https://www.rfa.org/mandarin/yataibaodao/huanjing/rc-02142020103634.html/
