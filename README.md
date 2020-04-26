@@ -30,7 +30,7 @@
 
 ## 贡献者
 - [chinatimeline](https://github.com/chinatimeline) 项目所有者
-- [TerminusBot](https://github.com/terminusbot) 网站代码、安全性复核、推广
+- [TerminusBot](https://github.com/terminusbot) 技术咨询、推广
 - [ChengXin](https://github.com/ChengXin) 内容提交、内容复核
 - [Vinsep](https://www.reddit.com/u/Vinsep) 内容提交、推广
 - [aforwardboot](https://www.reddit.com/user/aforwardboot/) 内容提交
