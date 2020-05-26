@@ -1,13 +1,11 @@
 _id: c81d10d0-9c56-11ea-ae48-c3b1bad5986d
-topic: 反送中
-date: '2020-05-22'
-title: 香港《国安法》制订“分两步推进” 中国中央政府可能在港设立国安机构
-significance: '4'
-event: >-
-  中国全国人民代表大会开始审议和香港《国安法》相关的一项草案。周五（5月22日）公布的草案称，将授权人大常委会制定法律防范、制止和惩治任何分裂国家、颠覆国家政权、组织实施恐怖活动等严重危害国家安全的行为以及外国和境外势力干预香港特别行政区事务的活动。
-url: 'http://www.bbc.com/zhongwen/simp/chinese-news-52765908'
-type: 中国政府
-image: >-
-  https://images.weserv.nl/?url=ichef.bbci.co.uk/news/640/cpsprodpb/69D2/production/_112409072_gettyimages-1187268185.jpg
 caption: ''
+date: '2020-05-22'
+event: 中国全国人民代表大会开始审议和香港《国安法》相关的一项草案。周五（5月22日）公布的草案称，将授权人大常委会制定法律防范、制止和惩治任何分裂国家、颠覆国家政权、组织实施恐怖活动等严重危害国家安全的行为以及外国和境外势力干预香港特别行政区事务的活动。
+image: https://i.imgur.com/LUB3Ly0.jpg
+significance: '4'
 submitTime: 1590170712
+title: 香港《国安法》制订“分两步推进” 中国中央政府可能在港设立国安机构
+topic: 反送中
+type: 中国政府
+url: http://www.bbc.com/zhongwen/simp/chinese-news-52765908
