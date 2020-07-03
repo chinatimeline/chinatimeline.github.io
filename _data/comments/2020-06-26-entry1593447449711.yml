@@ -1,12 +1,11 @@
 _id: 077a5c70-ba24-11ea-b309-c33ecadb2ba6
-topic: 反送中
-date: '2020-06-26'
-title: 美国参议院通过《香港自治法案》 制裁对象包括个人和金融机构
-significance: '3'
-event: "美国参议院一致通过《香港自治法案》，可对支持中国损害香港自治的个人或企业实施强制性制裁。\r\n\r\n周四（6月25日）参议院表决的这一法案是美国试图反制中国在香港订立国家安全法的举措，该法案还将授权制裁帮助这些企业或个人进行大额转账的金融机构。"
-url: 'http://www.bbc.com/zhongwen/simp/world-53192255'
-type: 国际社会
-image: >-
-  https://images.weserv.nl/?url=ichef.bbci.co.uk/news/640/cpsprodpb/B80A/production/_112741174_rubioreuters.jpg
 caption: ''
+date: '2020-06-26'
+event: "美国参议院一致通过《香港自治法案》，可对支持中国损害香港自治的个人或企业实施强制性制裁。\r\n\r\n周四（6月25日）参议院表决的这一法案是美国试图反制中国在香港订立国家安全法的举措，该法案还将授权制裁帮助这些企业或个人进行大额转账的金融机构。"
+image: https://i.imgur.com/miSsTvz.jpg
+significance: '3'
 submitTime: 1593447449
+title: 美国参议院通过《香港自治法案》 制裁对象包括个人和金融机构
+topic: 反送中
+type: 国际社会
+url: http://www.bbc.com/zhongwen/simp/world-53192255
