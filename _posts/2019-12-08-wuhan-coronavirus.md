@@ -10,7 +10,7 @@ submit: true
 comments: true
 hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 chart:
-    csv: https://ethercalc.org/w2gfa2jtho6c.csv
+    csv: https://raw.githubusercontent.com/chinatimeline/data/master/wuhan_coronavirus/wuhan_coronavirus_statistics.csv
     title: 中国大陆2019-nCoV肺炎病毒感染统计 (累计值+对数坐标)
     lineTension: 0
     type: line
