@@ -34,6 +34,8 @@ navigation:
     url: https://github.com/chinatimeline/data
   - name: 论坛
     url: https://be4.herokuapp.com/category/10/
+  - name: 读新闻
+    url: https://chinatimeline.github.io/news/
   - name: Bot
     url: https://t.me/chinatimeline_bot
 
