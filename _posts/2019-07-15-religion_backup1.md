@@ -21,6 +21,12 @@ plotTimeline(
 )
 </script>
 
+<!-- Start of iframe Code -->
+<!-- iframe width="100%" height="600" frameborder="0" scrolling="no" src="https://chinatimeline.pythonanywhere.com/religion"></iframe -->
+<!--<iframe width="100%" height="600" frameborder="0" scrolling="no" src="https://plot.ly/~chinatimeline/8.embed"></iframe> -->
+
+<!-- End of iframe Code -->
+
 **说明**：
 1. X轴代表事件发生日期，Y轴代表事件发生日是于星期几，建议手机用户横屏观看并刷新。
 2. 单击图例可隐藏该类别事件，双击图例可单独显示该类别事件。
