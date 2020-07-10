@@ -35,6 +35,8 @@ function plotTimeline(title, eventURL, termURL) {
     let termData = prepTermData(terms)
     let termShapes = prepTermShapes(terms)
 
+    let today = (date => `${date.getFullYear()}-${date.getMonth()+1}-${date.getDate()}`)(new Date())
+
     let layout = {
       title: title,
       hovermode: 'closest',
@@ -113,6 +115,22 @@ function plotTimeline(title, eventURL, termURL) {
           x1: 1,
           yref: 'y',
           y0: 7,
+          y1: 7
+        },
+        {
+          type: 'line',
+          editable: false,
+          layer: 'above',
+          line: {
+            width: 1,
+            color: 'blue',
+            dash: 'dot'
+          },
+          xref: 'x',
+          x0: today,
+          x1: today,
+          yref: 'y',
+          y0: 0,
           y1: 7
         }
       ].concat(termShapes)
