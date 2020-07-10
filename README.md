@@ -30,7 +30,9 @@
 
 ## 贡献者
 - [chinatimeline](https://github.com/chinatimeline) 项目所有者
+- [duty-machine](https://github.com/duty-machine) 更新绘图和表单提交核心代码
 - [TerminusBot](https://github.com/terminusbot) 技术咨询、推广
+- [nodebe4](https://github.com/nodebe4) 提供辅助工具 [网页版RSS阅读器](https://github.com/nodebe4/news)
 - [ChengXin](https://github.com/ChengXin) 内容提交、内容复核
 - [Vinsep](https://www.reddit.com/u/Vinsep) 内容提交、推广
 - [aforwardboot](https://www.reddit.com/user/aforwardboot/) 内容提交
