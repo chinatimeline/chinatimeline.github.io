@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: list
 title: 中共意识形态“保卫战”时间线
 tags: [意识形态, 人权]
 permalink: /ideology_tl3/
@@ -19,7 +19,7 @@ hitcounterid: essasnybp1mxzguq12gn1uhsbcpd4sgq
 #### 说明
 1. X轴代表事件发生日期，Y轴代表事件发生日是于星期几，建议手机用户横屏观看并刷新。
 2. 单击图例可隐藏该类别事件，双击图例可单独显示该类别事件。
-3. 如互动图显示402代表已达每日500次点击限制，请点击[备份1](/ideology_tl1), [备份2](/ideology_tl2), [备份3](/ideology_tl3), [备份4](/ideology_tl4)。
+3. 所有版本：[plotlyjs](/ideology_tl1), [Dash](/ideology_tl2), [ChartStudio](/ideology_tl3)
 4. 数据源: [中国数字时代](https://chinadigitaltimes.net/chinese/), [维权网](https://wqw2010.blogspot.com/), [NGOCN](https://matters.news/@ngocncat) 和各大主流媒体.
 
 #### 相关
