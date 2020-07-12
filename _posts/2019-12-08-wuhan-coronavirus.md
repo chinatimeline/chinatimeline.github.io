@@ -1,7 +1,7 @@
 ---
 layout: story
 title: 武汉肺炎疫情
-tags: [武汉肺炎, 新型冠状病毒, 2019-nCoV]
+tags: [武汉肺炎, 新型冠状病毒, 2019-nCoV, COVID-19]
 permalink: /wuhan-coronavirus/
 teaser: https://raw.githubusercontent.com/chinatimeline/chinatimeline.github.io/master/images/wuhan-coronavirus.jpg
 slug: 武汉肺炎

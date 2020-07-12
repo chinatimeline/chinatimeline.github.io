@@ -1,7 +1,7 @@
 ---
 layout: list
-title: 六四学运
-tags: [六四, 天安门, 学生运动]
+title: 八九学运
+tags: [六四, 天安门, 学生运动, 流亡]
 permalink: /tiananmen/
 teaser: https://raw.githubusercontent.com/chinatimeline/chinatimeline.github.io/master/images/tiananmen.jpg
 slug: 六四
