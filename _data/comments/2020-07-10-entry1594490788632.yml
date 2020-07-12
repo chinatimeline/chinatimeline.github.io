@@ -1,12 +1,12 @@
 _id: 3ded1500-c3a1-11ea-89d4-2bd5e01b005f
-topic: 武汉肺炎
-date: '2020-07-10'
-title: WHO先遣小组已赴中国调查新冠病毒起源
-significance: '3'
-event: "（德国之声中文网）世界卫生组织（WHO）发言人周五（7月10日）公布，该机构派出的先遣小组已前往中国组织调查新冠病毒的起源。\r\n\r\n世卫组织派出的两位专家，一位是动物学专家，另一位是流行病学专家。他们将与中国专家合作确定调查范围和日程。\r\n\r\n世卫组织发言人哈里斯（Margaret Harris）在联合国简报会上说： \"他们动身了，已经起飞了。他们是先"
-url: >-
-  https://www.dw.com/zh/WHO%E5%85%88%E9%81%A3%E5%B0%8F%E7%BB%84%E5%B7%B2%E8%B5%B4%E4%B8%AD%E5%9B%BD%E8%B0%83%E6%9F%A5%E6%96%B0%E5%86%A0%E7%97%85%E6%AF%92%E8%B5%B7%E6%BA%90/a-54129784
-type: 外媒报道
-image: 'https://images.weserv.nl/?url=api.dw.com/image/54129480_303.jpg'
 caption: ''
+date: '2020-07-10'
+event: "（德国之声中文网）世界卫生组织（WHO）发言人周五（7月10日）公布，该机构派出的先遣小组已前往中国组织调查新冠病毒的起源。\r\n\r\n世卫组织派出的两位专家，一位是动物学专家，另一位是流行病学专家。他们将与中国专家合作确定调查范围和日程。\r\
+  \n\r\n世卫组织发言人哈里斯（Margaret Harris）在联合国简报会上说： \"他们动身了，已经起飞了。他们是先"
+image: https://i.imgur.com/qqbM4BM.jpg
+significance: '3'
 submitTime: 1594490788
+title: WHO先遣小组已赴中国调查新冠病毒起源
+topic: 武汉肺炎
+type: 外媒报道
+url: https://www.dw.com/zh/WHO%E5%85%88%E9%81%A3%E5%B0%8F%E7%BB%84%E5%B7%B2%E8%B5%B4%E4%B8%AD%E5%9B%BD%E8%B0%83%E6%9F%A5%E6%96%B0%E5%86%A0%E7%97%85%E6%AF%92%E8%B5%B7%E6%BA%90/a-54129784
