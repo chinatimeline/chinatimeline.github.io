@@ -115,6 +115,10 @@ plugins:
   - jekyll-paginate
   - jekyll-algolia
 
+# Include these folder in your production _site
+include:
+  - _data
+
 # Exclude these files from your production _site
 exclude:
   - vendor

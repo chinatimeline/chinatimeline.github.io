@@ -3,7 +3,7 @@ layout: list
 title: 中国的宗教迫害
 tags: [人权, 宗教自由]
 permalink: /religion_tl1/
-teaser: https://raw.githubusercontent.com/chinatimeline/chinatimeline.github.io/master/images/cry.jpg
+teaser: /images/cry.jpg
 slug: 宗教迫害
 submit: true
 comments: true

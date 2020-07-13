@@ -3,7 +3,7 @@ layout: list
 title: 意识形态“保卫战”
 tags: [意识形态, 社会控制, 极权, 宣传, 言论自由, 政治迫害]
 permalink: /ideology_tl1/
-teaser: https://raw.githubusercontent.com/chinatimeline/chinatimeline.github.io/master/images/redgreatwall.jpg
+teaser: /images/redgreatwall.jpg
 slug: 文革2
 submit: true
 comments: true
