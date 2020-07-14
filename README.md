@@ -13,7 +13,9 @@
 1. 网站 https://gitlab.com/chinatimeline/chinatimeline.gitlab.io
 2. 数据 https://gitlab.com/chinatimeline/data
 
-如何创建本站的自动备份仓库：请见[这里](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html)
+Tips:
+- 如何利用[Gitlab](https://gitlab.com)对本项目进行自动备份：请见[这里](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html)。
+- 參與時請務必參考[Git匿名安全](https://gist.github.com/chinatimeline/5386a4f9d82483aa5346b17d8d324877)中的方法進行自我檢查。
 
 ## 具体流程
 
