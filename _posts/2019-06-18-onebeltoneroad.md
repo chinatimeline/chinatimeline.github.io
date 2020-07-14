@@ -9,8 +9,8 @@ submit: true
 comments: true
 hitcounterid: saf1wg149z6n89nwcxqcpzfy9lptuhdb
 plottitle: '<b>一带一路时间线</b> 来源: 新华网<br><i>点击或鼠标悬停于数据点以查看事件名称</i>'
-datacsv: https://raw.githubusercontent.com/chinatimeline/data/master/OneBeltOneRoad/OBOR_Events.csv
-termcsv: https://raw.githubusercontent.com/chinatimeline/data/master/OneBeltOneRoad/CCP_Presidential_term.csv
+datacsv: /_data/csv/OBOR_Events.csv
+termcsv: /_data/csv/CCP_Presidential_term.csv
 ---
 
 中国“一带一路”项目重要事件时间线，[数据源](http://www.xinhuanet.com/world/2019-04/26/c_1124418156.htm)。
