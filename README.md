@@ -12,6 +12,7 @@
 
 1. 网站 https://gitlab.com/chinatimeline/chinatimeline.gitlab.io
 2. 数据 https://gitlab.com/chinatimeline/data
+3. 纯互动图时间线 https://chinatimeline.pythonanywhere.com/
 
 Tips:
 - 如何利用[Gitlab](https://gitlab.com)对本项目进行自动备份：请见[这里](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html)。
