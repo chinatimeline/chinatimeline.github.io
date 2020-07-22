@@ -12,15 +12,15 @@
 
 1. 网站 https://gitlab.com/chinatimeline/chinatimeline.gitlab.io
 2. 数据 https://gitlab.com/chinatimeline/data
-3. 纯互动图时间线 https://chinatimeline.pythonanywhere.com/
 
-Tips:
-- 如何利用[Gitlab](https://gitlab.com)对本项目进行自动备份：请见[这里](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html)。
-- 參與時請務必參考[Git匿名安全](https://gist.github.com/chinatimeline/5386a4f9d82483aa5346b17d8d324877)中的方法進行自我檢查。
+如何创建本站的自动备份仓库：请见[这里](https://docs.gitlab.com/ee/user/project/repository/repository_mirroring.html)
 
 ## 具体流程
 
 在某个时间线互动图的展示页面下方提交新闻事件后，系统自动生成一个 Pull Request(PR) 向本仓库提交一个新文件。当该PR获得批准后，会生成一个新的事件文件 `_data/comments/entryXXXXX.yml`。本仓库维护者会定期用程序将这些新提交的事件添加到本项目的[数据仓库](https://github.com/chinatimeline/data/)和对应的互动图中。
+
+## 离线版
+时代透镜的离线版可以帮助大家在自己的电脑上制作自己的时间线主题，并记录新闻事件。具体方法参见[离线版使用教程](offline.md)。
 
 ## 感谢
 1. Jekyll代码改编自: [达摩俱乐部](https://github.com/DamoresClub/DamoresClub.github.io)
