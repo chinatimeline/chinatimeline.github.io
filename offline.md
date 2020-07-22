@@ -45,3 +45,7 @@ hitcounterid:
 7 运行本地记录提交服务器 `bundle exec ruby local_server.rb`， 浏览器打开 `http://localhost:4567`
 
 8 运行本地时间线网站 `bundle exec jekyll serve`， 浏览器打开 `http://localhost:4000`
+
+
+## 感谢
+离线版提交服务器由[duty-machine](https://github.com/duty-machine)开发。
