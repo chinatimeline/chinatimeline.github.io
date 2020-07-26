@@ -27,7 +27,7 @@ navigation:
   - name: FAQ
     url: /faq
   - name: 留言
-    url: https://chinatimeline.github.io/submit
+    url: https://chinatimeline.github.io/comments
   - name: 参与
     url: /how_to_contribute
   - name: 数据
