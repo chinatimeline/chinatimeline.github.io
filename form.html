@@ -1,0 +1,102 @@
+---
+layout: default
+---
+
+
+<div class="row">
+  <a name="submit"></a>
+  {% assign slug = site.data.types[1] %}
+  {% if page.slug == slug[1].name %}
+    <div class="col-12 col-s-12">
+      <h3 align="center">提交新闻事件</h3>
+
+      {% include boilerplate-submit.html %}
+
+      <div class="row comments">
+        <form method="POST" action="{{ site.staticman.api }}">
+          <label>选择时间线主题</label>
+          <select name="fields[topic]" id="field-select">
+            {% for slug in site.data.types %}
+              <option value="{{ slug[1].name }}">{{ slug[1].name }}</option>
+            {% endfor %}
+          </select>
+
+          <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
+          <input name="options[slug]" id="form-slug" type="hidden" value="{{ slug[1].slug }}">
+          <div class="col-6 col-s-6 comments">
+            <div style="width:100%; display:table">
+              <label style="display:table-cell;width=1px;">发生日期:</label> <input name="fields[date]" type="date" style="display:table-cell;" id="d"><br>
+            </div>
+            <div style="width:100%; display:table">
+              <label style="display:table-cell;width=1px;">标题: </label><input name="fields[title]" type="text" cols="48"  placeholder="2-20字 不出现在互动图中"  style="display:table-cell; width:100%"  id="t"><br>
+            </div>
+            <div style="width:100%; display:table">
+              <label style="display:table-cell;width=1px;">重要性:</label>
+              <span stype="display:table-cell;width=100%;">
+                {% for i in site.data.ratings %}
+                <input name="fields[significance]" type="radio" value="{{ i }}"> {{ i }}
+                {% endfor %}
+              </span>
+            </div>
+            <label>事件描述: </label><br><textarea name="fields[event]" rows="4" placeholder="20-100字的简要描述，包括具体的时间地点人物事件等。" class="event-description" id="e"></textarea><br>
+            <div style="width:100%; display:table">
+              <label  style="display:table-cell;width=1px;">新闻链接: </label><input name="fields[url]" type="url"  placeholder="可选 推荐添加以便审核"  style="display:table-cell; width:100%"  id="u"><br>
+            </div>
+          </div>
+          <div class="col-6 col-s-6 comments">
+            <label style="display:table-cell;width=1px;">所属类型:</label>
+              <div id="form-types">
+              {% for type in slug[1].types %}
+              <input name="fields[type]" type="radio" value="{{ type }}">{{ type }}
+              {% endfor %}
+              </div>
+            <div style="width:100%; display:table">
+              <label  style="display:table-cell;width=1px;">图片链接: </label><input name="fields[image]" type="url" style="display:table-cell; width:100%"  placeholder="可选项" id="i"><br>
+            </div>
+            <div style="width:100%; display:table">
+              <label  style="display:table-cell;width=1px;">图片标题: </label><input name="fields[caption]" type="text" style="display:table-cell; width:100%"  placeholder="可选项" id="c"><br>
+            </div>
+            <input type="submit" value="点此提交"> 查看<a href="https://github.com/chinatimeline/chinatimeline.github.io/pulls">已提交队列</a>
+
+          </div>
+        </form>
+      </div>
+
+    </div>
+  {% endif %}
+</div>
+
+<div id="div-types" hidden=True >{% for slug in site.data.types %}
+{{ slug[1].name }}:
+    name: {{ slug[1].name }}
+    slug: {{ slug[1].slug }}
+    csv: {{ slug[1].csv }}
+    types: {% for typename in slug[1].types %}
+        - {{ typename }}    {% endfor %}{% endfor %}
+</div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.14.0/js-yaml.min.js"></script>
+<script>
+  function fillForm() {
+    (new URL(window.location.href)).searchParams.forEach((x, y) =>
+    document.getElementById(y).value = decodeURIComponent(x))
+  }
+
+  function showForm() {
+    let types = jsyaml.load(document.getElementById("div-types").innerHTML);
+    let currentField = document.querySelector('#field-select').value;
+    let items = types[currentField].types;
+    var inputtext = "";
+    var i;
+    for(i=0; i<items.length; i++){
+      inputtext += `<input name="fields[type]" type="radio" value="${items[i]}">${items[i]}`;
+    }
+    document.getElementById("form-types").innerHTML = inputtext;
+    document.getElementById("form-slug").value = types[currentField].slug;
+    console.log(types[currentField]);
+  }
+
+  fillForm();
+  document.querySelector('#field-select').addEventListener('change', showForm);
+  showForm();
+</script>
