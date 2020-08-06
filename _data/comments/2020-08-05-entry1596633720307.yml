@@ -1,17 +1,11 @@
 _id: a4ce36b0-d71e-11ea-a449-3b56333ab3ef
-topic: 武汉肺炎
-date: '2020-08-05'
-title: 新型冠状病毒抗体药物 美宣布展后期临床试验 – 法国国际广播电台 - RFI
-significance: '5'
-event: >-
-  （法新社华盛顿4日电） 设于美国的礼来研究实验室（Lilly Research
-  Laboratories）今天宣布，他们已经展开2019冠状病毒疾病（COVID-19）抗体药物的后期临床试验。   
-  与加拿大生技公司AbCellera合作研发的抗体药物LY-CoV555，第3期临床试验一开始将招募全球约300名志愿者，志愿者皆为住院患者，症状轻度至中度且持续不超过13天。   
-  除了分为注射LY-CoV555的实验组和注射安慰剂的对照组，受试者也将接受标准新型冠状病毒治疗，包括抗病毒药物瑞德西韦（remdesivir）。   
-  如果LY-CoV555在试验5天后显示安全有效，受试对象可望扩大至1000人，并纳入重症病...
-url: 'http://www.rfi.fr//cn/contenu/20200805-新型冠状病毒抗体药物-美宣布展后期临床试验'
-type: 医学进展
-image: >-
-  https://s.rfi.fr/media/display/11f127b6-d6f2-11ea-a4ec-005056a98db9/w:310/p:16x9/int0009b.200805153501.jpg
 caption: ''
+date: '2020-08-05'
+event: （法新社华盛顿4日电） 设于美国的礼来研究实验室（Lilly Research Laboratories）今天宣布，他们已经展开2019冠状病毒疾病（COVID-19）抗体药物的后期临床试验。    与加拿大生技公司AbCellera合作研发的抗体药物LY-CoV555，第3期临床试验一开始将招募全球约300名志愿者，志愿者皆为住院患者，症状轻度至中度且持续不超过13天。    除了分为注射LY-CoV555的实验组和注射安慰剂的对照组，受试者也将接受标准新型冠状病毒治疗，包括抗病毒药物瑞德西韦（remdesivir）。    如果LY-CoV555在试验5天后显示安全有效，受试对象可望扩大至1000人，并纳入重症病...
+image: https://i.imgur.com/LOEOPyi.jpeg
+significance: '5'
 submitTime: 1596633720
+title: 新型冠状病毒抗体药物 美宣布展后期临床试验 – 法国国际广播电台 - RFI
+topic: 武汉肺炎
+type: 医学进展
+url: http://www.rfi.fr//cn/contenu/20200805-新型冠状病毒抗体药物-美宣布展后期临床试验
