@@ -7,7 +7,6 @@ teaser: https://raw.githubusercontent.com/chinatimeline/chinatimeline.github.io/
 slug: 文革2
 submit: true
 comments: true
-hitcounterid: essasnybp1mxzguq12gn1uhsbcpd4sgq
 plottitle: '<b>中共意识形态保卫战时间线</b><br><i>点击或鼠标悬停于数据点以查看事件名称</i>'
 datacsv: https://raw.githubusercontent.com/chinatimeline/data/master/ideology/CCP_Ideology_Events.csv
 termcsv: https://raw.githubusercontent.com/chinatimeline/data/master/ideology/CCP_Presidential_term.csv

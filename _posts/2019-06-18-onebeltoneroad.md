@@ -7,7 +7,6 @@ teaser: https://raw.githubusercontent.com/chinatimeline/chinatimeline.github.io/
 slug: 一带一路
 submit: true
 comments: true
-hitcounterid: saf1wg149z6n89nwcxqcpzfy9lptuhdb
 plottitle: '<b>一带一路时间线</b> 来源: 新华网<br><i>点击或鼠标悬停于数据点以查看事件名称</i>'
 datacsv: https://raw.githubusercontent.com/chinatimeline/data/master/OneBeltOneRoad/OBOR_Events.csv
 termcsv: https://raw.githubusercontent.com/chinatimeline/data/master/OneBeltOneRoad/CCP_Presidential_term.csv

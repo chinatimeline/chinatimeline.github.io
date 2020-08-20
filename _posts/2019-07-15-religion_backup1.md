@@ -7,7 +7,6 @@ teaser: https://raw.githubusercontent.com/chinatimeline/chinatimeline.github.io/
 slug: 宗教迫害
 submit: true
 comments: true
-hitcounterid: 6k4jrx2zq5js6teu2zullmrcw1mcr3tk
 plottitle: '<b>中共打压宗教自由时间线</b><br><i>点击或鼠标悬停于数据点以查看事件名称</i>'
 datacsv: https://raw.githubusercontent.com/chinatimeline/data/master/ideology/CCP_Religious_Persecution.csv
 termcsv: https://raw.githubusercontent.com/chinatimeline/data/master/ideology/CCP_Presidential_term.csv

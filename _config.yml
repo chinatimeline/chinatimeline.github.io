@@ -34,8 +34,8 @@ navigation:
     url: https://github.com/chinatimeline/data
   - name: 论坛
     url: https://be4.herokuapp.com/category/10/
-  - name: 读新闻
-    url: https://chinatimeline.github.io/news/
+  - name: 新闻
+    url: https://nodebe4.github.io/waimei/
   - name: Bot
     url: https://t.me/chinatimeline_bot
 
@@ -130,4 +130,8 @@ algolia:
 
 staticman:
   api: "https://staticman-chinatimeline.herokuapp.com/v3/entry/github/chinatimeline/chinatimeline.github.io/master/comments"
+  path: "_data/comments"
+
+dutymachine:
+  api: "https://chinatimeline-submit.vercel.app/api/submit"
   path: "_data/comments"
