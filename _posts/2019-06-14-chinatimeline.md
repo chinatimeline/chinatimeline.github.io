@@ -1,5 +1,5 @@
 ---
-layout: list
+layout: story
 title: 项目日志
 tags: [时代透镜, 开发, 媒体报道]
 permalink: /thisproject/
