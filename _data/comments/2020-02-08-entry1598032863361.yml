@@ -1,0 +1,12 @@
+_id: 4709ff20-e3d8-11ea-bfef-9761c9037e86
+topic: 项目日志
+date: '2020-02-08'
+title: 向大家推荐一个Heroku+云数据库的敏感web应用和论坛搭建方案
+significance: '3'
+event: "Warning: 非程序员请自动忽略本文\r\n\r\n开发一个电报机器人、部署一个论坛或翻墙的梯子对程序员来说通常不是什么难事，但如果该应用或论坛是“敏感”的， 完全匿名化的部署就是一个难题 。比方要部署2049bbs这样一个论坛，有三样东西难免会跟自己的实名身份挂钩：服务器、域名、数据库。2049bbs的站长或许有过人胆量和借壳下蛋的独门绝技来保护自己免受中共追踪，但这种做法无疑是把自己的性命和隐私交到了海外的跨国公司手中，并不是真正的匿名部署。\r\n\r\n...\r\n\r\n[telegraph全文](https://telegra.ph/%E5%90%91%E5%A4%A7%E5%AE%B6%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AAHeroku%E4%BA%91%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%8F%E6%84%9Fweb%E5%BA%94%E7%94%A8%E5%92%8C%E8%AE%BA%E5%9D%9B%E6%90%AD%E5%BB%BA%E6%96%B9%E6%A1%88-08-21)"
+url: >-
+  https://telegra.ph/%E5%90%91%E5%A4%A7%E5%AE%B6%E6%8E%A8%E8%8D%90%E4%B8%80%E4%B8%AAHeroku%E4%BA%91%E6%95%B0%E6%8D%AE%E5%BA%93%E7%9A%84%E6%95%8F%E6%84%9Fweb%E5%BA%94%E7%94%A8%E5%92%8C%E8%AE%BA%E5%9D%9B%E6%90%AD%E5%BB%BA%E6%96%B9%E6%A1%88-08-21
+type: 其它
+image: ''
+caption: ''
+submitTime: 1598032863
