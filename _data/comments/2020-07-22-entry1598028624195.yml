@@ -1,0 +1,12 @@
+_id: 68439890-e3ce-11ea-bfef-9761c9037e86
+topic: 项目日志
+date: '2020-07-22'
+title: 时代透镜离线版发布
+significance: '5'
+event: "在duty-machine的帮助下，时代透镜发布了离线版。离线版可以让使用者在不依赖任何外部网络服务的情况下，在自己的电脑上创建和记录属于自己的时间线话题。\r\n\r\n离线版旨在帮助你在私下的记录任何感兴趣的话题的时间线。你可以把这份记录永远保留在自己的电脑上，也可以在做完某个事的完整记录之后，在某时用某个帐号一次性发布到github，打独裁者一个措手不及，让独裁者无法知道你的上线规律。\r\n\r\n离线版的使用说明，请参考[这里](https://github.com/chinatimeline/chinatimeline.github.io/blob/offline/offline.md)"
+url: >-
+  https://github.com/chinatimeline/chinatimeline.github.io/blob/offline/offline.md
+type: 功能升级
+image: ''
+caption: ''
+submitTime: 1598028624

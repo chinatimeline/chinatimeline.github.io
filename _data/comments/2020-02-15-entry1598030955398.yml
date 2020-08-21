@@ -1,0 +1,11 @@
+_id: d5ca21e0-e3d3-11ea-bfef-9761c9037e86
+topic: 项目日志
+date: '2020-02-15'
+title: 时代透镜网站采用定制的Jekyll Kiko Now模板
+significance: '5'
+event: "从2019年12月末开始，经过两个多月的改进和升级，将网站的整体外观改造为现在的样子。\r\n\r\n- 以Jekyll Kiko Now为基础模板；\r\n- 在原来的plotly绘制的时间轴基础上，添加了基于开源项目[Wikimedia-timeline](https://github.com/molly/wikimedia-timeline)的故事卡片式竖排时间线；\r\n- 添加了多个不同的主题，包括武汉肺炎、香港反送中、台湾民主化、文革、八九学运等；\r\n- 更新了方便浏览的小组建，包括[社交分享](https://sharingbuttons.io/)和[回到顶部按钮](https://github.com/vfeskov/vanilla-back-to-top)；\r\n- 添加了基于[staticman](https://github.com/VincentTam/TestStaticmanLab)的新闻提交表格；\r\n- 首页采用了JS+CSS自动排版。"
+url: 'https://github.com/chinatimeline/chinatimeline.github.io'
+type: 功能升级
+image: ''
+caption: ''
+submitTime: 1598030955

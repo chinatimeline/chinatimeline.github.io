@@ -1,0 +1,11 @@
+_id: 40bbc920-e3d1-11ea-bfef-9761c9037e86
+topic: 项目日志
+date: '2020-07-26'
+title: 支持URL自动填表的独立提交页面上线，支持社交分享按钮提交
+significance: '3'
+event: "新的内容提交页面地址： [https://chinatimeline.github.io/form/](https://chinatimeline.github.io/form/)\r\n\r\n功能如下：\r\n- 可以向所有时间线主题提交内容\r\n- 还支持url自动填表，方便按钮式分享，例如点击[这个网页](https://chinatimeline.github.io/form/)上右侧的Github图标社交分享按钮，就会自动跳转到提交页面并填好表。在Jekyll下的社交分享按钮实现方式参考[源代码](https://github.com/NodeBE4/waimei/blob/master/_includes/social-share.html)。"
+url: 'https://chinatimeline.github.io/form/'
+type: 功能升级
+image: 'https://i.imgur.com/gCfFSvO.png'
+caption: 独立提交页面截图
+submitTime: 1598029846
