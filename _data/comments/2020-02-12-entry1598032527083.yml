@@ -1,0 +1,11 @@
+_id: 7e983700-e3d7-11ea-bfef-9761c9037e86
+topic: 项目日志
+date: '2020-02-12'
+title: 分享几篇开发和部署Telegram Bot的文章
+significance: '3'
+event: "我刚刚搞了一个向时间线提交新闻事件的[电报机器人](https://t.me/chinatimeline_bot)，功能很简单，就是你发给它一个链接，它会让你选择话题、类型、影响力，然后会把新闻链接文章的标题内容图片抓取出来生成一个yaml文件，并且提交到github 的repository. \r\n\r\n如果你也想开发自己的电报机器人，我在这里分享几篇我觉得很有帮助的技术文章。\r\n\r\n1. [Learn to build your first bot in Telegram with Python](https://www.freecodecamp.org/news/learn-to-build-your-first-bot-in-telegram-with-python-4c99526765e4/) 这是最好的入门示例，而且作者提供了github repo，如果你熟悉Python这门世界上最流行的编程语言，可以照着文章做一遍，就能创建一个简单的回复你狗狗图片的机器人了。\r\n2. [ How I wrote a Telegram bot for Bitbucket using Heroku and Python. ](https://dev.to/deepjyoti30/how-i-wrote-a-telegram-bot-for-bitbucket-using-heroku-and-python-5ei5)这篇博文很短，但是它提到了两篇文章一步步介绍如何部署你的机器人到heroku的免费计划，非常实用。\r\n3. 第三篇属于进阶篇，其实只是Github上[一段python代码](https://github.com/python-telegram-bot/python-telegram-bot/blob/master/examples/conversationbot.py)，但是它包含了如何利用有限状态机(FSM)来处理对话中的复杂逻辑，要开发正经点的功能的话，这是绝佳基线代码。\r\n4. 当然不能忘了推荐[这个python库](https://github.com/python-telegram-bot/python-telegram-bot/)，开发python电报机器人必备库。\r\n\r\n\r\n我在开发电报机器人的过程中，这三篇文章帮助极大，希望能帮到有这方面需求的朋友。"
+url: 'https://be4.herokuapp.com/topic/18/'
+type: 其它
+image: ''
+caption: ''
+submitTime: 1598032527
