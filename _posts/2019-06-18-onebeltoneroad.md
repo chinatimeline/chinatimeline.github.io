@@ -7,7 +7,6 @@ teaser: /images/obor.jpeg
 slug: 一带一路
 submit: true
 comments: true
-hitcounterid: saf1wg149z6n89nwcxqcpzfy9lptuhdb
 plottitle: '<b>一带一路时间线</b> 来源: 新华网<br><i>点击或鼠标悬停于数据点以查看事件名称</i>'
 datacsv: /_data/csv/OBOR_Events.csv
 termcsv: /_data/csv/CCP_Presidential_term.csv

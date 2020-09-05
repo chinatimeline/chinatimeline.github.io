@@ -8,7 +8,6 @@ slug: 武汉肺炎
 order: false
 submit: true
 comments: true
-hitcounterid: ppct4m98e8r2lkpue69e1cmu15gz8wwd
 chart:
     csv: https://raw.githubusercontent.com/chinatimeline/data/master/wuhan_coronavirus/wuhan_coronavirus_statistics.csv
     title: 中国大陆2019-nCoV肺炎病毒感染统计 (累计值+对数坐标)
@@ -120,5 +119,7 @@ chart:
 3. [CNN](https://www.cnn.com/asia/live-news/coronavirus-outbreak-hnk-intl-01-25-20/index.html)
 9. 美国疾病控制与预防中心(CDC) [2019 Novel Coronavirus, Wuhan, China](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
 1. 世界卫生组织 [https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/situation-reports)
+15. 2020新冠肺炎记忆：报道、非虚构与个人叙述（已停止更新，[官方网站](https://ncov2020.info/memory/)，[github fork](https://github.com/chinatimeline/nCovMemory)，[备份网页](https://chinatimeline.github.io/nCovMemory/)）
+16. 疫情与舆情：新冠肺炎时间线TIMELINE （已停止更新，[github fork](https://github.com/chinatimeline/wuhan2020-timeline-backup), [备份网页](https://chinatimeline.github.io/wuhan2020-timeline-backup/%E6%97%B6%E9%97%B4%E7%BA%BFTIMELINE.html)）
 
 ![本页URL二维码](https://i.imgur.com/wLwh0gQ.png)

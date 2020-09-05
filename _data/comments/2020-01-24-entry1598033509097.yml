@@ -1,0 +1,11 @@
+_id: c7ebf700-e3d9-11ea-bfef-9761c9037e86
+topic: 项目日志
+date: '2020-01-24'
+title: 与达摩俱乐部合作的一个小项目diymysite
+significance: '3'
+event: "因为之前在网页中采用了第三方流量分析工具而受到端点星志愿者的质疑，后来与达摩俱乐部合作开发了一个[diymysite](https://github.com/diymysite)的小项目，其中对端点星志愿者为代表的对第三方流量分析工具的威胁模型的几种流行误解进行了反驳，并且对真正安全的措施进行了分析。大部分是达摩俱乐部作者写的，个人认为非常值得一读。\r\n\r\n流量分析实验室 [https://diymysite.github.io/analytics/](https://diymysite.github.io/analytics/)"
+url: 'https://diymysite.github.io/'
+type: 其它
+image: ''
+caption: ''
+submitTime: 1598033509

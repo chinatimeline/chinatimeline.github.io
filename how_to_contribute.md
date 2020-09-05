@@ -34,3 +34,6 @@ comments: false
 
 ## 3 反馈和提交Issue
 欢迎到[这里](https://github.com/chinatimeline/chinatimeline.github.io/issues)提交Issue或参与讨论
+
+## 4 注意
+<script src="https://gist.github.com/chinatimeline/5386a4f9d82483aa5346b17d8d324877.js"></script>

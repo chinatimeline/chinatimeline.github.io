@@ -1,0 +1,11 @@
+_id: 0d82ef60-e3d7-11ea-bfef-9761c9037e86
+topic: 项目日志
+date: '2020-07-09'
+title: 在duty-machine帮助下，将绘图功能用plotly.js重新实现，再也没有500次日访问量限制了
+significance: '5'
+event: "原来的时间轴绘制是由后台程序抓取数据，然后绘图托管到plotly的chart-studio平台，该平台的免费计划有500次/日的流量上限，时间线刚刚上线时在几个twitter大V的转发下，曾经达到过2000+次/日的点击，因此不得不通过四五个复本来应对。\r\n\r\nduty-machine利用plotly.js重新实现了绘图功能，现在的绘图是在前端的用户浏览器内完成，无需第三方服务器的参与，当然更没有任何托管方的浏览限制了。更重要的是，使用者可以将本项目下载到本地，由本地浏览器打开也能在不联网的情况下看到图 （需切换到offline分支), 提高了匿名安全性和破墙能力。这是duty-machine单手完成的重大功能升级。\r\n\r\n在文革2和宗教迫害的两个备份页面中，我也提供了需第三方服务器参与的dash版本，以及plotly chart-studio的原版。"
+url: 'https://github.com/duty-machine/chinatimeline-plotly'
+type: 功能升级
+image: ''
+caption: ''
+submitTime: 1598032337

@@ -7,7 +7,6 @@ teaser: /images/redgreatwall.jpg
 slug: 文革2
 submit: true
 comments: true
-hitcounterid: essasnybp1mxzguq12gn1uhsbcpd4sgq
 plottitle: '<b>中共意识形态保卫战时间线</b><br><i>点击或鼠标悬停于数据点以查看事件名称</i>'
 datacsv: /_data/csv/CCP_Ideology_Events.csv
 termcsv: /_data/csv/CCP_Presidential_term.csv
