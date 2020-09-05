@@ -139,3 +139,7 @@ staticman:
 dutymachine:
   api: "https://chinatimeline-submit.vercel.app/api/submit"
   path: "_data/comments"
+
+localserver:
+  api: "http://localhost:4567/submit"
+  path: "_data/comments"
