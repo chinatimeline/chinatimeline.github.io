@@ -16,6 +16,7 @@
 
 html {
   font-size: $base-font-size;
+  -webkit-text-size-adjust: 100%; /* Prevent font scaling in landscape */
 }
 
 body {

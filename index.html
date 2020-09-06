@@ -13,11 +13,11 @@ layout: default
   {% for post in paginator.posts %}
     {% if post.layout != "page" %}
     <div class="col-3 col-s-6">
+      <article class="post">
       <div class="container-div">
        <a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ post.teaser }}" alt="{{ post.title }}" style="width:100%;"></a>
       </div>
 
-      <article class="post">
         <h2>
           <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
         </h2>
@@ -54,10 +54,10 @@ layout: default
           {{ post.excerpt }}
         </div>
         -->
-
       </article>
 
     </div>
+
     {% endif %}
   {% endfor %}
   </section>
