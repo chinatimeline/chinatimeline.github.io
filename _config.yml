@@ -22,22 +22,18 @@ avatar: https://i.imgur.com/mQlrd16.png # color (https://i.imgur.com/36JRUNs.png
 navigation:
   - name: 首页
     url: /
-  - name: 关于
-    url: /about
-  - name: FAQ
-    url: /faq
   - name: 留言
     url: https://chinatimeline.github.io/comments
-  - name: 参与
-    url: /how_to_contribute
   - name: 数据
     url: https://github.com/chinatimeline/data
   - name: 论坛
     url: https://be4.herokuapp.com/category/10/
   - name: 新闻
     url: https://nodebe4.github.io/waimei/
-  - name: Bot
-    url: https://t.me/chinatimeline_bot
+  - name: FAQ
+    url: /faq
+  - name: 关于
+    url: /about
 
 # Pagination
 paginate: 12
