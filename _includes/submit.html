@@ -6,7 +6,7 @@
     <div class="col-5 col-s-5">
       <h3>提交新闻事件</h3>
       <div class="comments">
-        <form method="POST" action="{{ site.staticman.api }}">
+        <form method="POST" action="{{ site.dutymachine.api }}">
           <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
           <input name="options[slug]" type="hidden" value="{{ slug[1].slug }}">
           <input name="fields[topic]" type="hidden" value="{{ slug[1].name }}">

@@ -8,7 +8,7 @@
       {% include boilerplate-submit.html %}
 
       <div class="row comments">
-        <form method="POST" action="{{ site.staticman.api }}">
+        <form method="POST" action="{{ site.dutymachine.api }}">
           <input name="options[redirect]" type="hidden" value="{{ site.url }}{{ page.url }}">
           <input name="options[slug]" type="hidden" value="{{ slug[1].slug }}">
           <input name="fields[topic]" type="hidden" value="{{ slug[1].name }}">

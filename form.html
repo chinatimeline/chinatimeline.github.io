@@ -13,7 +13,7 @@ layout: default
       {% include boilerplate-submit.html %}
 
       <div class="row comments">
-        <form method="POST" action="{{ site.staticman.api }}">
+        <form method="POST" action="{{ site.dutymachine.api }}">
           <label>选择时间线主题</label>
           <select name="fields[topic]" id="field-select">
             {% for slug in site.data.types %}
