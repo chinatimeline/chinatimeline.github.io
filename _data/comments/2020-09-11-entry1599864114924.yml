@@ -1,0 +1,17 @@
+_id: b1fd5604-db88-4811-9aa0-1fce8283fb39
+topic: 项目日志
+date: 2020-09-11
+title: 用于处理表单提交的API更新为vercel部署的自研API
+significance: "2"
+event: "尽管staticman也是开源软件，但由于部署的服务器heroku会通过保留部署者可访问的系统日志的方式记录用户提交表单的IP，因此导致部分用\
+  户担心。此外heroku还有每月550小时的限制，尽管不大可能超过。现在已经将处理表单提交的API更新为duty-machine帮助下自研的开源API，并\
+  且部署在vercel上，不但部署代码的完整性由vercel认证，而且也没有了运行时间限制。因此现在整个项目对于谨慎的参与者而言更加透明。\r
+
+  \r
+
+  https://github.com/chinatimeline/chinatimeline-form"
+url: https://github.com/chinatimeline/chinatimeline-form
+type: 功能升级
+image: ""
+caption: ""
+submitTime: 1599864114924
