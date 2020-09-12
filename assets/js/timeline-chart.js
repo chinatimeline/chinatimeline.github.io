@@ -167,7 +167,7 @@ function prepEventData(rawData) {
       y.push(date.getUTCDay() + (Math.random() * 0.6 + 0.2))
       let entryText = `${entry.date}, ${dayString}<br>${entry.name.match(/.{1,50}/g).join('<br>')}`
       hovertext.push(entryText)
-      size.push(10)
+      size.push(parseInt(entry.impact)+5)
     })
 
     return {
